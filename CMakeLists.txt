@@ -141,12 +141,9 @@ endif()
 
 if(NOT GEOGRAM_LIB_ONLY)
 add_subdirectory(src/bin)
-add_subdirectory(src/tests)
 add_subdirectory(src/examples)
-add_subdirectory(tests)
-endif()
 
-add_subdirectory(doc)
+endif()
 
 ##############################################################################
 # Cleanup from previous builds
@@ -223,11 +220,11 @@ set(CPACK_COMPONENT_DOC-DEVKIT-INTERNAL_DISPLAY_NAME "Vorpaline Internal Develop
 set(CPACK_COMPONENT_DOC-DEVKIT-INTERNAL_GROUP "Documentation")
 
 # Copy the helper script to build individual packages to the binary directory
-configure_file(
-tools/make_package.pl.in
-make_package.pl
-@ONLY
-)
+#configure_file(
+#tools/make_package.pl.in
+#make_package.pl
+#@ONLY
+#)
 
 # This must always be last!
 include(CPack)

@@ -639,37 +639,7 @@ namespace GEO {
         }
     }
 
-    void MeshInTriangle::save(const std::string& filename) const {
-        Mesh M;
-        M.vertices.set_dimension(2);
-        for(index_t v=0; v<CDTBase2d::nv(); ++v) {
-            vec2 p = vertex_[v].get_UV_approx();
-            M.vertices.create_vertex(p.data());
-        }
-        for(index_t t=0; t<CDTBase2d::nT(); ++t) {
-            M.facets.create_triangle(
-                CDTBase2d::Tv(t,0),
-                CDTBase2d::Tv(t,1),
-                CDTBase2d::Tv(t,2)
-            );
-        }
-
-        Attribute<double> tex_coord;
-        tex_coord.create_vector_attribute(
-            M.facet_corners.attributes(), "tex_coord", 2
-        );
-        static double triangle_tex[3][2] = {
-            {0.0, 0.0},
-            {1.0, 0.0},
-            {0.0, 1.0}
-        };
-        for(index_t c: M.facet_corners) {
-            tex_coord[2*c]   = triangle_tex[c%3][0];
-            tex_coord[2*c+1] = triangle_tex[c%3][1];
-        }
-        mesh_save(M, filename);
-    }
-
+    
     /**************************************************************************/
 
     CoplanarFacets::CoplanarFacets(
@@ -927,36 +897,6 @@ namespace GEO {
         }
     }
 
-    void CoplanarFacets::save_borders(const std::string& filename) {
-        Mesh borders;
-        borders.vertices.set_dimension(2);
-        index_t cur_idx = 0;
-        for(index_t v: vertices_) {
-            vec3 p(mesh_.vertices.point_ptr(v));
-            vec2 q(p[u_],p[v_]);
-            borders.vertices.create_vertex(q.data());
-            v_idx_[v] = cur_idx;
-            ++cur_idx;
-        }
-
-        for(index_t h: halfedges_) {
-            index_t v1 = halfedges_.vertex(h,0);
-            index_t v2 = halfedges_.vertex(h,1);
-            v1 = v_idx_[v1];
-            v2 = v_idx_[v2];
-            geo_assert(v1 != NO_INDEX);
-            geo_assert(v2 != NO_INDEX);
-            borders.edges.create_edge(v1,v2);
-        }
-
-        Attribute<bool> selection(borders.vertices.attributes(), "selection");
-        for(index_t v: vertices_) {
-            geo_assert(v_idx_[v] != NO_INDEX);
-            selection[v_idx_[v]] = keep_vertex_[v];
-        }
-        mesh_save(borders,filename);
-    }
-
     void CoplanarFacets::save_facet_group(const std::string& filename) {
         Mesh M;
         Attribute<bool> keep_vertex(M.vertices.attributes(),"keep");
@@ -992,7 +932,7 @@ namespace GEO {
         }
 
         M.facets.connect();
-        mesh_save(M,filename);
+        //mesh_save(M,filename);
     }
 
     void CoplanarFacets::triangulate() {

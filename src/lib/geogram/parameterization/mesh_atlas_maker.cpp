@@ -47,7 +47,7 @@
 #include <geogram/mesh/mesh_geometry.h>
 #include <geogram/mesh/mesh_halfedges.h>
 #include <geogram/mesh/mesh_topology.h>
-#include <geogram/mesh/mesh_io.h>
+
 #include <geogram/points/principal_axes.h>
 #include <geogram/basic/progress.h>
 #include <deque>
@@ -289,12 +289,14 @@ namespace {
 
                 for(index_t i=0; i<charts.size(); ++i) {
 #ifdef DEBUG_CHART_CLASSIFICATION
+/*
                     mesh_save(
                         *(charts[i]),
                         "chart_" + String::to_string(i) + "_" +
                         chart_type_as_string(chart_type(*charts[i]))  +
                         ".geogram"
                     );
+                    */
 #endif
                     S.push(charts[i]);
                 }

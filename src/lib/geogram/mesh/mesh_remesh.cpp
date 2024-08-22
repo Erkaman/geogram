@@ -44,7 +44,7 @@
 #include <geogram/mesh/mesh_halfedges.h>
 #include <geogram/mesh/mesh_reorder.h>
 #include <geogram/mesh/mesh_preprocessing.h>
-#include <geogram/mesh/mesh_io.h>
+
 #include <geogram/mesh/mesh_AABB.h>
 #include <geogram/voronoi/CVT.h>
 #include <geogram/NL/nl.h>
@@ -53,7 +53,7 @@
 #include <geogram/basic/progress.h>
 #include <geogram/bibliography/bibliography.h>
 
-#include <geogram/mesh/mesh_io.h>
+
 
 /****************************************************************************/
 
@@ -114,7 +114,8 @@ namespace GEO {
           ) {
             Logger::out("Remesh")
                 << "Saving source mesh into mesh6.obj6" << std::endl;
-            mesh_save(M_in, "mesh6.obj6");
+            //mesh_save(M_in, "mesh6.obj6");
+
             Logger::out("Remesh")
                 << "Saving sampling into points6.txt" << std::endl;
             std::ofstream out("points6.txt");

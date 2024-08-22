@@ -43,7 +43,6 @@
 #include <geogram/basic/command_line.h>
 #include <geogram/bibliography/bibliography.h>
 
-#include <geogram/mesh/mesh_io.h>
 
 #ifdef GEOGRAM_WITH_TETGEN
 

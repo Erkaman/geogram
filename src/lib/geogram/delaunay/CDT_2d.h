@@ -286,11 +286,6 @@ namespace GEO {
     }
 
 
-    /**
-     * \brief Saves this CDT to a geogram mesh file.
-     * \param[in] filename where to save this CDT
-     */
-    virtual void save(const std::string& filename) const = 0;
 
     /**
      * \brief Tests whether a triangle edge is Delaunay
@@ -1481,11 +1476,6 @@ namespace GEO {
         );
 
         /**
-         * \copydoc CDTBase2d::save()
-         */
-        void save(const std::string& filename) const override;
-
-        /**
          * \brief Gets a point by index
          * \param[in] v point index
          * \return the point at index \p v
@@ -1660,11 +1650,7 @@ namespace GEO {
             const std::string& boolean_expression, bool mark_only=false
         );
 
-        /**
-         * \see CDTBase2d::save()
-         */
-        void save(const std::string& filename) const override;
-
+      
     protected:
         void add_point(const ExactPoint& p, index_t id = index_t(-1));
         void begin_insert_transaction() override;

@@ -407,10 +407,6 @@ namespace GEO {
      *  get help from OpenSCAD to convert them.
      * \details Converts STEP files.
      */
-    CSGMesh_var import_with_openSCAD(
-        const std::string& filename, const std::string& layer="",
-        index_t timestamp=0
-    );
 
     /**
      * \brief Loads an ascii data file as an image
@@ -563,7 +559,7 @@ namespace GEO {
     CSGMesh_var cylinder(const ArgList& args);
     CSGMesh_var polyhedron(const ArgList& args);
     CSGMesh_var polygon(const ArgList& args);
-    CSGMesh_var import(const ArgList& args);
+    
     CSGMesh_var surface(const ArgList& args);
 
     /****** Instructions ************************************/

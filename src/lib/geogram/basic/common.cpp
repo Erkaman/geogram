@@ -47,7 +47,7 @@
 #include <geogram/numerics/multi_precision.h>
 #include <geogram/numerics/predicates.h>
 #include <geogram/delaunay/delaunay.h>
-#include <geogram/mesh/mesh_io.h>
+
 #include <geogram/version.h>
 #include <geogram/bibliography/bibliography.h>
 
@@ -116,7 +116,6 @@ namespace GEO {
 #endif
 
 #ifndef GEOGRAM_PSM
-                mesh_io_initialize();
 #endif
 
                 // Clear lastest system error
@@ -125,6 +124,7 @@ namespace GEO {
                 }
 
 #ifndef GEOGRAM_PSM
+/*
                 // Register attribute types that can be saved into files.
                 geo_register_attribute_type<Numeric::uint8>("bool");
                 geo_register_attribute_type<char>("char");
@@ -137,6 +137,7 @@ namespace GEO {
 
                 geo_register_attribute_type<vec2>("vec2");
                 geo_register_attribute_type<vec3>("vec3");
+                */
 #endif
 
 #ifdef GEO_OS_EMSCRIPTEN

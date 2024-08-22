@@ -41,7 +41,7 @@
 #include <geogram/points/nn_search.h>
 #include <geogram/points/principal_axes.h>
 #include <geogram/mesh/mesh.h>
-#include <geogram/mesh/mesh_io.h>
+
 #include <geogram/mesh/index.h>
 #include <geogram/mesh/mesh_repair.h>
 #include <geogram/mesh/mesh_topology.h>
@@ -2308,7 +2308,7 @@ namespace {
                     );
                     M.facets.assign_triangle_mesh(raw_triangles, false);
                     M.vertices.set_dimension(3);
-                    mesh_save(M, "co3ne_raw.geogram");
+                //    mesh_save(M, "co3ne_raw.geogram");
                 }
 
                 vector<index_t> good_triangles;
@@ -2329,7 +2329,7 @@ namespace {
                     );
                     M.facets.assign_triangle_mesh(good_triangles, false);
                     M.vertices.set_dimension(3);
-                    mesh_save(M, "co3ne_T3.geogram");
+                 //   mesh_save(M, "co3ne_T3.geogram");
                 }
 
                 if(CmdLine::get_arg_bool("dbg:co3ne")) {
@@ -2343,7 +2343,7 @@ namespace {
                     );
                     M.facets.assign_triangle_mesh(not_so_good_triangles, false);
                     M.vertices.set_dimension(3);
-                    mesh_save(M, "co3ne_T12.geogram");
+                  //  mesh_save(M, "co3ne_T12.geogram");
                 }
 
                 progress.progress(53);
@@ -2367,7 +2367,7 @@ namespace {
                 if(CmdLine::get_arg_bool("dbg:co3ne")) {
                     Logger::out("Co3Ne") << ">> co3ne_manif.geogram"
                                          << std::endl;
-                    mesh_save(mesh_, "co3ne_manif.geogram");
+                 //   mesh_save(mesh_, "co3ne_manif.geogram");
                 }
             }
 
@@ -2381,7 +2381,7 @@ namespace {
                 if(CmdLine::get_arg_bool("dbg:co3ne")) {
                     Logger::out("Co3Ne") << ">> co3ne_post.geogram"
                                          << std::endl;
-                    mesh_save(mesh_, "co3ne_post.geogram");
+    //                mesh_save(mesh_, "co3ne_post.geogram");
                 }
             }
 

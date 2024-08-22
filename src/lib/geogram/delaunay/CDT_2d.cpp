@@ -71,7 +71,7 @@
 
 #ifndef GEOGRAM_PSM
 #include <geogram/mesh/mesh.h>
-#include <geogram/mesh/mesh_io.h>
+
 #endif
 
 // Used by debugging functions and statistics
@@ -1446,85 +1446,6 @@ namespace GEO {
         debug_check_consistency();
     }
 
-    void CDT2d::save(const std::string& filename) const {
-#ifndef GEOGRAM_PSM
-        Mesh M;
-        M.vertices.set_dimension(2);
-        for(const vec2& P: point_) {
-            M.vertices.create_vertex(P.data());
-        }
-        for(index_t t=0; t<nT(); ++t) {
-            index_t i = Tv(t,0);
-            index_t j = Tv(t,1);
-            index_t k = Tv(t,2);
-            M.facets.create_triangle(i,j,k);
-        }
-
-
-        Attribute<double> tex_coord;
-        tex_coord.create_vector_attribute(
-            M.facet_corners.attributes(), "tex_coord", 2
-        );
-        static double triangle_tex[3][2] = {
-            {0.0, 0.0},
-            {1.0, 0.0},
-            {0.0, 1.0}
-        };
-        for(index_t c: M.facet_corners) {
-            tex_coord[2*c]   = triangle_tex[c%3][0];
-            tex_coord[2*c+1] = triangle_tex[c%3][1];
-        }
-
-        Attribute<bool> constraint(M.facet_corners.attributes(), "constraint");
-        for(index_t c: M.facet_corners) {
-            index_t t  = c/3;
-            index_t lv = c%3;
-            constraint[c] =
-                Tedge_is_constrained(t, (lv+1)%3) ||
-                Tedge_is_constrained(t, (lv+2)%3) ;
-        }
-
-        for(index_t t=0; t<nT(); ++t) {
-            for(index_t le=0; le<3; ++le) {
-                if(Tedge_is_constrained(t,le)) {
-                    index_t v1 = Tv(t, (le+1)%3);
-                    index_t v2 = Tv(t, (le+2)%3);
-                    M.edges.create_edge(v1,v2);
-                }
-            }
-        }
-
-
-        M.facets.connect();
-
-        mesh_save(M, filename);
-#else
-        if(!String::string_ends_with(filename,".obj")) {
-            Logger::err("CDT_2d")
-                << "save() only supports .obj file format in PSM"
-                << std::endl;
-            return;
-        }
-        std::ofstream out(filename);
-        for(index_t v=0; v<nv(); ++v) {
-            out << "v " << point(v) << " " << 0.0 << std::endl;
-        }
-        for(index_t t=0; t<nT(); ++t) {
-            out << "f " << Tv(t,0)+1 << " " << Tv(t,1)+1 << " " << Tv(t,2)+1
-                << std::endl;
-        }
-
-        for(index_t t=0; t<nT(); ++t) {
-            for(index_t le=0; le<3; ++le) {
-                if(Tedge_is_constrained(t,le)) {
-                    index_t v1 = Tv(t,(le+1)%3);
-                    index_t v2 = Tv(t,(le+2)%3);
-                    out << "l " << v1+1 << " " << v2+1 << std::endl;
-                }
-            }
-        }
-#endif
-    }
 
     /**************************************************************************/
 
@@ -1827,63 +1748,6 @@ namespace GEO {
         }
     }
 
-    void ExactCDT2d::save(const std::string& filename) const {
-#ifndef GEOGRAM_PSM
-        Mesh M;
-        Attribute<index_t> nb_cnstr(M.edges.attributes(),"nb_cnstr");
-        M.vertices.set_dimension(2);
-        for(const ExactPoint& P: point_) {
-            double w = P.w.estimate();
-            vec2 p(P.x.estimate() / w, P.y.estimate() / w);
-            M.vertices.create_vertex(p.data());
-        }
-        for(index_t t=0; t<nT(); ++t) {
-            index_t i = Tv(t,0);
-            index_t j = Tv(t,1);
-            index_t k = Tv(t,2);
-            M.facets.create_triangle(i,j,k);
-
-            for(index_t le=0; le<3; ++le) {
-                if(Tedge_is_constrained(t,le)) {
-                    index_t e = M.edges.create_edge(
-                        Tv(t,(le+1)%3), Tv(t,(le+2)%3)
-                    );
-                    nb_cnstr[e] = Tedge_cnstr_nb(t,le);
-                }
-            }
-        }
-        M.facets.connect();
-        M.vertices.remove_isolated();
-        mesh_save(M, filename);
-#else
-        if(!String::string_ends_with(filename,".obj")) {
-            Logger::err("CDT_2d")
-                << "save() only supports .obj file format in PSM"
-                << std::endl;
-            return;
-        }
-        std::ofstream out(filename);
-        for(const ExactPoint& P: point_) {
-            double w = P.w.estimate();
-            vec2 p(P.x.estimate() / w, P.y.estimate() / w);
-            out << "v " << p << " " << 0.0 << std::endl;
-        }
-        for(index_t t=0; t<nT(); ++t) {
-            out << "f " << Tv(t,0)+1 << " " << Tv(t,1)+1 << " " << Tv(t,2)+1
-                << std::endl;
-        }
-
-        for(index_t t=0; t<nT(); ++t) {
-            for(index_t le=0; le<3; ++le) {
-                if(Tedge_is_constrained(t,le)) {
-                    index_t v1 = Tv(t,(le+1)%3);
-                    index_t v2 = Tv(t,(le+2)%3);
-                    out << "l " << v1+1 << " " << v2+1 << std::endl;
-                }
-            }
-        }
-#endif
-    }
 
     /***************************************************************************/
 }

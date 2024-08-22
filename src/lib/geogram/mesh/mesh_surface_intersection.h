@@ -42,7 +42,7 @@
 
 #include <geogram/basic/common.h>
 #include <geogram/mesh/mesh.h>
-#include <geogram/mesh/mesh_io.h>
+
 #include <geogram/numerics/exact_geometry.h>
 #include <geogram/basic/process.h>
 #include <geogram/basic/attributes.h>

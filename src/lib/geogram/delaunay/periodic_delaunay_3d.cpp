@@ -4197,34 +4197,4 @@ namespace GEO {
 
     }
 
-    void PeriodicDelaunay3d::save_cells(
-        const std::string& basename, bool clipped
-    ) {
-        static int index = 1;
-
-        std::string index_string = String::to_string(index);
-        while(index_string.length() < 3) {
-            index_string = "0" + index_string;
-        }
-
-        std::ofstream out((basename+index_string+".obj").c_str());
-        index_t v_off = 1;
-
-        ConvexCell C;
-        C.use_exact_predicates(convex_cell_exact_predicates_);
-        IncidentTetrahedra W;
-        for(index_t vv=0; vv<nb_vertices_non_periodic_; ++vv) {
-            copy_Laguerre_cell_from_Delaunay(vv, C, W);
-            if(clipped) {
-                C.clip_by_plane(vec4( 1.0, 0.0, 0.0,  0.0));
-                C.clip_by_plane(vec4(-1.0, 0.0, 0.0,  period_.x));
-                C.clip_by_plane(vec4( 0.0, 1.0, 0.0,  0.0));
-                C.clip_by_plane(vec4( 0.0,-1.0, 0.0,  period_.y));
-                C.clip_by_plane(vec4( 0.0, 0.0, 1.0,  0.0));
-                C.clip_by_plane(vec4( 0.0, 0.0,-1.0,  period_.z));
-            }
-            v_off += C.save(out, v_off, 0.1);
-        }
-        ++index;
-    }
 }

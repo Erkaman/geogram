@@ -274,7 +274,6 @@ namespace GEO {
          * \param[in] clipped if true, clip the cells by the domain
          *   without saving, else keep the cells as is.
          */
-        void save_cells(const std::string& basename, bool clipped);
 
     protected:
 

@@ -48,7 +48,7 @@
 #include <geogram/basic/common.h>
 #include <geogram/mesh/mesh_surface_intersection.h>
 #include <geogram/mesh/mesh.h>
-#include <geogram/mesh/mesh_io.h>
+
 #include <geogram/mesh/index.h>
 #include <geogram/mesh/triangle_intersection.h>
 #include <geogram/delaunay/CDT_2d.h>
@@ -287,7 +287,7 @@ namespace GEO {
         void save_constraints(const std::string& filename) {
             Mesh M;
             get_constraints(M);
-            mesh_save(M,filename);
+            //mesh_save(M,filename);
         }
 
         void begin_facet(index_t f);
@@ -413,7 +413,6 @@ namespace GEO {
         ) const;
 
     public:
-        void save(const std::string& filename) const override;
 
     protected:
         void begin_insert_transaction() override;

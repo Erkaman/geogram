@@ -43,7 +43,7 @@
 #include <geogram/mesh/mesh_surface_intersection_internal.h>
 #include <geogram/mesh/mesh_fill_holes.h>
 #include <geogram/mesh/mesh_repair.h>
-#include <geogram/mesh/mesh_io.h>
+
 #include <geogram/mesh/mesh_geometry.h>
 #include <geogram/delaunay/delaunay.h>
 #include <geogram/image/image_library.h>
@@ -52,6 +52,9 @@
 #include <geogram/basic/file_system.h>
 #include <geogram/basic/progress.h>
 #include <geogram/basic/line_stream.h>
+
+
+#include <geogram/basic/string.h>
 
 #include <cstdlib>
 
@@ -553,135 +556,7 @@ namespace GEO {
         return M;
     }
 
-    CSGMesh_var CSGBuilder::import(
-        const std::string& filename, const std::string& layer, index_t timestamp,
-        vec2 origin, vec2 scale
-    ) {
-        CSGMesh_var result;
 
-        std::string full_filename = filename;
-        if(!find_file(full_filename)) {
-            Logger::err("CSG") << filename << ": file not found"
-                               << std::endl;
-            return result;
-        }
-
-        if(String::to_lowercase(FileSystem::extension(filename)) == "dxf") {
-            result = import_with_openSCAD(full_filename, layer, timestamp);
-        } else {
-            result = new CSGMesh;
-            MeshIOFlags io_flags;
-            io_flags.set_verbose(verbose_);
-            if(!mesh_load(full_filename, *result, io_flags)) {
-                result.reset();
-                return result;
-            }
-            std::string ext = FileSystem::extension(filename);
-            String::to_lowercase(ext);
-            if( ext == "stl") {
-                MeshRepairMode mode = MESH_REPAIR_DEFAULT;
-                if(!verbose_) {
-                    mode = MeshRepairMode(mode | MESH_REPAIR_QUIET);
-                }
-                mesh_repair(*result, mode, STL_epsilon_);
-            }
-            result->facets.compute_borders();
-            if(result->facets.nb() != 0 && !result->facets.are_simplices()) {
-                result->facets.triangulate();
-            }
-        }
-
-        // Apply origin and scale
-        // TODO: check, is it origin + coord*scale or (origin + coord)*scale ?
-        for(index_t v: result->vertices) {
-            double* p = result->vertices.point_ptr(v);
-            p[0] = (p[0] - origin.x) * scale.x;
-            p[1] = (p[1] - origin.y) * scale.y;
-        }
-
-        if(result->vertices.dimension() == 3) {
-            bool z_all_zero = true;
-            for(index_t v: result->vertices) {
-                if(result->vertices.point_ptr(v)[2] != 0.0) {
-                    z_all_zero = false;
-                    break;
-                }
-            }
-            if(z_all_zero) {
-                result->vertices.set_dimension(2);
-            }
-        }
-
-        result->update_bbox();
-        return result;
-    }
-
-
-    CSGMesh_var CSGBuilder::import_with_openSCAD(
-        const std::string& filename, const std::string& layer, index_t timestamp
-    ) {
-        CSGMesh_var result;
-
-        std::string path = FileSystem::dir_name(filename);
-        std::string base = FileSystem::base_name(filename);
-        std::string extension = FileSystem::extension(filename);
-
-        std::string geogram_file
-            = path + "/" + "geogram_" + base +
-            "_" + extension +
-            "_" + layer + "_" +
-            String::to_string(timestamp) + ".stl";
-
-        if(FileSystem::is_file(geogram_file)) {
-            result = import(geogram_file);
-            result->vertices.set_dimension(2);
-            return result;
-        }
-
-        Logger::out("CSG") << "Did not find " << geogram_file << std::endl;
-        Logger::out("CSG") << "Trying to create it with OpenSCAD" << std::endl;
-
-        // Generate a simple linear extrusion, so that we can convert to STL
-        // (without it OpenSCAD refuses to create a STL with 2D content)
-        std::ofstream tmp("tmpscad.scad");
-        tmp << "group() {" << std::endl;
-        tmp << "   linear_extrude(height=1.0) {" << std::endl;
-        tmp << "      import(" << std::endl;
-        tmp << "          file = \"" << filename << "\"," << std::endl;
-        tmp << "          layer = \"" << layer << "\"," << std::endl;
-        tmp << "          timestamp = " << timestamp << std::endl;
-        tmp << "      );" << std::endl;
-        tmp << "   }" << std::endl;
-        tmp << "}" << std::endl;
-
-        // Start OpenSCAD and generate output as STL
-        if(system("openscad tmpscad.scad -o tmpscad.stl")) {
-            Logger::warn("CSG") << "Error while running openscad " << std::endl;
-            Logger::warn("CSG") << "(used to import " << filename << ")"
-                                << std::endl;
-        }
-
-        // Load STL using our own loader
-        result = import("tmpscad.stl");
-
-        FileSystem::delete_file("tmpscad.scad");
-        FileSystem::delete_file("tmpscad.stl");
-
-        // Delete the facets that are coming from the linear extrusion
-        vector<index_t> delete_f(result->facets.nb(),0);
-        for(index_t f: result->facets) {
-            for(index_t lv=0; lv<result->facets.nb_vertices(f); ++lv) {
-                index_t v = result->facets.vertex(f,lv);
-                if(result->vertices.point_ptr(v)[2] != 0.0) {
-                    delete_f[f] = 1;
-                }
-            }
-        }
-        result->facets.delete_elements(delete_f);
-        mesh_save(*result, geogram_file);
-        result->vertices.set_dimension(2);
-        return result;
-    }
 
     CSGMesh_var CSGBuilder::surface(
         const std::string& filename, bool center, bool invert
@@ -1691,7 +1566,7 @@ namespace GEO {
         DECLARE_OBJECT(cylinder);
         DECLARE_OBJECT(polyhedron);
         DECLARE_OBJECT(polygon);
-        DECLARE_OBJECT(import);
+        
         DECLARE_OBJECT(surface);
 
 #define DECLARE_INSTRUCTION(instr)                              \
@@ -1975,18 +1850,7 @@ namespace GEO {
         return M;
     }
 
-    CSGMesh_var CSGCompiler::import(const ArgList& args) {
-        std::string filename  = args.get_arg("file", std::string(""));
-        std::string layer     = args.get_arg("layer", std::string(""));
-        index_t     timestamp = index_t(args.get_arg("timestamp", 0));
-        vec2        origin    = args.get_arg("origin", vec2(0.0, 0.0));
-        vec2        scale     = args.get_arg("scale", vec2(1.0, 1.0));
-        CSGMesh_var M = builder_.import(filename,layer,timestamp,origin,scale);
-        if(M.is_null()) {
-            syntax_error((filename + ": could not load").c_str());
-        }
-        return M;
-    }
+
 
     CSGMesh_var CSGCompiler::surface(const ArgList& args) {
         std::string filename  = args.get_arg("file", std::string(""));

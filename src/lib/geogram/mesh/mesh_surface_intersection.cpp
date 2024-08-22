@@ -43,7 +43,7 @@
 #include <geogram/mesh/mesh_repair.h>
 #include <geogram/mesh/mesh_fill_holes.h>
 #include <geogram/mesh/mesh_geometry.h>
-#include <geogram/mesh/mesh_io.h>
+
 #include <geogram/mesh/index.h>
 #include <geogram/delaunay/CDT_2d.h>
 #include <geogram/numerics/predicates.h>
@@ -53,6 +53,9 @@
 #include <geogram/basic/boolean_expression.h>
 #include <geogram/basic/debug_stream.h>
 #include <geogram/basic/algorithm.h>
+
+#include <geogram/basic/string.h>
+
 
 #include <sstream>
 #include <stack>
@@ -699,7 +702,7 @@ namespace GEO {
                         // of intersections).
                         if(e-b >= monster_threshold_) {
                             index_t f = intersections[b].f1;
-                            MIT.save("triangulation_"+String::to_string(f)+".geogram");
+                        //    MIT.save("triangulation_"+String::to_string(f)+".geogram");
                             //MIT.save_constraints(
                             //    "constraints_"+String::to_string(f)+".geogram"
                             //);
@@ -730,7 +733,7 @@ namespace GEO {
                         MIT.clear();
                     }
                     if(fine_verbose_) {
-                        Logger::out("Isect") << String::format("[%2d] done",int(tid))
+                        Logger::out("Isect") << GEO::String::format("[%2d] done",int(tid))
                                              << std::endl;
                     }
 #ifdef TRIANGULATE_IN_PARALLEL
@@ -1731,7 +1734,7 @@ namespace GEO {
                 }
                 if(I_.fine_verbose_) {
                     Logger::out("Radial sort")
-                        << String::format("[%2d] done",int(tid))
+                        <<GEO::String::format("[%2d] done",int(tid))
                         << std::endl;
                 }
             }

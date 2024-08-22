@@ -40,7 +40,7 @@
 #include <geogram/parameterization/mesh_segmentation.h>
 #include <geogram/mesh/mesh.h>
 #include <geogram/mesh/mesh_geometry.h>
-#include <geogram/mesh/mesh_io.h>
+
 #include <geogram/mesh/mesh_manifold_harmonics.h>
 #include <geogram/voronoi/CVT.h>
 #include <geogram/voronoi/RVD.h>

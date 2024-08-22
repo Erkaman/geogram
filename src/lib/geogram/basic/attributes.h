@@ -46,7 +46,6 @@
 #include <geogram/basic/memory.h>
 #include <geogram/basic/numeric.h>
 #include <geogram/basic/process.h>
-#include <geogram/basic/geofile.h>
 #include <geogram/basic/logger.h>
 
 #include <map>
@@ -809,6 +808,7 @@ namespace GEO {
             AttributeStore::register_attribute_creator(
                 new TypedAttributeStoreCreator<T>, type_name, typeid(T).name()
             );
+            /*
             if(type_name == "bool") {
                 GeoFile::register_ascii_attribute_serializer(
                     type_name,
@@ -822,6 +822,7 @@ namespace GEO {
                     write_ascii_attribute<T>
                 );
             }
+            */
         }
     };
 

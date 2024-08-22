@@ -523,23 +523,8 @@ namespace VBW {
      *  save the cell.
      * \param[in] shrink shrinking factor to ease visualization.
      */
-    void save(const std::string& filename, double shrink=0.0) const;
 
 
-    /**
-     * \brief Saves the computed cell in alias wavefront
-     *  file format.
-     * \param[out] out a stream where to save the output.
-     * \param[in] v_offset offset applied to vertex indices.
-     * \param[in] shrink shrinking factor to ease visualization.
-     * \param[in] borders_only if set, only facets that correspond
-     *  to vertex global index -1 are saved.
-     * \return the number of created vertices.
-     */
-    index_t save(
-        std::ostream& out, global_index_t v_offset=1, double shrink=0.0,
-        bool borders_only=false
-    ) const;
 
 #if !defined(STANDALONE_CONVEX_CELL) && !defined(GEOGRAM_PSM)
     /**

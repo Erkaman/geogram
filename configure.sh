@@ -5,6 +5,8 @@
 # Release and Debug modes.
 
 
+#./configure.sh
+set -x 
 
 # Parse command line arguments
 

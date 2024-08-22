@@ -140,7 +140,6 @@ endif()
 endif()
 
 if(NOT GEOGRAM_LIB_ONLY)
-add_subdirectory(src/bin)
 add_subdirectory(src/examples)
 
 endif()

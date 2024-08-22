@@ -59,3 +59,10 @@ How does it compare to other geometry-processing libraries ?
 
 See [FAQ](https://github.com/BrunoLevy/geogram/wiki/FAQ)
 
+
+
+
+
+
+cmake -DCMAKE_BUILD_TYPE:STRING=Release -DVORPALINE_PLATFORM:STRING=Darwin-clang-dynamic ../
+

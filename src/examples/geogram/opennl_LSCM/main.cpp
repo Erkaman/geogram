@@ -64,11 +64,14 @@
 
 int main(int argc, char** argv) {
 
+    GEO::Attribute<double> tex_coord_;
+    GEO::Attribute<double> vertex_tex_coord_;
+
     GEO::initialize(GEO::GEOGRAM_INSTALL_ALL);
     GEO::Logger::out("") << "Everything OK, Returning status 0" << std::endl;
 
 
-    printf("lol\n");
+  //  printf("lol\n");
 
     GEO::Mesh mesh;
 
@@ -78,8 +81,8 @@ int main(int argc, char** argv) {
 
     GEO::Geom::mesh_vertex_ref(mesh,first_v+0) = GEO::vec3(0.0, 0.0, 0.0);
 
-  GEO::Geom::mesh_vertex_ref(mesh,first_v+1) = GEO::vec3(1.0, 0.0, 1.0);
-  GEO::Geom::mesh_vertex_ref(mesh,first_v+2) = GEO::vec3(0.0, 1.0, 1.0);
+    GEO::Geom::mesh_vertex_ref(mesh,first_v+1) = GEO::vec3(1.0, 0.0, 1.0);
+    GEO::Geom::mesh_vertex_ref(mesh,first_v+2) = GEO::vec3(0.0, 1.0, 1.0);
 
 mesh.facets.create_triangle(
                         first_v + 0,
@@ -162,6 +165,58 @@ mesh_make_atlas(
               GEO::PACK_XATLAS ,
                 true // set to true to enable verbose messages
             );
+
+
+int a= 2;
+float f = 2.2;
+    GEO::Logger::out("") << "lorem " << a << ", " << f << std::endl;
+
+            
+            tex_coord_.bind_if_is_defined(
+                mesh.facet_corners.attributes(), "tex_coord"
+            );
+            GEO::Logger::out("") << "vv " << tex_coord_.is_bound() << ", " <<tex_coord_.dimension()  << std::endl;
+            if(tex_coord_.is_bound() && tex_coord_.dimension() != 2) {
+                tex_coord_.unbind();
+            }
+
+for(GEO::index_t c: mesh.facet_corners) {
+                   // if(vt_old2new[c] == c) {
+                        /*
+                        out << "vt " << tex_coord_[2*c] << " "
+                            << tex_coord_[2*c+1] << std::endl;x§
+                        vt_index[c] = cur_vt;
+                        ++cur_vt;
+                        */
+                   // }
+                   GEO::Logger::out("") << "vt " << tex_coord_[2*c] << " "
+                            << tex_coord_[2*c+1] << std::endl;
+                }
+/*
+            for(index_t c: M.facet_corners) {
+
+            }
+            
+            GEO::Logger::out("") << "vt " << tex_coord_[0] << ", " << tex_coord_[0] << std::endl;
+*/
+
+/*
+            vertex_tex_coord_.bind_if_is_defined(
+                mesh.vertices.attributes(), "tex_coord"
+            );
+
+            GEO::Logger::out("") << "vv " << vertex_tex_coord_.is_bound() << ", " <<vertex_tex_coord_.dimension()  << std::endl;
+
+            if(
+                vertex_tex_coord_.is_bound() &&
+                vertex_tex_coord_.dimension() != 2
+            ) {
+                vertex_tex_coord_.unbind();
+            }
+            */
+
+
+
 
 //    printf("facet %d\n",mesh.facets.nb() );
 

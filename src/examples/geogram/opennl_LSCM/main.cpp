@@ -58,8 +58,17 @@
 #include <cmath>
 #include <cassert>
 
+#include <geogram/parameterization/mesh_atlas_maker.h>
+
+
 
 int main(int argc, char** argv) {
+
+    GEO::initialize(GEO::GEOGRAM_INSTALL_ALL);
+    GEO::Logger::out("") << "Everything OK, Returning status 0" << std::endl;
+
+
+    printf("lol\n");
 
     GEO::Mesh mesh;
 
@@ -139,4 +148,31 @@ mesh.facets.create_triangle(
     std::cout << "Saving " << filenames[1] << "   ..." << std::endl;
     mesh.save(filenames[1]);
     */
+/*
+    if(mesh()->facets.nb() == 0 && mesh()->cells.nb() == 0) {
+            show_vertices();
+    }
+    */
+
+
+mesh_make_atlas(
+                mesh,
+                 360.0,
+                 GEO::PARAM_ABF ,
+              GEO::PACK_XATLAS ,
+                true // set to true to enable verbose messages
+            );
+
+//    printf("facet %d\n",mesh.facets.nb() );
+
+
+  //  printf("vertices %d\n",mesh.vertices.nb() );
+
+  //  cmake -DCMAKE_BUILD_TYPE:STRING=Release -DVORPALINE_PLATFORM:STRING=Darwin-clang-dynamic ../
+//
+
+
+
+    
+
 }

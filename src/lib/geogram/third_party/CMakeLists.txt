@@ -29,10 +29,6 @@ else()
   endif()
 endif()
 
-include_directories(
-    ${PROJECT_SOURCE_DIR}/src/lib/geogram/third_party/libMeshb/sources
-)
-
 # Since we are in a CMake "object library" (i.e.,
 # a set of object files compiled with same options),
 # the automatically generated geogram_EXPORTS
@@ -50,7 +46,6 @@ if(BUILD_SHARED_LIBS)
 endif()
 
 aux_source_directories(SOURCES "Source Files"               .)
-aux_source_directories(SOURCES "Source Files\\libMeshb"     libMeshb/sources)
 aux_source_directories(SOURCES "Source Files\\shewchuk"     shewchuk)
 aux_source_directories(SOURCES "Source Files\\zlib"         zlib)
 aux_source_directories(SOURCES "Source Files\\PoissonRecon" PoissonRecon)

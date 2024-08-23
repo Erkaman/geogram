@@ -1,7 +1,3 @@
 [submodule "src/lib/geogram/third_party/amgcl"]
 	path = src/lib/geogram/third_party/amgcl
 	url = https://github.com/ddemidov/amgcl.git
-[submodule "src/lib/geogram_gfx/third_party/imgui"]
-	path = src/lib/geogram_gfx/third_party/imgui
-	url = https://github.com/ocornut/imgui.git
-	branch = docking

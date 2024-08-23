@@ -77,85 +77,20 @@ int main(int argc, char** argv) {
 
     mesh.vertices.set_dimension(3);
 
-    GEO::index_t first_v = mesh.vertices.create_vertices(3);
+    GEO::index_t first_v = mesh.vertices.create_vertices(6);
+
+        GEO::Logger::out("") << "first_v " << first_v << std::endl;
 
     GEO::Geom::mesh_vertex_ref(mesh,first_v+0) = GEO::vec3(0.0, 0.0, 0.0);
+    GEO::Geom::mesh_vertex_ref(mesh,first_v+1) = GEO::vec3(1.0, 0.0, 0.0);
+    GEO::Geom::mesh_vertex_ref(mesh,first_v+2) = GEO::vec3(0.0, 1.0, 0.0);
 
-    GEO::Geom::mesh_vertex_ref(mesh,first_v+1) = GEO::vec3(1.0, 0.0, 1.0);
-    GEO::Geom::mesh_vertex_ref(mesh,first_v+2) = GEO::vec3(0.0, 1.0, 1.0);
+    GEO::Geom::mesh_vertex_ref(mesh,first_v+3) = GEO::vec3(0.0, 0.0, 1.0);
+    GEO::Geom::mesh_vertex_ref(mesh,first_v+4) = GEO::vec3(1.0, 0.0, 1.0);
+    GEO::Geom::mesh_vertex_ref(mesh,first_v+5) = GEO::vec3(0.0, 1.0, 1.0);
 
-mesh.facets.create_triangle(
-                        first_v + 0,
-                        first_v + 1,
-                        first_v + 2);
-
-                        
-/*
-
-                index_t first_v = mesh_.vertices.create_vertices(12);
-                for(index_t v=0; v<12; ++v) {
-                    Geom::mesh_vertex_ref(mesh_,first_v+v) =
-                        vec3(points[3*v], points[3*v+1], points[3*v+2]) ;
-                }
-
-                for(index_t f=0; f<20; ++f) {
-                    mesh_.facets.create_triangle(
-                        first_v + facets[3*f],
-                        first_v + facets[3*f+1],
-                        first_v + facets[3*f+2]
-                    );
-                }
-
-
-*/
-
-    /*
-
-    bool spectral = false;
-    bool OK = true;
-    std::vector<std::string> filenames;
-
-    nlInitialize(argc, argv);
-
-    for(int i=1; i<argc; ++i) {
-        if(!strcmp(argv[i],"spectral=true")) {
-            spectral = true;
-        } else if(!strcmp(argv[i],"spectral=false")) {
-            spectral = false;
-        } else if(strchr(argv[i],'=') == nullptr) {
-            filenames.push_back(argv[i]);
-        }
-    }
-
-    OK = OK && (filenames.size() >= 1) && (filenames.size() <= 2);
-
-    if(!OK) {
-        std::cerr << "usage: " << argv[0]
-                  << " infile.obj <outfile.obj> <spectral=true|false>"
-                  << std::endl;
-        return -1;
-    }
-
-    if(filenames.size() == 1) {
-        filenames.push_back("out.obj");
-    }
-
-    IndexedMesh mesh;
-    std::cout << "Loading " << filenames[0] << "   ..." << std::endl;
-    mesh.load(filenames[0]);
-
-    LSCM lscm(mesh);
-    lscm.set_spectral(spectral);
-    lscm.apply();
-
-    std::cout << "Saving " << filenames[1] << "   ..." << std::endl;
-    mesh.save(filenames[1]);
-    */
-/*
-    if(mesh()->facets.nb() == 0 && mesh()->cells.nb() == 0) {
-            show_vertices();
-    }
-    */
+    mesh.facets.create_triangle(first_v + 0, first_v + 1, first_v + 2);
+    mesh.facets.create_triangle(first_v + 3, first_v + 4, first_v + 5);
 
 
 mesh_make_atlas(
@@ -166,12 +101,6 @@ mesh_make_atlas(
                 true // set to true to enable verbose messages
             );
 
-
-int a= 2;
-float f = 2.2;
-    GEO::Logger::out("") << "lorem " << a << ", " << f << std::endl;
-
-            
             tex_coord_.bind_if_is_defined(
                 mesh.facet_corners.attributes(), "tex_coord"
             );
@@ -181,51 +110,10 @@ float f = 2.2;
             }
 
 for(GEO::index_t c: mesh.facet_corners) {
-                   // if(vt_old2new[c] == c) {
-                        /*
-                        out << "vt " << tex_coord_[2*c] << " "
-                            << tex_coord_[2*c+1] << std::endl;x§
-                        vt_index[c] = cur_vt;
-                        ++cur_vt;
-                        */
-                   // }
+                   
                    GEO::Logger::out("") << "vt " << tex_coord_[2*c] << " "
                             << tex_coord_[2*c+1] << std::endl;
                 }
-/*
-            for(index_t c: M.facet_corners) {
-
-            }
-            
-            GEO::Logger::out("") << "vt " << tex_coord_[0] << ", " << tex_coord_[0] << std::endl;
-*/
-
-/*
-            vertex_tex_coord_.bind_if_is_defined(
-                mesh.vertices.attributes(), "tex_coord"
-            );
-
-            GEO::Logger::out("") << "vv " << vertex_tex_coord_.is_bound() << ", " <<vertex_tex_coord_.dimension()  << std::endl;
-
-            if(
-                vertex_tex_coord_.is_bound() &&
-                vertex_tex_coord_.dimension() != 2
-            ) {
-                vertex_tex_coord_.unbind();
-            }
-            */
-
-
-
-
-//    printf("facet %d\n",mesh.facets.nb() );
-
-
-  //  printf("vertices %d\n",mesh.vertices.nb() );
-
-  //  cmake -DCMAKE_BUILD_TYPE:STRING=Release -DVORPALINE_PLATFORM:STRING=Darwin-clang-dynamic ../
-//
-
 
 
     

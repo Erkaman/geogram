@@ -51,11 +51,6 @@
 #include <geogram/version.h>
 #include <geogram/bibliography/bibliography.h>
 
-#include <geogram/image/image.h>
-#include <geogram/image/image_library.h>
-#include <geogram/image/image_serializer_stb.h>
-#include <geogram/image/image_serializer_xpm.h>
-#include <geogram/image/image_serializer_pgm.h>
 
 #include <sstream>
 #include <iomanip>
@@ -158,16 +153,7 @@ namespace GEO {
 #endif
 
 #ifndef GEOGRAM_PSM
-                ImageLibrary::initialize() ;
 
-                geo_declare_image_serializer<ImageSerializerSTBReadWrite>("png");
-                geo_declare_image_serializer<ImageSerializerSTBReadWrite>("jpg");
-                geo_declare_image_serializer<ImageSerializerSTBReadWrite>("jpeg");
-                geo_declare_image_serializer<ImageSerializerSTBReadWrite>("tga");
-                geo_declare_image_serializer<ImageSerializerSTBReadWrite>("bmp");
-
-                geo_declare_image_serializer<ImageSerializer_xpm>("xpm") ;
-                geo_declare_image_serializer<ImageSerializer_pgm>("pgm") ;
 #endif
             }
 
@@ -185,7 +171,6 @@ namespace GEO {
                 PCK::terminate();
 
 #ifndef GEOGRAM_PSM
-                ImageLibrary::terminate() ;
                 Biblio::terminate();
 #endif
 

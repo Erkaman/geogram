@@ -37,8 +37,8 @@
  *
  */
 
-#include <geogram/NL/nl_mkl.h>
-#include <geogram/NL/nl_context.h>
+#include <nl_mkl.h>
+#include <nl_context.h>
 
 /**
  * \file nl_mkl.c

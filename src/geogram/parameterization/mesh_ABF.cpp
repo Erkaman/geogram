@@ -44,12 +44,12 @@
 #include <geogram/bibliography/bibliography.h>
 #include <geobasic_memory.h>
 
-#include <geogram/NL/nl.h>
+#include <nl.h>
 
 // Uses OpenNL internal data structures and routines
 // (NLSparseMatrix and associated functions).
 extern "C" {
-#include <geogram/NL/nl_matrix.h>
+#include <nl_matrix.h>
 }
 
 namespace {

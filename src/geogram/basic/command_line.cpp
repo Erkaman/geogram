@@ -45,7 +45,7 @@
 #include <geobasic_stopwatch.h>
 #include <geobasic_process.h>
 #include <geogram/bibliography/bibliography.h>
-#include <geogram/NL/nl.h>
+#include <nl.h>
 #include <iostream>
 #include <iomanip>
 

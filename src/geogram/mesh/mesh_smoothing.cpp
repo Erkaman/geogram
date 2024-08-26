@@ -39,7 +39,7 @@
 
 #include <mesh_smoothing.h>
 #include <mesh_mesh.h>
-#include <geogram/NL/nl.h>
+#include <nl.h>
 
 namespace GEO {
 

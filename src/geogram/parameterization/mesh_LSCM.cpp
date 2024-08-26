@@ -41,8 +41,8 @@
 #include <mesh_mesh.h>
 #include <mesh_geometry.h>
 #include <geogram/bibliography/bibliography.h>
-#include <geogram/NL/nl.h>
-#include <geogram/NL/nl_ext.h>
+#include <nl.h>
+#include <nl_ext.h>
 #include <algorithm>
 
 namespace {

@@ -2,11 +2,11 @@
  * Interface between Warpdrive and the AMGCL solver.
  */
 
-#include <geogram/NL/nl.h>
+#include <nl.h>
 
 extern "C" {
-#include <geogram/NL/nl_amgcl.h>
-#include <geogram/NL/nl_context.h>
+#include <nl_amgcl.h>
+#include <nl_context.h>
 }
 
 extern "C" {
@@ -16,7 +16,7 @@ extern "C" {
 
 #include <geobasic_logger.h>
 #include <geobasic_command_line.h>
-#include <geogram/NL/nl.h>
+#include <nl.h>
 
 #ifdef NL_WITH_AMGCL
 

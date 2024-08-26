@@ -40,7 +40,7 @@
 #include <geogram/parameterization/mesh_PGP_2d.h>
 #include <mesh_mesh.h>
 #include <mesh_geometry.h>
-#include <geogram/NL/nl.h>
+#include <nl.h>
 #include <geogram/bibliography/bibliography.h>
 
 #include <stack>

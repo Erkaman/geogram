@@ -37,12 +37,12 @@
  *
  */
 
-#include <geogram/NL/nl_cholmod.h>
+#include <nl_cholmod.h>
 
 //#include "./nl_cholmod.h"
 
-#include <geogram/NL/nl_context.h>
-#include <geogram/NL/nl_mkl.h>
+#include <nl_context.h>
+#include <nl_mkl.h>
 
 /**
  * \file nl_cholmod.c

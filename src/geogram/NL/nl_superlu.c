@@ -37,8 +37,8 @@
  *
  */
 
-#include <geogram/NL/nl_superlu.h>
-#include <geogram/NL/nl_context.h>
+#include <nl_superlu.h>
+#include <nl_context.h>
 
 /**
  * \file nl_superlu.c

@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/NL/nl_private.h>
+#include <nl_private.h>
 
 #if (defined (WIN32) || defined(_WIN64))
 #include <windows.h>

@@ -37,12 +37,12 @@
  *
  */
 
-#include <geogram/NL/nl_matrix.h>
-#include <geogram/NL/nl_superlu.h>
-#include <geogram/NL/nl_cholmod.h>
-#include <geogram/NL/nl_mkl.h>
-#include <geogram/NL/nl_context.h>
-#include <geogram/NL/nl_blas.h>
+#include <nl_matrix.h>
+#include <nl_superlu.h>
+#include <nl_cholmod.h>
+#include <nl_mkl.h>
+#include <nl_context.h>
+#include <nl_blas.h>
 
 
 

@@ -40,7 +40,7 @@
 #include <mesh_frame_field.h>
 #include <mesh_mesh.h>
 #include <mesh_geometry.h>
-#include <geogram/NL/nl.h>
+#include <nl.h>
 #include <geogram/numerics/matrix_util.h>
 #include <geobasic_logger.h>
 #include <geobasic_line_stream.h>

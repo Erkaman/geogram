@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/NL/nl.h>
+#include <nl.h>
 
 #include <geobasic_common.h>
 

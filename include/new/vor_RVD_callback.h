@@ -41,7 +41,7 @@
 #define GEOGRAM_VORONOI_RVD_CALLBACK
 
 #include <geobasic_common.h>
-#include <geogram/voronoi/generic_RVD_vertex.h>
+#include <vor_generic_RVD_vertex.h>
 #include <mesh_mesh.h>
 #include <geobasic_numeric.h>
 #include <geobasic_attributes.h>

@@ -43,7 +43,7 @@
 #include <geobasic_common.h>
 #include <delaunay_delaunay.h>
 #include <delaunay_periodic.h>
-#include <geogram/voronoi/convex_cell.h>
+#include <vor_convex_cell.h>
 #include <geobasic_process.h>
 #include <geobasic_geometry.h>
 #include <stack>

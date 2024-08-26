@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/voronoi/generic_RVD_cell.h>
+#include <vor_generic_RVD_cell.h>
 #include <mesh_halfedges.h>
 #include <geogram/numerics/predicates.h>
 

@@ -41,8 +41,8 @@
 #define GEOGRAM_VORONOI_CVT
 
 #include <geobasic_common.h>
-#include <geogram/voronoi/RVD.h>
-#include <geogram/voronoi/integration_simplex.h>
+#include <vor_RVD.h>
+#include <vor_integration_simplex.h>
 #include <mesh_mesh.h>
 #include <delaunay_delaunay.h>
 

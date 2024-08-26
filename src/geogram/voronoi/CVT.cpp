@@ -37,8 +37,8 @@
  *
  */
 
-#include <geogram/voronoi/CVT.h>
-#include <geogram/voronoi/RVD.h>
+#include <vor_CVT.h>
+#include <vor_RVD.h>
 #include <mesh_repair.h>
 #include <mesh_geometry.h>
 #include <geogram/numerics/optimizer.h>

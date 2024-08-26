@@ -39,7 +39,7 @@
 
 #include <mesh_geometry.h>
 #include <delaunay_LFS.h>
-#include <geogram/voronoi/CVT.h>
+#include <vor_CVT.h>
 #include <geobasic_attributes.h>
 #include <geobasic_geometry.h>
 #include <geobasic_logger.h>

@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/voronoi/convex_cell.h>
+#include <vor_convex_cell.h>
 
 #ifndef STANDALONE_CONVEX_CELL
 #include <geogram/numerics/predicates.h>

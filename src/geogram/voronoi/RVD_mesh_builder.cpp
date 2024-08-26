@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/voronoi/RVD_mesh_builder.h>
+#include <vor_RVD_mesh_builder.h>
 
 namespace GEO {
 

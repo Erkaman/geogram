@@ -46,7 +46,7 @@
 #include <mesh_preprocessing.h>
 
 #include <mesh_AABB.h>
-#include <geogram/voronoi/CVT.h>
+#include <vor_CVT.h>
 #include <nl.h>
 #include <geobasic_command_line.h>
 #include <geobasic_stopwatch.h>

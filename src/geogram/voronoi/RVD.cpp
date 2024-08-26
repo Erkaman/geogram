@@ -37,11 +37,11 @@
  *
  */
 
-#include <geogram/voronoi/RVD.h>
-#include <geogram/voronoi/generic_RVD.h>
-#include <geogram/voronoi/RVD_mesh_builder.h>
-#include <geogram/voronoi/integration_simplex.h>
-#include <geogram/voronoi/RVD_callback.h>
+#include <vor_RVD.h>
+#include <vor_generic_RVD.h>
+#include <vor_RVD_mesh_builder.h>
+#include <vor_integration_simplex.h>
+#include <vor_RVD_callback.h>
 #include <mesh_partition.h>
 #include <mesh_sampling.h>
 #include <mesh_repair.h>

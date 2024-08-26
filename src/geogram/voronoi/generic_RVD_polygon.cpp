@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/voronoi/generic_RVD_polygon.h>
+#include <vor_generic_RVD_polygon.h>
 #include <geogram/numerics/predicates.h>
 #include <algorithm>
 

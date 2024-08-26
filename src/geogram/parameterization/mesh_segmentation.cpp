@@ -42,10 +42,10 @@
 #include <mesh_geometry.h>
 
 #include <mesh_manifold_harmonics.h>
-#include <geogram/voronoi/CVT.h>
-#include <geogram/voronoi/RVD.h>
-#include <geogram/voronoi/RVD_callback.h>
-#include <geogram/voronoi/generic_RVD_polygon.h>
+#include <vor_CVT.h>
+#include <vor_RVD.h>
+#include <vor_RVD_callback.h>
+#include <vor_generic_RVD_polygon.h>
 #include <geogram/points/principal_axes.h>
 #include <geogram/numerics/matrix_util.h>
 #include <geobasic_numeric.h>

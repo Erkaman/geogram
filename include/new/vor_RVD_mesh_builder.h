@@ -41,7 +41,7 @@
 #define GEOGRAM_VORONOI_RVD_MESH_BUILDER
 
 #include <geobasic_common.h>
-#include <geogram/voronoi/generic_RVD.h>
+#include <vor_generic_RVD.h>
 #include <mesh_mesh.h>
 #include <mesh_index.h>
 #include <geobasic_attributes.h>

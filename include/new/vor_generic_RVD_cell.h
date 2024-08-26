@@ -41,7 +41,7 @@
 #define GEOGRAM_VORONOI_GENERIC_RVD_CELL
 
 #include <geobasic_common.h>
-#include <geogram/voronoi/generic_RVD_vertex.h>
+#include <vor_generic_RVD_vertex.h>
 #include <geobasic_argused.h>
 #include <geobasic_attributes.h>
 #include <iosfwd>

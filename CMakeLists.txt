@@ -15,6 +15,7 @@ include_directories(include/ include/new/  include/geogram/third_party/amgcl/  )
 # Define source files
 
 file(GLOB MY_SOURCES_CPP src/*.cpp)
+file(GLOB MY_SOURCES_C src/*.c)
 
 file(GLOB BASIC_SOURCES src/geogram/basic/*.cpp)
 
@@ -43,7 +44,7 @@ file(GLOB BIB_SRC src//geogram/bibliography/*.cpp)
 file(GLOB XATLAS_SRC src/geogram/third_party/xatlas/*.cpp)
 
 # Create an executable
-add_executable(${PROJECT_NAME} examples/geogram/opennl_LSCM/main.cpp ${BASIC_SOURCES} ${DEL_SRC} ${IMG_SRC} ${MESH_SRC} ${NUM_SRC} ${PARAM_SRC} ${NL_SRC} ${NL_SRC_CPP} ${POINTS_SRC} ${VORONOI_SRC} ${XATLAS_SRC} ${BIB_SRC} ${MY_SOURCES_CPP})
+add_executable(${PROJECT_NAME} examples/geogram/opennl_LSCM/main.cpp ${BASIC_SOURCES} ${DEL_SRC} ${IMG_SRC} ${MESH_SRC} ${NUM_SRC} ${PARAM_SRC} ${NL_SRC} ${NL_SRC_CPP} ${POINTS_SRC} ${VORONOI_SRC} ${XATLAS_SRC} ${BIB_SRC} ${MY_SOURCES_CPP} ${MY_SOURCES_C})
 
 # Add a preprocessor definition
 target_compile_definitions(${PROJECT_NAME} PRIVATE NL_WITH_AMGCL)

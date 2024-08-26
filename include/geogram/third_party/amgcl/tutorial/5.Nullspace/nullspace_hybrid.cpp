@@ -2,17 +2,17 @@
 #include <iostream>
 
 #include <amgcl/backend/builtin_hybrid.hpp>
-#include <amgcl/value_type/static_matrix.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
-#include <amgcl/make_solver.hpp>
-#include <amgcl/amg.hpp>
-#include <amgcl/coarsening/smoothed_aggregation.hpp>
+#include <amgcl_value_type_static_matrix.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
+#include <amgcl_make_solver.hpp>
+#include <amgcl_amg.hpp>
+#include <amgcl_coarsening_smoothed_aggregation.hpp>
 #include <amgcl/coarsening/rigid_body_modes.hpp>
-#include <amgcl/relaxation/spai0.hpp>
-#include <amgcl/solver/cg.hpp>
+#include <amgcl_relaxation_spai0.hpp>
+#include <amgcl_solver_cg.hpp>
 
-#include <amgcl/io/mm.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_io_mm.hpp>
+#include <amgcl_profiler.hpp>
 
 int main(int argc, char *argv[]) {
     // The command line should contain the matrix, the RHS, and the coordinate files:

@@ -30,20 +30,20 @@
    typedef amgcl::backend::builtin<double> Backend;
 #endif
 
-#include <amgcl/io/binary.hpp>
-#include <amgcl/io/mm.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
-#include <amgcl/amg.hpp>
-#include <amgcl/coarsening/runtime.hpp>
-#include <amgcl/relaxation/runtime.hpp>
-#include <amgcl/relaxation/as_preconditioner.hpp>
+#include <amgcl_io_binary.hpp>
+#include <amgcl_io_mm.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
+#include <amgcl_amg.hpp>
+#include <amgcl_coarsening_runtime.hpp>
+#include <amgcl_relaxation_runtime.hpp>
+#include <amgcl_relaxation_as_preconditioner.hpp>
 #include <amgcl/mpi/make_solver.hpp>
 #include <amgcl/mpi/schur_pressure_correction.hpp>
 #include <amgcl/mpi/block_preconditioner.hpp>
 #include <amgcl/mpi/subdomain_deflation.hpp>
 #include <amgcl/mpi/solver/runtime.hpp>
 #include <amgcl/mpi/direct_solver/runtime.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_profiler.hpp>
 
 namespace amgcl {
     profiler<> prof;

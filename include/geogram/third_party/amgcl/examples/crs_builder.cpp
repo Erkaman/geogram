@@ -2,14 +2,14 @@
 #include <vector>
 #include <algorithm>
 
-#include <amgcl/amg.hpp>
-#include <amgcl/make_solver.hpp>
-#include <amgcl/backend/builtin.hpp>
+#include <amgcl_amg.hpp>
+#include <amgcl_make_solver.hpp>
+#include <amgcl_backend_builtin.hpp>
 #include <amgcl/adapter/crs_builder.hpp>
-#include <amgcl/coarsening/smoothed_aggregation.hpp>
+#include <amgcl_coarsening_smoothed_aggregation.hpp>
 #include <amgcl/relaxation/gauss_seidel.hpp>
-#include <amgcl/solver/cg.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_solver_cg.hpp>
+#include <amgcl_profiler.hpp>
 
 #include "sample_problem.hpp"
 

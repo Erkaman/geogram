@@ -1,10 +1,10 @@
 #define BOOST_TEST_MODULE TestSkylineLU
 #include <boost/test/unit_test.hpp>
 
-#include <amgcl/adapter/zero_copy.hpp>
-#include <amgcl/solver/skyline_lu.hpp>
-#include <amgcl/backend/builtin.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_adapter_zero_copy.hpp>
+#include <amgcl_solver_skyline_lu.hpp>
+#include <amgcl_backend_builtin.hpp>
+#include <amgcl_profiler.hpp>
 #include "sample_problem.hpp"
 
 namespace amgcl {

@@ -3,9 +3,9 @@
 
 #include <Eigen/SparseLU>
 #include <amgcl/solver/eigen.hpp>
-#include <amgcl/backend/builtin.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_backend_builtin.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
+#include <amgcl_profiler.hpp>
 #include "sample_problem.hpp"
 
 namespace amgcl {

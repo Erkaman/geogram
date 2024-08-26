@@ -1,16 +1,16 @@
 #include <vector>
 #include <iostream>
 
-#include <amgcl/backend/builtin.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
-#include <amgcl/make_solver.hpp>
-#include <amgcl/amg.hpp>
-#include <amgcl/coarsening/smoothed_aggregation.hpp>
-#include <amgcl/relaxation/spai0.hpp>
+#include <amgcl_backend_builtin.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
+#include <amgcl_make_solver.hpp>
+#include <amgcl_amg.hpp>
+#include <amgcl_coarsening_smoothed_aggregation.hpp>
+#include <amgcl_relaxation_spai0.hpp>
 #include <amgcl/solver/bicgstab.hpp>
 
-#include <amgcl/io/mm.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_io_mm.hpp>
+#include <amgcl_profiler.hpp>
 
 int main(int argc, char *argv[]) {
     // The matrix and the RHS file names should be in the command line options:

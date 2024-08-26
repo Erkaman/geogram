@@ -1,9 +1,9 @@
 #define BOOST_TEST_MODULE TestSkylineLU
 #include <boost/test/unit_test.hpp>
 
-#include <amgcl/io/mm.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_io_mm.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
+#include <amgcl_profiler.hpp>
 #include "sample_problem.hpp"
 
 namespace amgcl {

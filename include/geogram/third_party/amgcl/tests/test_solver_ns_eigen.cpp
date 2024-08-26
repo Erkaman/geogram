@@ -1,6 +1,6 @@
 #define BOOST_TEST_MODULE TestSolvers
 #include <boost/test/unit_test.hpp>
-#include <amgcl/backend/builtin.hpp>
+#include <amgcl_backend_builtin.hpp>
 #include <amgcl/value_type/eigen.hpp>
 
 #include "test_solver.hpp"

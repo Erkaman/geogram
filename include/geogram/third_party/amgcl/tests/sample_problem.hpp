@@ -4,7 +4,7 @@
 #include <complex>
 #include <type_traits>
 #include <cstddef>
-#include <amgcl/value_type/interface.hpp>
+#include <amgcl_value_type_interface.hpp>
 
 // Generates matrix for poisson problem in a unit cube.
 template <typename ValueType, typename ColType, typename PtrType, typename RhsType>

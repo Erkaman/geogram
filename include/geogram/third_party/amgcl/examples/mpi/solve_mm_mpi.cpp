@@ -17,13 +17,13 @@
 #include <boost/property_tree/ptree.hpp>
 #include <boost/property_tree/json_parser.hpp>
 
-#include <amgcl/amg.hpp>
-#include <amgcl/coarsening/runtime.hpp>
-#include <amgcl/relaxation/runtime.hpp>
+#include <amgcl_amg.hpp>
+#include <amgcl_coarsening_runtime.hpp>
+#include <amgcl_relaxation_runtime.hpp>
 #include <amgcl/mpi/subdomain_deflation.hpp>
 #include <amgcl/mpi/solver/runtime.hpp>
 #include <amgcl/mpi/direct_solver/runtime.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_profiler.hpp>
 
 namespace amgcl {
     profiler<> prof;

@@ -4,10 +4,10 @@
 #include <boost/range/iterator_range.hpp>
 #include <boost/scope_exit.hpp>
 
-#include <amgcl/io/binary.hpp>
-#include <amgcl/io/mm.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
-#include <amgcl/backend/builtin.hpp>
+#include <amgcl_io_binary.hpp>
+#include <amgcl_io_mm.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
+#include <amgcl_backend_builtin.hpp>
 #include <amgcl/mpi/make_solver.hpp>
 #include <amgcl/mpi/cpr.hpp>
 #include <amgcl/mpi/amg.hpp>
@@ -17,7 +17,7 @@
 #include <amgcl/mpi/relaxation/as_preconditioner.hpp>
 #include <amgcl/mpi/direct_solver/runtime.hpp>
 #include <amgcl/mpi/partition/runtime.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_profiler.hpp>
 
 namespace amgcl {
     profiler<> prof;

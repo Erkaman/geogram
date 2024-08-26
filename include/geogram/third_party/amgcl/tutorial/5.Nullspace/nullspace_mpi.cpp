@@ -1,8 +1,8 @@
 #include <vector>
 #include <iostream>
 
-#include <amgcl/backend/builtin.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
+#include <amgcl_backend_builtin.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
 #include <amgcl/coarsening/rigid_body_modes.hpp>
 
 #include <amgcl/mpi/distributed_matrix.hpp>
@@ -12,8 +12,8 @@
 #include <amgcl/mpi/relaxation/spai0.hpp>
 #include <amgcl/mpi/solver/cg.hpp>
 
-#include <amgcl/io/binary.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_io_binary.hpp>
+#include <amgcl_profiler.hpp>
 
 #if defined(AMGCL_HAVE_PARMETIS)
 #  include <amgcl/mpi/partition/parmetis.hpp>

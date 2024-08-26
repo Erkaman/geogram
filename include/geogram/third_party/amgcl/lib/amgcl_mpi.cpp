@@ -4,14 +4,14 @@
 
 #include <boost/range/iterator_range.hpp>
 
-#include <amgcl/amg.hpp>
-#include <amgcl/coarsening/runtime.hpp>
-#include <amgcl/relaxation/runtime.hpp>
+#include <amgcl_amg.hpp>
+#include <amgcl_coarsening_runtime.hpp>
+#include <amgcl_relaxation_runtime.hpp>
 #include <amgcl/mpi/solver/runtime.hpp>
 #include <amgcl/mpi/direct_solver/runtime.hpp>
 #include <amgcl/mpi/subdomain_deflation.hpp>
-#include <amgcl/backend/builtin.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
+#include <amgcl_backend_builtin.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
 
 #include "amgcl_mpi.h"
 

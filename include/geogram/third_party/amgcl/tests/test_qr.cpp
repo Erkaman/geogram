@@ -5,10 +5,10 @@
 #include <random>
 #include <boost/multi_array.hpp>
 
-#include <amgcl/detail/qr.hpp>
-#include <amgcl/value_type/interface.hpp>
+#include <amgcl_detail_qr.hpp>
+#include <amgcl_value_type_interface.hpp>
 #include <amgcl/value_type/complex.hpp>
-#include <amgcl/value_type/static_matrix.hpp>
+#include <amgcl_value_type_static_matrix.hpp>
 
 template <class T>
 struct make_random {

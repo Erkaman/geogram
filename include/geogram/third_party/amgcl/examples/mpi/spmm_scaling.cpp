@@ -4,11 +4,11 @@
 #include <boost/scope_exit.hpp>
 #include <boost/program_options.hpp>
 
-#include <amgcl/backend/builtin.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
+#include <amgcl_backend_builtin.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
 #include <amgcl/mpi/util.hpp>
 #include <amgcl/mpi/distributed_matrix.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_profiler.hpp>
 
 #include "domain_partition.hpp"
 

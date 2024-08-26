@@ -3,9 +3,9 @@
 
 #include <amgcl/backend/vexcl.hpp>
 #include <amgcl/backend/vexcl_static_matrix.hpp>
-#include <amgcl/value_type/static_matrix.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
-#include <amgcl/adapter/block_matrix.hpp>
+#include <amgcl_value_type_static_matrix.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
+#include <amgcl_adapter_block_matrix.hpp>
 
 #include <amgcl/mpi/distributed_matrix.hpp>
 #include <amgcl/mpi/make_solver.hpp>
@@ -14,8 +14,8 @@
 #include <amgcl/mpi/relaxation/spai0.hpp>
 #include <amgcl/mpi/solver/bicgstab.hpp>
 
-#include <amgcl/io/binary.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_io_binary.hpp>
+#include <amgcl_profiler.hpp>
 
 #if defined(AMGCL_HAVE_PARMETIS)
 #  include <amgcl/mpi/partition/parmetis.hpp>

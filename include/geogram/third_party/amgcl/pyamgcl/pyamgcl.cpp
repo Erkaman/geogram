@@ -10,11 +10,11 @@
 #include <pybind11/stl.h>
 #include <pybind11/numpy.h>
 
-#include <amgcl/backend/builtin.hpp>
-#include <amgcl/solver/runtime.hpp>
+#include <amgcl_backend_builtin.hpp>
+#include <amgcl_solver_runtime.hpp>
 #include <amgcl/preconditioner/runtime.hpp>
-#include <amgcl/make_solver.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
+#include <amgcl_make_solver.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
 
 namespace amgcl {
 #ifdef AMGCL_PROFILING

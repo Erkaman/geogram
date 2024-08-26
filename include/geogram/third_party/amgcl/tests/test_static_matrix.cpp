@@ -1,7 +1,7 @@
 #define BOOST_TEST_MODULE TestStaticMatrix
 #include <boost/test/unit_test.hpp>
 
-#include <amgcl/value_type/static_matrix.hpp>
+#include <amgcl_value_type_static_matrix.hpp>
 
 BOOST_AUTO_TEST_SUITE( test_static_matrix )
 

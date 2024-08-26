@@ -10,13 +10,13 @@
 #include <boost/range/iterator_range.hpp>
 #include <boost/scope_exit.hpp>
 
-#include <amgcl/backend/builtin.hpp>
+#include <amgcl_backend_builtin.hpp>
 #include <amgcl/preconditioner/runtime.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
 #include <amgcl/mpi/make_solver.hpp>
 #include <amgcl/mpi/solver/runtime.hpp>
 #include <amgcl/mpi/block_preconditioner.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_profiler.hpp>
 
 #include "domain_partition.hpp"
 

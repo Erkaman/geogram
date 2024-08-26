@@ -12,7 +12,7 @@
 #include <boost/property_tree/json_parser.hpp>
 
 #include <amgcl/mpi/direct_solver/runtime.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_profiler.hpp>
 
 namespace amgcl {
     profiler<> prof;

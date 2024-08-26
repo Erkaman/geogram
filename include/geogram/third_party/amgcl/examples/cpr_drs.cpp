@@ -30,17 +30,17 @@
 #  include <amgcl/adapter/block_matrix.hpp>
 #endif
 
-#include <amgcl/make_solver.hpp>
-#include <amgcl/amg.hpp>
-#include <amgcl/solver/runtime.hpp>
-#include <amgcl/coarsening/runtime.hpp>
-#include <amgcl/relaxation/runtime.hpp>
-#include <amgcl/relaxation/as_preconditioner.hpp>
+#include <amgcl_make_solver.hpp>
+#include <amgcl_amg.hpp>
+#include <amgcl_solver_runtime.hpp>
+#include <amgcl_coarsening_runtime.hpp>
+#include <amgcl_relaxation_runtime.hpp>
+#include <amgcl_relaxation_as_preconditioner.hpp>
 #include <amgcl/preconditioner/cpr_drs.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
-#include <amgcl/io/mm.hpp>
-#include <amgcl/io/binary.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
+#include <amgcl_io_mm.hpp>
+#include <amgcl_io_binary.hpp>
+#include <amgcl_profiler.hpp>
 
 namespace amgcl { profiler<> prof; }
 using amgcl::prof;

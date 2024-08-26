@@ -1,14 +1,14 @@
 #ifndef TESTS_TEST_SOLVER_HPP
 #define TESTS_TEST_SOLVER_HPP
 
-#include <amgcl/amg.hpp>
-#include <amgcl/solver/runtime.hpp>
-#include <amgcl/coarsening/runtime.hpp>
-#include <amgcl/relaxation/runtime.hpp>
-#include <amgcl/relaxation/as_preconditioner.hpp>
-#include <amgcl/make_solver.hpp>
-#include <amgcl/adapter/zero_copy.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_amg.hpp>
+#include <amgcl_solver_runtime.hpp>
+#include <amgcl_coarsening_runtime.hpp>
+#include <amgcl_relaxation_runtime.hpp>
+#include <amgcl_relaxation_as_preconditioner.hpp>
+#include <amgcl_make_solver.hpp>
+#include <amgcl_adapter_zero_copy.hpp>
+#include <amgcl_profiler.hpp>
 
 #include <boost/assign/std/vector.hpp>
 using namespace boost::assign;

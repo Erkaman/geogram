@@ -1,14 +1,14 @@
 #include <iostream>
 #include <hpx/hpx_init.hpp>
 
-#include <amgcl/amg.hpp>
-#include <amgcl/make_solver.hpp>
+#include <amgcl_amg.hpp>
+#include <amgcl_make_solver.hpp>
 #include <amgcl/backend/hpx.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
-#include <amgcl/coarsening/smoothed_aggregation.hpp>
-#include <amgcl/relaxation/spai0.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
+#include <amgcl_coarsening_smoothed_aggregation.hpp>
+#include <amgcl_relaxation_spai0.hpp>
 #include <amgcl/solver/bicgstab.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_profiler.hpp>
 
 #include "sample_problem.hpp"
 

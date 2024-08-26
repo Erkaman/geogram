@@ -62,18 +62,18 @@ extern "C" {
 # include <amgcl/solver/runtime.hpp>
 #else
 # define AMGCL_NO_BOOST
-# include <amgcl/amg.hpp>
-# include <amgcl/coarsening/smoothed_aggregation.hpp>
-# include <amgcl/relaxation/spai0.hpp>
-# include <amgcl/solver/cg.hpp>
+# include <amgcl_amg.hpp>
+# include <amgcl_coarsening_smoothed_aggregation.hpp>
+# include <amgcl_relaxation_spai0.hpp>
+# include <amgcl_solver_cg.hpp>
 #endif
 
 #include <type_traits>
-#include <amgcl/make_solver.hpp>
-#include <amgcl/adapter/zero_copy.hpp>
+#include <amgcl_make_solver.hpp>
+#include <amgcl_adapter_zero_copy.hpp>
 
 #ifdef AMGCL_PROFILING
-#include <amgcl/profiler.hpp>
+#include <amgcl_profiler.hpp>
 namespace amgcl {
     profiler<> prof;
 }

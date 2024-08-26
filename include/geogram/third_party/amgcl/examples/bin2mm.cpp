@@ -2,10 +2,10 @@
 #include <string>
 
 #include <boost/program_options.hpp>
-#include <amgcl/util.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
-#include <amgcl/io/mm.hpp>
-#include <amgcl/io/binary.hpp>
+#include <amgcl_util.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
+#include <amgcl_io_mm.hpp>
+#include <amgcl_io_binary.hpp>
 
 int main(int argc, char *argv[]) {
     namespace po = boost::program_options;

@@ -3,14 +3,14 @@
 #include <iterator>
 #include <algorithm>
 
-#include <amgcl/amg.hpp>
+#include <amgcl_amg.hpp>
 
-#include <amgcl/adapter/crs_tuple.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
 #include <amgcl/backend/block_crs.hpp>
-#include <amgcl/coarsening/aggregation.hpp>
-#include <amgcl/relaxation/spai0.hpp>
+#include <amgcl_coarsening_aggregation.hpp>
+#include <amgcl_relaxation_spai0.hpp>
 #include <amgcl/solver/bicgstab.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_profiler.hpp>
 
 namespace amgcl {
     profiler<> prof("v2");

@@ -3,10 +3,10 @@
 #include <complex>
 
 #include <boost/program_options.hpp>
-#include <amgcl/util.hpp>
+#include <amgcl_util.hpp>
 #include <amgcl/value_type/complex.hpp>
-#include <amgcl/io/mm.hpp>
-#include <amgcl/io/binary.hpp>
+#include <amgcl_io_mm.hpp>
+#include <amgcl_io_binary.hpp>
 
 namespace io = amgcl::io;
 namespace po = boost::program_options;

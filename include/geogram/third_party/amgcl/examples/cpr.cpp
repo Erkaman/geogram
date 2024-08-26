@@ -6,20 +6,20 @@
 #include <boost/property_tree/json_parser.hpp>
 #include <boost/preprocessor/seq/for_each.hpp>
 
-#include <amgcl/backend/builtin.hpp>
-#include <amgcl/value_type/static_matrix.hpp>
-#include <amgcl/make_solver.hpp>
-#include <amgcl/amg.hpp>
-#include <amgcl/solver/runtime.hpp>
-#include <amgcl/coarsening/runtime.hpp>
-#include <amgcl/relaxation/runtime.hpp>
-#include <amgcl/relaxation/as_preconditioner.hpp>
-#include <amgcl/preconditioner/cpr.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
-#include <amgcl/adapter/block_matrix.hpp>
-#include <amgcl/io/mm.hpp>
-#include <amgcl/io/binary.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_backend_builtin.hpp>
+#include <amgcl_value_type_static_matrix.hpp>
+#include <amgcl_make_solver.hpp>
+#include <amgcl_amg.hpp>
+#include <amgcl_solver_runtime.hpp>
+#include <amgcl_coarsening_runtime.hpp>
+#include <amgcl_relaxation_runtime.hpp>
+#include <amgcl_relaxation_as_preconditioner.hpp>
+#include <amgcl_preconditioner_cpr.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
+#include <amgcl_adapter_block_matrix.hpp>
+#include <amgcl_io_mm.hpp>
+#include <amgcl_io_binary.hpp>
+#include <amgcl_profiler.hpp>
 
 namespace amgcl { profiler<> prof; }
 using amgcl::prof;

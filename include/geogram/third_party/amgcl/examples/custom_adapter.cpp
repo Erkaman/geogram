@@ -2,14 +2,14 @@
 #include <vector>
 #include <map>
 
-#include <amgcl/backend/builtin.hpp>
-#include <amgcl/make_solver.hpp>
-#include <amgcl/amg.hpp>
-#include <amgcl/coarsening/smoothed_aggregation.hpp>
-#include <amgcl/coarsening/aggregation.hpp>
-#include <amgcl/relaxation/spai0.hpp>
-#include <amgcl/solver/cg.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_backend_builtin.hpp>
+#include <amgcl_make_solver.hpp>
+#include <amgcl_amg.hpp>
+#include <amgcl_coarsening_smoothed_aggregation.hpp>
+#include <amgcl_coarsening_aggregation.hpp>
+#include <amgcl_relaxation_spai0.hpp>
+#include <amgcl_solver_cg.hpp>
+#include <amgcl_profiler.hpp>
 
 class sparse_matrix {
     public:

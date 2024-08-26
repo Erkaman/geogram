@@ -3,29 +3,29 @@
 
 #include <complex>
 
-#include <amgcl/backend/builtin.hpp>
-#include <amgcl/amg.hpp>
-#include <amgcl/make_solver.hpp>
+#include <amgcl_backend_builtin.hpp>
+#include <amgcl_amg.hpp>
+#include <amgcl_make_solver.hpp>
 
-#include <amgcl/coarsening/aggregation.hpp>
-#include <amgcl/coarsening/smoothed_aggregation.hpp>
+#include <amgcl_coarsening_aggregation.hpp>
+#include <amgcl_coarsening_smoothed_aggregation.hpp>
 #include <amgcl/coarsening/smoothed_aggr_emin.hpp>
 
 #include <amgcl/relaxation/damped_jacobi.hpp>
 #include <amgcl/relaxation/gauss_seidel.hpp>
-#include <amgcl/relaxation/spai0.hpp>
+#include <amgcl_relaxation_spai0.hpp>
 #include <amgcl/relaxation/ilu0.hpp>
 #include <amgcl/relaxation/ilut.hpp>
 #include <amgcl/relaxation/chebyshev.hpp>
 
-#include <amgcl/solver/cg.hpp>
+#include <amgcl_solver_cg.hpp>
 #include <amgcl/solver/bicgstab.hpp>
 #include <amgcl/solver/bicgstabl.hpp>
 #include <amgcl/solver/gmres.hpp>
 
-#include <amgcl/adapter/crs_tuple.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
 #include <amgcl/adapter/complex.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_profiler.hpp>
 
 #include "sample_problem.hpp"
 

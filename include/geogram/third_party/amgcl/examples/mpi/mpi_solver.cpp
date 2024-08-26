@@ -7,10 +7,10 @@
 #include <boost/property_tree/json_parser.hpp>
 #include <boost/preprocessor/seq/for_each.hpp>
 
-#include <amgcl/backend/builtin.hpp>
-#include <amgcl/value_type/static_matrix.hpp>
-#include <amgcl/adapter/crs_tuple.hpp>
-#include <amgcl/adapter/block_matrix.hpp>
+#include <amgcl_backend_builtin.hpp>
+#include <amgcl_value_type_static_matrix.hpp>
+#include <amgcl_adapter_crs_tuple.hpp>
+#include <amgcl_adapter_block_matrix.hpp>
 
 #if defined(SOLVER_BACKEND_VEXCL)
 #  include <amgcl/backend/vexcl.hpp>
@@ -29,9 +29,9 @@
 #include <amgcl/mpi/preconditioner.hpp>
 #include <amgcl/mpi/solver/runtime.hpp>
 
-#include <amgcl/io/mm.hpp>
-#include <amgcl/io/binary.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_io_mm.hpp>
+#include <amgcl_io_binary.hpp>
+#include <amgcl_profiler.hpp>
 
 #ifndef AMGCL_BLOCK_SIZES
 #  define AMGCL_BLOCK_SIZES (3)(4)

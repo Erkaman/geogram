@@ -7,9 +7,9 @@
 
 #include <boost/program_options.hpp>
 
-#include <amgcl/util.hpp>
-#include <amgcl/io/mm.hpp>
-#include <amgcl/io/binary.hpp>
+#include <amgcl_util.hpp>
+#include <amgcl_io_mm.hpp>
+#include <amgcl_io_binary.hpp>
 
 extern "C" {
 #include <metis.h>

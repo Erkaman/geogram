@@ -5,14 +5,14 @@
 #include <boost/numeric/ublas/vector.hpp>
 #include <boost/numeric/ublas/matrix_sparse.hpp>
 
-#include <amgcl/amg.hpp>
-#include <amgcl/make_solver.hpp>
-#include <amgcl/backend/builtin.hpp>
+#include <amgcl_amg.hpp>
+#include <amgcl_make_solver.hpp>
+#include <amgcl_backend_builtin.hpp>
 #include <amgcl/adapter/ublas.hpp>
-#include <amgcl/coarsening/smoothed_aggregation.hpp>
-#include <amgcl/relaxation/spai0.hpp>
+#include <amgcl_coarsening_smoothed_aggregation.hpp>
+#include <amgcl_relaxation_spai0.hpp>
 #include <amgcl/solver/bicgstabl.hpp>
-#include <amgcl/profiler.hpp>
+#include <amgcl_profiler.hpp>
 
 #include "sample_problem.hpp"
 

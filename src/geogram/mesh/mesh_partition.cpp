@@ -37,9 +37,9 @@
  *
  */
 
-#include <geogram/mesh/mesh_partition.h>
-#include <geogram/mesh/mesh.h>
-#include <geogram/mesh/mesh_reorder.h>
+#include <mesh_partition.h>
+#include <mesh_mesh.h>
+#include <mesh_reorder.h>
 #include <geobasic_permutation.h>
 #include <stack>
 

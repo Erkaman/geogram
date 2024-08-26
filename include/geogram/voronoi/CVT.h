@@ -43,7 +43,7 @@
 #include <geobasic_common.h>
 #include <geogram/voronoi/RVD.h>
 #include <geogram/voronoi/integration_simplex.h>
-#include <geogram/mesh/mesh.h>
+#include <mesh_mesh.h>
 #include <delaunay_delaunay.h>
 
 

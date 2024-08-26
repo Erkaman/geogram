@@ -37,10 +37,10 @@
  *
  */
 
-#include <geogram/mesh/mesh_compare.h>
-#include <geogram/mesh/mesh.h>
-#include <geogram/mesh/mesh_topology.h>
-#include <geogram/mesh/mesh_geometry.h>
+#include <mesh_compare.h>
+#include <mesh_mesh.h>
+#include <mesh_topology.h>
+#include <mesh_geometry.h>
 #include <geobasic_logger.h>
 
 namespace {

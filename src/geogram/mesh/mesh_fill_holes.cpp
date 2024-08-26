@@ -37,12 +37,12 @@
  *
  */
 
-#include <geogram/mesh/mesh_fill_holes.h>
-#include <geogram/mesh/mesh.h>
-#include <geogram/mesh/mesh_repair.h>
-#include <geogram/mesh/mesh_halfedges.h>
+#include <mesh_fill_holes.h>
+#include <mesh_mesh.h>
+#include <mesh_repair.h>
+#include <mesh_halfedges.h>
 
-#include <geogram/mesh/index.h>
+#include <mesh_index.h>
 #include <geobasic_command_line.h>
 #include <geobasic_logger.h>
 

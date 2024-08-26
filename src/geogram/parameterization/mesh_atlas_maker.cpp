@@ -43,10 +43,10 @@
 #include <geogram/parameterization/mesh_segmentation.h>
 #include <geogram/parameterization/mesh_param_validator.h>
 #include <geogram/parameterization/mesh_param_packer.h>
-#include <geogram/mesh/mesh.h>
-#include <geogram/mesh/mesh_geometry.h>
-#include <geogram/mesh/mesh_halfedges.h>
-#include <geogram/mesh/mesh_topology.h>
+#include <mesh_mesh.h>
+#include <mesh_geometry.h>
+#include <mesh_halfedges.h>
+#include <mesh_topology.h>
 
 #include <geogram/points/principal_axes.h>
 #include <geobasic_progress.h>

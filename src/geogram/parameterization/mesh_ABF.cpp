@@ -39,8 +39,8 @@
 
 #include <geogram/parameterization/mesh_ABF.h>
 #include <geogram/parameterization/mesh_LSCM.h>
-#include <geogram/mesh/mesh.h>
-#include <geogram/mesh/mesh_geometry.h>
+#include <mesh_mesh.h>
+#include <mesh_geometry.h>
 #include <geogram/bibliography/bibliography.h>
 #include <geobasic_memory.h>
 

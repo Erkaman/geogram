@@ -44,7 +44,7 @@
 #include <geobasic_geometry.h>
 #include <geogram/numerics/predicates.h>
 #include <geogram/numerics/exact_geometry.h>
-#include <geogram/mesh/index.h>
+#include <mesh_index.h>
 #include <functional>
 
 /**

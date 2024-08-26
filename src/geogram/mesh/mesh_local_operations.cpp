@@ -37,9 +37,9 @@
  *
  */
 
-#include <geogram/mesh/mesh_local_operations.h>
-#include <geogram/mesh/mesh_halfedges.h>
-#include <geogram/mesh/mesh.h>
+#include <mesh_local_operations.h>
+#include <mesh_halfedges.h>
+#include <mesh_mesh.h>
 
 namespace {
 

@@ -45,7 +45,7 @@
 #include <geobasic_stopwatch.h>
 #include <geobasic_matrix.h>
 #include <geobasic_permutation.h>
-#include <geogram/mesh/mesh_reorder.h>
+#include <mesh_reorder.h>
 #include <geogram/bibliography/bibliography.h>
 
 #include <stack>

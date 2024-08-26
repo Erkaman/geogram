@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/mesh/mesh.h>
+#include <mesh_mesh.h>
 #include <geobasic_permutation.h>
 #include <geobasic_logger.h>
 #include <geobasic_algorithm.h>

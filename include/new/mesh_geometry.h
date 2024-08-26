@@ -41,7 +41,7 @@
 #define GEOGRAM_MESH_MESH_GEOMETRY
 
 #include <geobasic_common.h>
-#include <geogram/mesh/mesh.h>
+#include <mesh_mesh.h>
 #include <geobasic_geometry.h>
 #include <geobasic_geometry_nd.h>
 

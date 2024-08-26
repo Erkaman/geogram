@@ -37,13 +37,13 @@
  *
  */
 
-#include <geogram/mesh/mesh_tetrahedralize.h>
-#include <geogram/mesh/mesh_surface_intersection.h>
-#include <geogram/mesh/mesh_repair.h>
-#include <geogram/mesh/mesh_geometry.h>
-#include <geogram/mesh/mesh_fill_holes.h>
+#include <mesh_tetrahedralize.h>
+#include <mesh_surface_intersection.h>
+#include <mesh_repair.h>
+#include <mesh_geometry.h>
+#include <mesh_fill_holes.h>
 
-#include <geogram/mesh/mesh.h>
+#include <mesh_mesh.h>
 #include <delaunay_delaunay.h>
 #include <delaunay_tetgen.h>
 #include <geobasic_logger.h>

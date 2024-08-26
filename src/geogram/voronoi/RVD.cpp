@@ -42,10 +42,10 @@
 #include <geogram/voronoi/RVD_mesh_builder.h>
 #include <geogram/voronoi/integration_simplex.h>
 #include <geogram/voronoi/RVD_callback.h>
-#include <geogram/mesh/mesh_partition.h>
-#include <geogram/mesh/mesh_sampling.h>
-#include <geogram/mesh/mesh_repair.h>
-#include <geogram/mesh/mesh_AABB.h>
+#include <mesh_partition.h>
+#include <mesh_sampling.h>
+#include <mesh_repair.h>
+#include <mesh_AABB.h>
 #include <delaunay_delaunay.h>
 #include <geobasic_geometry_nd.h>
 #include <geobasic_process.h>

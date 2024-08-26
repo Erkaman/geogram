@@ -40,12 +40,12 @@
 #include <geogram/points/co3ne.h>
 #include <geogram/points/nn_search.h>
 #include <geogram/points/principal_axes.h>
-#include <geogram/mesh/mesh.h>
+#include <mesh_mesh.h>
 
-#include <geogram/mesh/index.h>
-#include <geogram/mesh/mesh_repair.h>
-#include <geogram/mesh/mesh_topology.h>
-#include <geogram/mesh/mesh_reorder.h>
+#include <mesh_index.h>
+#include <mesh_repair.h>
+#include <mesh_topology.h>
+#include <mesh_reorder.h>
 #include <geobasic_geometry.h>
 #include <geobasic_process.h>
 #include <geobasic_assert.h>

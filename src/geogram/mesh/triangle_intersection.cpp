@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/mesh/triangle_intersection.h>
+#include <mesh_triangle_intersection.h>
 #include <geogram/numerics/predicates.h>
 #include <geogram/numerics/exact_geometry.h>
 #include <geobasic_string.h>

@@ -37,14 +37,14 @@
  *
  */
 
-#include <geogram/mesh/mesh_surface_intersection.h>
+#include <mesh_surface_intersection.h>
 #include <geogram/mesh/mesh_surface_intersection_internal.h>
-#include <geogram/mesh/mesh_AABB.h>
-#include <geogram/mesh/mesh_repair.h>
-#include <geogram/mesh/mesh_fill_holes.h>
-#include <geogram/mesh/mesh_geometry.h>
+#include <mesh_AABB.h>
+#include <mesh_repair.h>
+#include <mesh_fill_holes.h>
+#include <mesh_geometry.h>
 
-#include <geogram/mesh/index.h>
+#include <mesh_index.h>
 #include <delaunay_CDT_2d.h>
 #include <geogram/numerics/predicates.h>
 #include <geogram/numerics/expansion_nt.h>

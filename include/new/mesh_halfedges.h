@@ -41,8 +41,8 @@
 #define GEOGRAM_MESH_MESH_HALFEDGES
 
 #include <geobasic_common.h>
-#include <geogram/mesh/mesh.h>
-#include <geogram/mesh/mesh_geometry.h>
+#include <mesh_mesh.h>
+#include <mesh_geometry.h>
 #include <iostream>
 
 /**

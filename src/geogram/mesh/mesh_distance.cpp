@@ -37,10 +37,10 @@
  *
  */
 
-#include <geogram/mesh/mesh_distance.h>
-#include <geogram/mesh/mesh_AABB.h>
-#include <geogram/mesh/mesh_repair.h>
-#include <geogram/mesh/mesh_sampling.h>
+#include <mesh_distance.h>
+#include <mesh_AABB.h>
+#include <mesh_repair.h>
+#include <mesh_sampling.h>
 #include <geobasic_process.h>
 #include <geobasic_stopwatch.h>
 

@@ -65,17 +65,17 @@
 // is not in Q, it means there is no intersection.
 
 #include <delaunay_CDT_2d.h>
-#include <geogram/mesh/mesh_reorder.h>
+#include <mesh_reorder.h>
 #include <geobasic_numeric.h>
 #include <geobasic_boolean_expression.h>
 
 #ifndef GEOGRAM_PSM
-#include <geogram/mesh/mesh.h>
+#include <mesh_mesh.h>
 
 #endif
 
 // Used by debugging functions and statistics
-#include <geogram/mesh/index.h>
+#include <mesh_index.h>
 #include <geobasic_debug_stream.h>
 #include <set>
 #include <deque>

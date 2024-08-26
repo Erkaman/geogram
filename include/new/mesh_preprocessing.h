@@ -41,9 +41,9 @@
 #define GEOGRAM_MESH_MESH_PREPROCESSING
 
 #include <geobasic_common.h>
-#include <geogram/mesh/mesh_repair.h>
-#include <geogram/mesh/mesh_fill_holes.h>
-#include <geogram/mesh/mesh_degree3_vertices.h>
+#include <mesh_repair.h>
+#include <mesh_fill_holes.h>
+#include <mesh_degree3_vertices.h>
 
 /**
  * \file geogram/mesh/mesh_preprocessing.h

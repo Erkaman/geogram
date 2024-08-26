@@ -41,7 +41,7 @@
 #define GEOGRAM_MESH_MESH_INTERSECTION
 
 #include <geobasic_common.h>
-#include <geogram/mesh/mesh_surface_intersection.h>
+#include <mesh_surface_intersection.h>
 
 /**
  * \file geogram/mesh/mesh_intersection.h

@@ -45,7 +45,7 @@
 #include <geogram/voronoi/generic_RVD_utils.h>
 #include <geogram/voronoi/RVD_callback.h>
 #include <geogram/numerics/predicates.h>
-#include <geogram/mesh/index.h>
+#include <mesh_index.h>
 #include <geobasic_geometry_nd.h>
 #include <geobasic_process.h>
 #include <geobasic_attributes.h>

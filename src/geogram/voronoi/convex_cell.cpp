@@ -41,7 +41,7 @@
 
 #ifndef STANDALONE_CONVEX_CELL
 #include <geogram/numerics/predicates.h>
-#include <geogram/mesh/mesh.h>
+#include <mesh_mesh.h>
 #endif
 
 #include <iostream>

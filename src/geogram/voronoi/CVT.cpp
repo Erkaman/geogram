@@ -39,8 +39,8 @@
 
 #include <geogram/voronoi/CVT.h>
 #include <geogram/voronoi/RVD.h>
-#include <geogram/mesh/mesh_repair.h>
-#include <geogram/mesh/mesh_geometry.h>
+#include <mesh_repair.h>
+#include <mesh_geometry.h>
 #include <geogram/numerics/optimizer.h>
 #include <geobasic_progress.h>
 #include <geobasic_argused.h>

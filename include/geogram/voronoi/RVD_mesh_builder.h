@@ -42,8 +42,8 @@
 
 #include <geobasic_common.h>
 #include <geogram/voronoi/generic_RVD.h>
-#include <geogram/mesh/mesh.h>
-#include <geogram/mesh/index.h>
+#include <mesh_mesh.h>
+#include <mesh_index.h>
 #include <geobasic_attributes.h>
 #include <geobasic_argused.h>
 

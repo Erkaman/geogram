@@ -38,9 +38,9 @@
  */
 
 #include <geogram/parameterization/mesh_global_param.h>
-#include <geogram/mesh/mesh.h>
-#include <geogram/mesh/mesh_geometry.h>
-#include <geogram/mesh/mesh_frame_field.h>
+#include <mesh_mesh.h>
+#include <mesh_geometry.h>
+#include <mesh_frame_field.h>
 
 #include <deque>
 #include <stack>

@@ -42,7 +42,7 @@
 
 #include <geobasic_common.h>
 #include <geogram/voronoi/generic_RVD_vertex.h>
-#include <geogram/mesh/mesh.h>
+#include <mesh_mesh.h>
 #include <geobasic_numeric.h>
 #include <geobasic_attributes.h>
 #include <geobasic_thread_sync.h>

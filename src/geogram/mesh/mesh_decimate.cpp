@@ -37,10 +37,10 @@
  *
  */
 
-#include <geogram/mesh/mesh_decimate.h>
-#include <geogram/mesh/mesh_repair.h>
-#include <geogram/mesh/mesh_geometry.h>
-#include <geogram/mesh/mesh_degree3_vertices.h>
+#include <mesh_decimate.h>
+#include <mesh_repair.h>
+#include <mesh_geometry.h>
+#include <mesh_degree3_vertices.h>
 #include <geogram/points/colocate.h>
 #include <geobasic_stopwatch.h>
 #include <geobasic_algorithm.h>

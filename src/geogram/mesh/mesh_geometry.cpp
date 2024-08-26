@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/mesh/mesh_geometry.h>
+#include <mesh_geometry.h>
 #include <delaunay_LFS.h>
 #include <geogram/voronoi/CVT.h>
 #include <geobasic_attributes.h>

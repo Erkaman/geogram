@@ -41,7 +41,7 @@
 #define GEOGRAM_VORONOI_GENERIC_RVD_VERTEX
 
 #include <geobasic_common.h>
-#include <geogram/mesh/mesh.h>
+#include <mesh_mesh.h>
 #include <delaunay_nn.h>
 #include <geobasic_assert.h>
 #include <geobasic_process.h>

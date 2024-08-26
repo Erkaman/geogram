@@ -37,10 +37,10 @@
  *
  */
 
-#include <geogram/mesh/mesh_AABB.h>
-#include <geogram/mesh/mesh_reorder.h>
-#include <geogram/mesh/mesh_geometry.h>
-#include <geogram/mesh/mesh_repair.h>
+#include <mesh_AABB.h>
+#include <mesh_reorder.h>
+#include <mesh_geometry.h>
+#include <mesh_repair.h>
 #include <geogram/numerics/predicates.h>
 #include <geobasic_geometry_nd.h>
 

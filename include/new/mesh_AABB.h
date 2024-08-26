@@ -47,7 +47,7 @@
  */
 
 #include <geobasic_common.h>
-#include <geogram/mesh/mesh.h>
+#include <mesh_mesh.h>
 #include <geobasic_geometry.h>
 
 namespace GEO {

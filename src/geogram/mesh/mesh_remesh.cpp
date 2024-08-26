@@ -37,15 +37,15 @@
  *
  */
 
-#include <geogram/mesh/mesh_remesh.h>
-#include <geogram/mesh/mesh.h>
-#include <geogram/mesh/mesh_repair.h>
-#include <geogram/mesh/mesh_geometry.h>
-#include <geogram/mesh/mesh_halfedges.h>
-#include <geogram/mesh/mesh_reorder.h>
-#include <geogram/mesh/mesh_preprocessing.h>
+#include <mesh_remesh.h>
+#include <mesh_mesh.h>
+#include <mesh_repair.h>
+#include <mesh_geometry.h>
+#include <mesh_halfedges.h>
+#include <mesh_reorder.h>
+#include <mesh_preprocessing.h>
 
-#include <geogram/mesh/mesh_AABB.h>
+#include <mesh_AABB.h>
 #include <geogram/voronoi/CVT.h>
 #include <geogram/NL/nl.h>
 #include <geobasic_command_line.h>

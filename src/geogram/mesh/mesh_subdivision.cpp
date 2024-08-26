@@ -37,8 +37,8 @@
  *
  */
 
-#include <geogram/mesh/mesh_subdivision.h>
-#include <geogram/mesh/mesh.h>
+#include <mesh_subdivision.h>
+#include <mesh_mesh.h>
 #include <geogram/bibliography/bibliography.h>
 
 namespace GEO {

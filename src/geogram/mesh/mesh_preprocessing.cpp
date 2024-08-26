@@ -37,11 +37,11 @@
  *
  */
 
-#include <geogram/mesh/mesh_preprocessing.h>
-#include <geogram/mesh/mesh_topology.h>
-#include <geogram/mesh/mesh_geometry.h>
-#include <geogram/mesh/index.h>
-#include <geogram/mesh/mesh_halfedges.h>
+#include <mesh_preprocessing.h>
+#include <mesh_topology.h>
+#include <mesh_geometry.h>
+#include <mesh_index.h>
+#include <mesh_halfedges.h>
 #include <geobasic_geometry_nd.h>
 #include <geobasic_stopwatch.h>
 

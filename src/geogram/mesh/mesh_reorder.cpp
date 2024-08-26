@@ -37,11 +37,11 @@
  *
  */
 
-#include <geogram/mesh/mesh_reorder.h>
-#include <geogram/mesh/mesh.h>
-#include <geogram/mesh/mesh_geometry.h>
-#include <geogram/mesh/mesh_repair.h>
-#include <geogram/mesh/index.h>
+#include <mesh_reorder.h>
+#include <mesh_mesh.h>
+#include <mesh_geometry.h>
+#include <mesh_repair.h>
+#include <mesh_index.h>
 #include <delaunay_periodic.h>
 #include <geobasic_permutation.h>
 #include <geobasic_process.h>

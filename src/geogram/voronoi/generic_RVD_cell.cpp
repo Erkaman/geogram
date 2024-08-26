@@ -38,7 +38,7 @@
  */
 
 #include <geogram/voronoi/generic_RVD_cell.h>
-#include <geogram/mesh/mesh_halfedges.h>
+#include <mesh_halfedges.h>
 #include <geogram/numerics/predicates.h>
 
 namespace GEOGen {

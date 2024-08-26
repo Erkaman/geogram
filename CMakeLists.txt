@@ -7,19 +7,18 @@ project(LSCMExample)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Define include directories
-
-# src/lib/ -DNL_WITH_AMGCL -I src/lib/geogram/third_party/amgcl/  
-#include_directories(include/ include/new/   )
-
-
 # Define source files
 
 file(GLOB MY_SOURCES_CPP src/*.cpp)
 file(GLOB MY_SOURCES_C src/*.c)
 
-# Create an executable    examples/geogram/opennl_LSCM/main.cpp
-add_executable(${PROJECT_NAME}   ${MY_SOURCES_CPP} ${MY_SOURCES_C})
+add_library(mylib ${MY_SOURCES_CPP} ${MY_SOURCES_C})
+target_compile_definitions(mylib PRIVATE NL_WITH_AMGCL)
+ 
+add_executable(myexe   examples/geogram/opennl_LSCM/main.cpp )
 
-# Add a preprocessor definition
-target_compile_definitions(${PROJECT_NAME} PRIVATE NL_WITH_AMGCL)
+target_link_libraries(myexe mylib)
+
+#target_compile_definitions(myexe PRIVATE NL_WITH_AMGCL)
+
+target_include_directories(myexe PUBLIC src/)

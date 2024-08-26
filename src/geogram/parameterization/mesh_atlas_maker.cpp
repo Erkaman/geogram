@@ -37,12 +37,12 @@
  *
  */
 
-#include <geogram/parameterization/mesh_atlas_maker.h>
-#include <geogram/parameterization/mesh_LSCM.h>
-#include <geogram/parameterization/mesh_ABF.h>
-#include <geogram/parameterization/mesh_segmentation.h>
-#include <geogram/parameterization/mesh_param_validator.h>
-#include <geogram/parameterization/mesh_param_packer.h>
+#include <param_mesh_atlas_maker.h>
+#include <param_mesh_LSCM.h>
+#include <param_mesh_ABF.h>
+#include <param_mesh_segmentation.h>
+#include <param_mesh_param_validator.h>
+#include <param_mesh_param_packer.h>
 #include <mesh_mesh.h>
 #include <mesh_geometry.h>
 #include <mesh_halfedges.h>

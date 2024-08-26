@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/parameterization/mesh_segmentation.h>
+#include <param_mesh_segmentation.h>
 #include <mesh_mesh.h>
 #include <mesh_geometry.h>
 

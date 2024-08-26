@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/parameterization/mesh_param_validator.h>
+#include <param_mesh_param_validator.h>
 #include <mesh_mesh.h>
 #include <mesh_geometry.h>
 #include <algorithm>

@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/parameterization/mesh_LSCM.h>
+#include <param_mesh_LSCM.h>
 #include <mesh_mesh.h>
 #include <mesh_geometry.h>
 #include <geogram/bibliography/bibliography.h>

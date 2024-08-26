@@ -58,7 +58,7 @@
 #include <cmath>
 #include <cassert>
 
-#include <geogram/parameterization/mesh_atlas_maker.h>
+#include <param_mesh_atlas_maker.h>
 
 
 

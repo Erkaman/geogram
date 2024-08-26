@@ -37,9 +37,9 @@
  *
  */
 
-#include <geogram/parameterization/mesh_param_packer.h>
-#include <geogram/parameterization/mesh_atlas_maker.h>
-#include <geogram/parameterization/mesh_segmentation.h>
+#include <param_mesh_param_packer.h>
+#include <param_mesh_atlas_maker.h>
+#include <param_mesh_segmentation.h>
 #include <mesh_mesh.h>
 #include <mesh_geometry.h>
 #include <geogram/points/principal_axes.h>

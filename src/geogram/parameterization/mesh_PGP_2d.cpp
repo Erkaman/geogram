@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/parameterization/mesh_PGP_2d.h>
+#include <param_mesh_PGP_2d.h>
 #include <mesh_mesh.h>
 #include <mesh_geometry.h>
 #include <nl.h>

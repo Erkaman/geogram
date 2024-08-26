@@ -41,7 +41,7 @@
 #define GEOGRAM_MESH_MESH_PARAM_VALIDATOR
 
 #include <geobasic_common.h>
-#include <geogram/parameterization/mesh_segmentation.h>
+#include <param_mesh_segmentation.h>
 #include <geobasic_geometry.h>
 #include <geobasic_attributes.h>
 

@@ -38,7 +38,7 @@
  */
 
 
-#include <geogram/delaunay/periodic.h>
+#include <delaunay_periodic.h>
 
 namespace GEO {
 

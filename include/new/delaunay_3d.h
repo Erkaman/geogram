@@ -41,8 +41,8 @@
 #define GEOGRAM_DELAUNAY_DELAUNAY_3D
 
 #include <geobasic_common.h>
-#include <geogram/delaunay/delaunay.h>
-#include <geogram/delaunay/cavity.h>
+#include <delaunay_delaunay.h>
+#include <delaunay_cavity.h>
 #include <geogram/numerics/predicates.h>
 #include <geobasic_geometry.h>
 

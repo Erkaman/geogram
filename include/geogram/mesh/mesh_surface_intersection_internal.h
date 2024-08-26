@@ -51,7 +51,7 @@
 
 #include <geogram/mesh/index.h>
 #include <geogram/mesh/triangle_intersection.h>
-#include <geogram/delaunay/CDT_2d.h>
+#include <delaunay_CDT_2d.h>
 #include <geogram/numerics/exact_geometry.h>
 
 #include <map>

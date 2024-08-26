@@ -37,17 +37,17 @@
  *
  */
 
-#include <geogram/delaunay/delaunay.h>
-#include <geogram/delaunay/delaunay_nn.h>
-#include <geogram/delaunay/delaunay_3d.h>
-#include <geogram/delaunay/delaunay_2d.h>
+#include <delaunay_delaunay.h>
+#include <delaunay_nn.h>
+#include <delaunay_3d.h>
+#include <delaunay_2d.h>
 
 #ifdef GEOGRAM_WITH_PDEL
 #include <geogram/delaunay/parallel_delaunay_3d.h>
 #endif
 
 #ifdef GEOGRAM_WITH_TETGEN
-#include <geogram/delaunay/delaunay_tetgen.h>
+#include <delaunay_tetgen.h>
 #endif
 
 #ifdef GEOGRAM_WITH_TRIANGLE

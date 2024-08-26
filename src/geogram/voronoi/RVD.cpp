@@ -46,7 +46,7 @@
 #include <geogram/mesh/mesh_sampling.h>
 #include <geogram/mesh/mesh_repair.h>
 #include <geogram/mesh/mesh_AABB.h>
-#include <geogram/delaunay/delaunay.h>
+#include <delaunay_delaunay.h>
 #include <geobasic_geometry_nd.h>
 #include <geobasic_process.h>
 #include <geobasic_command_line.h>

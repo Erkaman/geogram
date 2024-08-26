@@ -42,7 +42,7 @@
 
 #include <geobasic_common.h>
 #include <geogram/mesh/mesh.h>
-#include <geogram/delaunay/delaunay_nn.h>
+#include <delaunay_nn.h>
 #include <geobasic_assert.h>
 #include <geobasic_process.h>
 #include <geobasic_attributes.h>

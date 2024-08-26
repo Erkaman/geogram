@@ -37,41 +37,45 @@
  *
  */
 
-#ifndef GEOGRAM_DELAUNAY_DELAUNAY_TETGEN
-#define GEOGRAM_DELAUNAY_DELAUNAY_TETGEN
+#ifndef GEOGRAM_DELAUNAY_DELAUNAY_TRIANGLE
+#define GEOGRAM_DELAUNAY_DELAUNAY_TRIANGLE
 
 /**
- * \file geogram/delaunay/delaunay_tetgen.h
- * \brief Implementation of Delaunay in 3D using the tetgen library
- *  by Hang Si.
+ * \file geogram/delaunay/delaunay_triangle.h
+ * \brief Implementation of Delaunay in 2D using the triangle library
+ *  by Jonathan Shewchuk.
  */
 
-#ifdef GEOGRAM_WITH_TETGEN
+#ifdef GEOGRAM_WITH_TRIANGLE
 
 #include <geobasic_common.h>
-#include <geogram/delaunay/delaunay.h>
-#include <geogram/third_party/tetgen/tetgen.h>
+#include <delaunay_delaunay.h>
 
-// #define GEO_3rdParty
-// #define deinitialize clean_memory
+extern "C" {
+#define REAL double
+#define ANSI_DECLARATORS
+#define VOID void
+#include <geogram/third_party/triangle/triangle.h>
+}
 
 namespace GEO {
 
     /**
-     * \brief Implementation of Delaunay using Hang Si's tetgen library.
+     * \brief Implementation of Delaunay using Jonathan Shewchuk's
+     *  triangle library.
      */
-    class GEOGRAM_API DelaunayTetgen : public Delaunay {
+    class GEOGRAM_API DelaunayTriangle : public Delaunay {
     public:
         /**
-         * \brief Creates a new DelaunayTetgen.
+         * \brief Creates a new DelaunayTriangle.
          * \details DelaunayTetgen triangulations are only supported for
-         * dimension 3. If a different dimension is specified in the
+         * dimension 2. If a different dimension is specified in the
          * constructor, a InvalidDimension exception is thrown.
          * \param[in] dimension dimension of the triangulation
          * \throw InvalidDimension This exception is thrown if dimension is
-         * different than 3.
+         * different than 2.
          */
-        DelaunayTetgen(coord_index_t dimension = 3);
+        DelaunayTriangle(coord_index_t dimension = 2);
 
         /**
          * \copydoc Delaunay::set_vertices()
@@ -85,11 +89,10 @@ namespace GEO {
          */
         bool supports_constraints() const override;
 
-
         /**
-         * \copydoc Delaunay::region()
+         * \brief DelaunayTriangle destructor.
          */
-        index_t region(index_t t) const override;
+        ~DelaunayTriangle() override;
 
     protected:
 
@@ -120,15 +123,8 @@ namespace GEO {
         );
 
 
-        /**
-         * \brief DelaunayTetGen destructor.
-         */
-        ~DelaunayTetgen() override;
-
-    protected:
-        GEO_3rdParty::tetgenio tetgen_out_;
-        GEO_3rdParty::tetgenio tetgen_in_;
-        GEO_3rdParty::tetgenbehavior tetgen_args_;
+        struct triangulateio triangle_out_ ;
+        struct triangulateio triangle_in_ ;
     };
 }
 

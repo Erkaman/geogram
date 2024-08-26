@@ -39,8 +39,8 @@
 
 #ifdef GEOGRAM_WITH_PDEL
 
-#include <geogram/delaunay/parallel_delaunay_3d.h>
-#include <geogram/delaunay/cavity.h>
+#include <parallel_delaunay_3d.h>
+#include <delaunay_cavity.h>
 #include <geogram/mesh/mesh_reorder.h>
 #include <geogram/numerics/predicates.h>
 #include <geobasic_geometry.h>

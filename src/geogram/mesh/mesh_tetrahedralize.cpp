@@ -44,8 +44,8 @@
 #include <geogram/mesh/mesh_fill_holes.h>
 
 #include <geogram/mesh/mesh.h>
-#include <geogram/delaunay/delaunay.h>
-#include <geogram/delaunay/delaunay_tetgen.h>
+#include <delaunay_delaunay.h>
+#include <delaunay_tetgen.h>
 #include <geobasic_logger.h>
 #include <geobasic_command_line.h>
 

@@ -43,8 +43,8 @@
 #ifdef GEOGRAM_WITH_PDEL
 
 #include <geobasic_common.h>
-#include <geogram/delaunay/delaunay.h>
-#include <geogram/delaunay/delaunay_sync.h>
+#include <delaunay_delaunay.h>
+#include <delaunay_sync.h>
 #include <geobasic_process.h>
 
 /**

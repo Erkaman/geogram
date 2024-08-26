@@ -41,7 +41,7 @@
 #define GEOGRAM_DELAUNAY_LFS
 
 #include <geobasic_common.h>
-#include <geogram/delaunay/delaunay.h>
+#include <delaunay_delaunay.h>
 
 /**
  * \file geogram/delaunay/LFS.h

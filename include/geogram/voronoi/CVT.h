@@ -44,7 +44,7 @@
 #include <geogram/voronoi/RVD.h>
 #include <geogram/voronoi/integration_simplex.h>
 #include <geogram/mesh/mesh.h>
-#include <geogram/delaunay/delaunay.h>
+#include <delaunay_delaunay.h>
 
 
 /**

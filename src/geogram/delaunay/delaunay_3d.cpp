@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/delaunay/delaunay_3d.h>
+#include <delaunay_3d.h>
 #include <geobasic_logger.h>
 #include <geobasic_geometry_nd.h>
 #include <geobasic_process.h>

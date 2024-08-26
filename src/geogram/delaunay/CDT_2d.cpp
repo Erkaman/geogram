@@ -64,7 +64,7 @@
 // flags associated with the elements). It is used in one case: when t2 is
 // is not in Q, it means there is no intersection.
 
-#include <geogram/delaunay/CDT_2d.h>
+#include <delaunay_CDT_2d.h>
 #include <geogram/mesh/mesh_reorder.h>
 #include <geobasic_numeric.h>
 #include <geobasic_boolean_expression.h>

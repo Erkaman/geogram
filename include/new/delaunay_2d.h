@@ -41,7 +41,7 @@
 #define GEOGRAM_DELAUNAY_DELAUNAY_2D
 
 #include <geobasic_common.h>
-#include <geogram/delaunay/delaunay.h>
+#include <delaunay_delaunay.h>
 #include <geogram/numerics/predicates.h>
 #include <geobasic_geometry.h>
 

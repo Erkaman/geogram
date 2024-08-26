@@ -41,14 +41,14 @@
 #define PERIODIC_DELAUNAY_TRIANGULATION_3D
 
 #include <geobasic_common.h>
-#include <geogram/delaunay/delaunay.h>
-#include <geogram/delaunay/periodic.h>
+#include <delaunay_delaunay.h>
+#include <delaunay_periodic.h>
 #include <geogram/voronoi/convex_cell.h>
 #include <geobasic_process.h>
 #include <geobasic_geometry.h>
 #include <stack>
 
-#include <geogram/delaunay/delaunay_sync.h>
+#include <delaunay_sync.h>
 
 namespace GEO {
 

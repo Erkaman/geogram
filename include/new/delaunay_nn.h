@@ -41,7 +41,7 @@
 #define GEOGRAM_DELAUNAY_DELAUNAY_NN
 
 #include <geobasic_common.h>
-#include <geogram/delaunay/delaunay.h>
+#include <delaunay_delaunay.h>
 #include <geogram/points/nn_search.h>
 #include <geobasic_process.h>
 

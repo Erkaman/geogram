@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/delaunay/delaunay_tetgen.h>
+#include <delaunay_tetgen.h>
 #include <geogram/mesh/mesh.h>
 #include <geobasic_logger.h>
 #include <geobasic_command_line.h>

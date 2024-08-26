@@ -37,8 +37,8 @@
  *
  */
 
-#include <geogram/delaunay/periodic_delaunay_3d.h>
-#include <geogram/delaunay/cavity.h>
+#include <periodic_delaunay_3d.h>
+#include <delaunay_cavity.h>
 
 #include <geogram/mesh/mesh_reorder.h>
 #include <geogram/numerics/predicates.h>

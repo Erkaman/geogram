@@ -48,7 +48,7 @@
 #include <mesh_halfedges.h>
 #include <mesh_topology.h>
 
-#include <geogram/points/principal_axes.h>
+#include <points_principal_axes.h>
 #include <geobasic_progress.h>
 #include <deque>
 #include <stack>

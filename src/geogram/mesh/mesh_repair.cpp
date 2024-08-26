@@ -43,7 +43,7 @@
 #include <mesh_halfedges.h>
 
 #include <mesh_preprocessing.h>
-#include <geogram/points/colocate.h>
+#include <points_colocate.h>
 #include <geobasic_geometry_nd.h>
 #include <geobasic_stopwatch.h>
 #include <geobasic_command_line.h>

@@ -36,7 +36,7 @@
  *     FRANCE
  *
  */
-#include <geogram/points/principal_axes.h>
+#include <points_principal_axes.h>
 
 namespace GEO {
 

@@ -37,8 +37,8 @@
  *
  */
 
-#include <geogram/points/colocate.h>
-#include <geogram/points/nn_search.h>
+#include <points_colocate.h>
+#include <points_nn_search.h>
 #include <geobasic_geometry_nd.h>
 #include <geobasic_process.h>
 #include <geobasic_command_line.h>

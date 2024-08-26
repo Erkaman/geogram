@@ -42,7 +42,7 @@
 #include <param_mesh_segmentation.h>
 #include <mesh_mesh.h>
 #include <mesh_geometry.h>
-#include <geogram/points/principal_axes.h>
+#include <points_principal_axes.h>
 #include <geobasic_logger.h>
 #include <geogram/numerics/matrix_util.h>
 #include <geogram/third_party/xatlas/xatlas.h>

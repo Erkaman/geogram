@@ -37,8 +37,8 @@
  *
  */
 
-#include <geogram/points/nn_search.h>
-#include <geogram/points/kd_tree.h>
+#include <points_nn_search.h>
+#include <points_kd_tree.h>
 #include <geobasic_command_line.h>
 #include <geobasic_logger.h>
 

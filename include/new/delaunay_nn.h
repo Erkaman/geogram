@@ -42,7 +42,7 @@
 
 #include <geobasic_common.h>
 #include <delaunay_delaunay.h>
-#include <geogram/points/nn_search.h>
+#include <points_nn_search.h>
 #include <geobasic_process.h>
 
 /**

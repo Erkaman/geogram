@@ -42,7 +42,7 @@
 
 #include <geobasic_common.h>
 #include <geobasic_geometry.h>
-#include <geogram/points/nn_search.h>
+#include <points_nn_search.h>
 
 /**
  * \file mesh_frame_field.h

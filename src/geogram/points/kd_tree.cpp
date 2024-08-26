@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/points/kd_tree.h>
+#include <points_kd_tree.h>
 #include <geobasic_geometry_nd.h>
 #include <geobasic_process.h>
 #include <geobasic_algorithm.h>

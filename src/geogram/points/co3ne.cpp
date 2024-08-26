@@ -37,9 +37,9 @@
  *
  */
 
-#include <geogram/points/co3ne.h>
-#include <geogram/points/nn_search.h>
-#include <geogram/points/principal_axes.h>
+#include <points_co3ne.h>
+#include <points_nn_search.h>
+#include <points_principal_axes.h>
 #include <mesh_mesh.h>
 
 #include <mesh_index.h>

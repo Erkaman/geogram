@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_MESH_MESH_ATLAS_MAKER
 #define GEOGRAM_MESH_MESH_ATLAS_MAKER
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
 
 /**
  * \file geogram/mesh/mesh_atlas_maker.h

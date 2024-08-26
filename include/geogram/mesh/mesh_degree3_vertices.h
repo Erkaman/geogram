@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_MESH_MESH_DEGREE3_VERTICES
 #define GEOGRAM_MESH_MESH_DEGREE3_VERTICES
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
 
 /**
  * \file geogram/mesh/mesh_degree3_vertices.h

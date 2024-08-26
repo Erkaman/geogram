@@ -40,9 +40,9 @@
 #ifndef GEOGRAM_BASIC_SMART_POINTER
 #define GEOGRAM_BASIC_SMART_POINTER
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/assert.h>
-#include <geogram/basic/memory.h>
+#include <geobasic_common.h>
+#include <geobasic_assert.h>
+#include <geobasic_memory.h>
 
 /**
  * \file geogram/basic/smart_pointer.h

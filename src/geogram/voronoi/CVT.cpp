@@ -42,8 +42,8 @@
 #include <geogram/mesh/mesh_repair.h>
 #include <geogram/mesh/mesh_geometry.h>
 #include <geogram/numerics/optimizer.h>
-#include <geogram/basic/progress.h>
-#include <geogram/basic/argused.h>
+#include <geobasic_progress.h>
+#include <geobasic_argused.h>
 #include <geogram/bibliography/bibliography.h>
 
 /****************************************************************************/

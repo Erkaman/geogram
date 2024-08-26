@@ -39,8 +39,8 @@
 
 #include <geogram/lua/lua_io.h>
 #include <geogram/lua/lua_wrap.h>
-#include <geogram/basic/file_system.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_file_system.h>
+#include <geobasic_logger.h>
 #include <geogram/bibliography/bibliography.h>
 #include <map>
 #include <sstream>

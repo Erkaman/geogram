@@ -14,8 +14,8 @@ extern "C" {
 }
 
 
-#include <geogram/basic/logger.h>
-#include <geogram/basic/command_line.h>
+#include <geobasic_logger.h>
+#include <geobasic_command_line.h>
 #include <geogram/NL/nl.h>
 
 #ifdef NL_WITH_AMGCL

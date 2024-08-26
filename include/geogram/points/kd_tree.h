@@ -40,7 +40,7 @@
 #ifndef GEOGRAM_POINTS_KD_TREE
 #define GEOGRAM_POINTS_KD_TREE
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/points/nn_search.h>
 #include <algorithm>
 

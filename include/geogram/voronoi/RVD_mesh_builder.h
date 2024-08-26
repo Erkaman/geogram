@@ -40,12 +40,12 @@
 #ifndef GEOGRAM_VORONOI_RVD_MESH_BUILDER
 #define GEOGRAM_VORONOI_RVD_MESH_BUILDER
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/voronoi/generic_RVD.h>
 #include <geogram/mesh/mesh.h>
 #include <geogram/mesh/index.h>
-#include <geogram/basic/attributes.h>
-#include <geogram/basic/argused.h>
+#include <geobasic_attributes.h>
+#include <geobasic_argused.h>
 
 #include <vector>
 #include <map>

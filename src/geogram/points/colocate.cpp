@@ -39,10 +39,10 @@
 
 #include <geogram/points/colocate.h>
 #include <geogram/points/nn_search.h>
-#include <geogram/basic/geometry_nd.h>
-#include <geogram/basic/process.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/algorithm.h>
+#include <geobasic_geometry_nd.h>
+#include <geobasic_process.h>
+#include <geobasic_command_line.h>
+#include <geobasic_algorithm.h>
 
 namespace {
 

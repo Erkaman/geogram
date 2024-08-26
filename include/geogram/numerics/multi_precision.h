@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_NUMERICS_MULTI_PRECISION
 #define GEOGRAM_NUMERICS_MULTI_PRECISION
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/memory.h>
-#include <geogram/basic/assert.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_memory.h>
+#include <geobasic_assert.h>
 #include <iostream>
 #include <sstream>
 #include <new>

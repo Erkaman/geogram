@@ -40,11 +40,11 @@
 #ifndef GEOGRAM_BASIC_VECG
 #define GEOGRAM_BASIC_VECG
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/determinant.h>
-#include <geogram/basic/memory.h>
-#include <geogram/basic/assert.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_determinant.h>
+#include <geobasic_memory.h>
+#include <geobasic_assert.h>
 #include <initializer_list>
 
 #include <iostream>

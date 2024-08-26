@@ -42,7 +42,7 @@
 #include "logger.h"
 #include "progress.h"
 #include "command_line.h"
-#include <geogram/basic/file_system.h>
+#include <geobasic_file_system.h>
 #include "stopwatch.h"
 #include "multi_precision.h"
 #include "predicates.h"

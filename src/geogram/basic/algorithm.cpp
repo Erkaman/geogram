@@ -37,8 +37,8 @@
  *
  */
 
-#include <geogram/basic/algorithm.h>
-#include <geogram/basic/command_line.h>
+#include <geobasic_algorithm.h>
+#include <geobasic_command_line.h>
 
 namespace GEO {
 

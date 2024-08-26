@@ -42,7 +42,7 @@
 #include <geogram/voronoi/generic_RVD_cell.h>
 #include <geogram/mesh/mesh_geometry.h>
 
-#include <geogram/basic/argused.h>
+#include <geobasic_argused.h>
 
 namespace {
     using namespace GEO;

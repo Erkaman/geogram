@@ -40,13 +40,13 @@
 #ifndef GEOGRAM_MESH_MESH_SURFACE_INTERSECTION
 #define GEOGRAM_MESH_MESH_SURFACE_INTERSECTION
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/mesh/mesh.h>
 
 #include <geogram/numerics/exact_geometry.h>
-#include <geogram/basic/process.h>
-#include <geogram/basic/attributes.h>
-#include <geogram/basic/debug_stream.h>
+#include <geobasic_process.h>
+#include <geobasic_attributes.h>
+#include <geobasic_debug_stream.h>
 #include <functional>
 
 /**

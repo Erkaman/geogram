@@ -42,9 +42,9 @@
 #include <geogram/mesh/mesh_geometry.h>
 #include <geogram/NL/nl.h>
 #include <geogram/numerics/matrix_util.h>
-#include <geogram/basic/logger.h>
-#include <geogram/basic/line_stream.h>
-#include <geogram/basic/progress.h>
+#include <geobasic_logger.h>
+#include <geobasic_line_stream.h>
+#include <geobasic_progress.h>
 #include <geogram/bibliography/bibliography.h>
 
 // Some member functions of NormalCycle are not used here.

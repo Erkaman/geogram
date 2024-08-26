@@ -40,7 +40,7 @@
 #ifndef GEOGRAM_DELAUNAY_LFS
 #define GEOGRAM_DELAUNAY_LFS
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/delaunay/delaunay.h>
 
 /**

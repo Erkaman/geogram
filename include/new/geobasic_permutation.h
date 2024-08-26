@@ -40,9 +40,9 @@
 #ifndef GEOGRAM_BASIC_PERMUTATION
 #define GEOGRAM_BASIC_PERMUTATION
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/memory.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_memory.h>
 
 /**
  * \file geogram/basic/permutation.h

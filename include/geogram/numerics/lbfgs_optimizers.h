@@ -42,9 +42,9 @@
 
 #ifdef GEOGRAM_WITH_HLBFGS
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/numerics/optimizer.h>
-#include <geogram/basic/assert.h>
+#include <geobasic_assert.h>
 
 /**
  * \file geogram/numerics/lbfgs_optimizers.h

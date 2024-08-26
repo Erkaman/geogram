@@ -40,9 +40,9 @@
 #ifndef GEOGRAM_BASIC_ENVIRONMENT
 #define GEOGRAM_BASIC_ENVIRONMENT
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/smart_pointer.h>
-#include <geogram/basic/counted.h>
+#include <geobasic_common.h>
+#include <geobasic_smart_pointer.h>
+#include <geobasic_counted.h>
 #include <string>
 #include <vector>
 #include <map>

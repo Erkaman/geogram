@@ -40,9 +40,9 @@
 #ifndef GEOGRAM_DELAUNAY_PERIODIC
 #define GEOGRAM_DELAUNAY_PERIODIC
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/string.h>
-#include <geogram/basic/assert.h>
+#include <geobasic_common.h>
+#include <geobasic_string.h>
+#include <geobasic_assert.h>
 
 /**
  * \file geogram/delaunay/periodic.h

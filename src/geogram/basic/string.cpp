@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/basic/string.h>
+#include <geobasic_string.h>
 #include <ctype.h>
 #include <stdarg.h>
 

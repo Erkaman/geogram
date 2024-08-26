@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_BIBLIOGRAPHY_BIBLIOGRAPHY
 #define GEOGRAM_BIBLIOGRAPHY_BIBLIOGRAPHY
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/memory.h>
+#include <geobasic_common.h>
+#include <geobasic_memory.h>
 
 namespace GEO {
 

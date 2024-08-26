@@ -40,11 +40,11 @@
 #ifndef GEOGRAM_DELAUNAY_DELAUNAY
 #define GEOGRAM_DELAUNAY_DELAUNAY
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/counted.h>
-#include <geogram/basic/smart_pointer.h>
-#include <geogram/basic/packed_arrays.h>
-#include <geogram/basic/factory.h>
+#include <geobasic_common.h>
+#include <geobasic_counted.h>
+#include <geobasic_smart_pointer.h>
+#include <geobasic_packed_arrays.h>
+#include <geobasic_factory.h>
 #include <stdexcept>
 
 /**

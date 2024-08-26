@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_NUMERICS_EXPANSION_NT
 #define GEOGRAM_NUMERICS_EXPANSION_NT
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/numerics/multi_precision.h>
-#include <geogram/basic/matrix.h>
-#include <geogram/basic/rationalg.h>
+#include <geobasic_matrix.h>
+#include <geobasic_rationalg.h>
 
 /**
  * \file geogram/numerics/expansion_nt.h

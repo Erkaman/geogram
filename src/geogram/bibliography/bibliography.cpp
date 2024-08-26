@@ -38,10 +38,10 @@
  */
 
 #include <geogram/bibliography/bibliography.h>
-#include <geogram/basic/memory.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/logger.h>
-#include <geogram/basic/stopwatch.h>
+#include <geobasic_memory.h>
+#include <geobasic_command_line.h>
+#include <geobasic_logger.h>
+#include <geobasic_stopwatch.h>
 #include <string>
 
 namespace {

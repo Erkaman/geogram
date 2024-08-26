@@ -41,9 +41,9 @@
 #ifndef GEOGRAM_DELAUNAY_CAVITY
 #define GEOGRAM_DELAUNAY_CAVITY
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/memory.h>
-#include <geogram/basic/numeric.h>
+#include <geobasic_common.h>
+#include <geobasic_memory.h>
+#include <geobasic_numeric.h>
 #include <string.h>
 
 // Uncomment to display histogram of

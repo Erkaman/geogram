@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/basic/boolean_expression.h>
+#include <geobasic_boolean_expression.h>
 
 namespace GEO {
 

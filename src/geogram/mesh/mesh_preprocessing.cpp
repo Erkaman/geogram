@@ -42,8 +42,8 @@
 #include <geogram/mesh/mesh_geometry.h>
 #include <geogram/mesh/index.h>
 #include <geogram/mesh/mesh_halfedges.h>
-#include <geogram/basic/geometry_nd.h>
-#include <geogram/basic/stopwatch.h>
+#include <geobasic_geometry_nd.h>
+#include <geobasic_stopwatch.h>
 
 #include <stack>
 

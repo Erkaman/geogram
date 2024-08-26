@@ -40,7 +40,7 @@
 #ifndef GEOGRAM_MESH_MESH_PARAM_PACKER
 #define GEOGRAM_MESH_MESH_PARAM_PACKER
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 
 /**
  * \file geogram/mesh/mesh_param_packer.h

@@ -40,7 +40,7 @@
 #ifndef GEOGRAM_MESH_PARAM_MESH_PGP_2D
 #define GEOGRAM_MESH_PARAM_MESH_PGP_2D
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/parameterization/mesh_global_param.h>
 
 namespace GEO {

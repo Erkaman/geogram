@@ -46,8 +46,8 @@
 #include <geogram/mesh/mesh.h>
 #include <geogram/delaunay/delaunay.h>
 #include <geogram/delaunay/delaunay_tetgen.h>
-#include <geogram/basic/logger.h>
-#include <geogram/basic/command_line.h>
+#include <geobasic_logger.h>
+#include <geobasic_command_line.h>
 
 namespace GEO {
 

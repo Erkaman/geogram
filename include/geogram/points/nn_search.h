@@ -40,11 +40,11 @@
 #ifndef GEOGRAM_POINTS_NN_SEARCH
 #define GEOGRAM_POINTS_NN_SEARCH
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/smart_pointer.h>
-#include <geogram/basic/counted.h>
-#include <geogram/basic/factory.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_smart_pointer.h>
+#include <geobasic_counted.h>
+#include <geobasic_factory.h>
 
 /**
  * \file geogram/points/nn_search.h

@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_POINTS_COLOCATE
 #define GEOGRAM_POINTS_COLOCATE
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/geometry.h>
+#include <geobasic_common.h>
+#include <geobasic_geometry.h>
 #include <vector>
 
 /**

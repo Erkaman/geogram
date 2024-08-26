@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_BASIC_DEBUG_STREAM
 #define GEOGRAM_BASIC_DEBUG_STREAM
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/geometry.h>
+#include <geobasic_common.h>
+#include <geobasic_geometry.h>
 
 #include <fstream>
 

@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_BASIC_RANGE
 #define GEOGRAM_BASIC_RANGE
 
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/memory.h>
-#include <geogram/basic/assert.h>
-#include <geogram/basic/argused.h>
+#include <geobasic_numeric.h>
+#include <geobasic_memory.h>
+#include <geobasic_assert.h>
+#include <geobasic_argused.h>
 
 /**
  * \file geogram/basic/range.h

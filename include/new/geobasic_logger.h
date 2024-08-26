@@ -42,9 +42,9 @@
 
 #ifdef __cplusplus
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/environment.h>
-#include <geogram/basic/process.h>
+#include <geobasic_common.h>
+#include <geobasic_environment.h>
+#include <geobasic_process.h>
 #include <iostream>
 #include <fstream>
 #include <sstream>

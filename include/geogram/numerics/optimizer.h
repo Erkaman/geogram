@@ -40,12 +40,12 @@
 #ifndef GEOGRAM_NUMERICS_OPTIMIZER
 #define GEOGRAM_NUMERICS_OPTIMIZER
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/smart_pointer.h>
-#include <geogram/basic/counted.h>
-#include <geogram/basic/assert.h>
-#include <geogram/basic/factory.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_smart_pointer.h>
+#include <geobasic_counted.h>
+#include <geobasic_assert.h>
+#include <geobasic_factory.h>
 
 class HESSIAN_MATRIX;
 

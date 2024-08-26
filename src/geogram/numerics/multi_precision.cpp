@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 
 // This makes sure the compiler will not optimize y = a*x+b
 // with fused multiply-add, this would break the exact
@@ -48,8 +48,8 @@
 
 #include <geogram/numerics/multi_precision.h>
 #include <geogram/numerics/PCK.h>
-#include <geogram/basic/process.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_process.h>
+#include <geobasic_logger.h>
 
 namespace {
 

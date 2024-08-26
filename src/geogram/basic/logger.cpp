@@ -37,12 +37,12 @@
  *
  */
 
-#include <geogram/basic/logger.h>
-#include <geogram/basic/assert.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/argused.h>
-#include <geogram/basic/file_system.h>
-#include <geogram/basic/process.h>
+#include <geobasic_logger.h>
+#include <geobasic_assert.h>
+#include <geobasic_command_line.h>
+#include <geobasic_argused.h>
+#include <geobasic_file_system.h>
+#include <geobasic_process.h>
 
 
 #include <stdlib.h>

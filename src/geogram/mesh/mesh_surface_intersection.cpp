@@ -48,13 +48,13 @@
 #include <geogram/delaunay/CDT_2d.h>
 #include <geogram/numerics/predicates.h>
 #include <geogram/numerics/expansion_nt.h>
-#include <geogram/basic/stopwatch.h>
-#include <geogram/basic/permutation.h>
-#include <geogram/basic/boolean_expression.h>
-#include <geogram/basic/debug_stream.h>
-#include <geogram/basic/algorithm.h>
+#include <geobasic_stopwatch.h>
+#include <geobasic_permutation.h>
+#include <geobasic_boolean_expression.h>
+#include <geobasic_debug_stream.h>
+#include <geobasic_algorithm.h>
 
-#include <geogram/basic/string.h>
+#include <geobasic_string.h>
 
 
 #include <sstream>

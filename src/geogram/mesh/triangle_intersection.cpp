@@ -40,11 +40,11 @@
 #include <geogram/mesh/triangle_intersection.h>
 #include <geogram/numerics/predicates.h>
 #include <geogram/numerics/exact_geometry.h>
-#include <geogram/basic/string.h>
-#include <geogram/basic/geometry.h>
-#include <geogram/basic/argused.h>
-#include <geogram/basic/logger.h>
-#include <geogram/basic/algorithm.h>
+#include <geobasic_string.h>
+#include <geobasic_geometry.h>
+#include <geobasic_argused.h>
+#include <geobasic_logger.h>
+#include <geobasic_algorithm.h>
 
 
 #ifdef GEO_COMPILER_CLANG

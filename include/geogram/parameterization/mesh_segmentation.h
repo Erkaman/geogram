@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_MESH_MESH_SEGMENTATION
 #define GEOGRAM_MESH_MESH_SEGMENTATION
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/attributes.h>
+#include <geobasic_common.h>
+#include <geobasic_attributes.h>
 
 /**
  * \file geogram/mesh/mesh_segmentation.h

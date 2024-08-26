@@ -40,7 +40,7 @@
 #ifndef GEOGRAM_VORONOI_CVT
 #define GEOGRAM_VORONOI_CVT
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/voronoi/RVD.h>
 #include <geogram/voronoi/integration_simplex.h>
 #include <geogram/mesh/mesh.h>

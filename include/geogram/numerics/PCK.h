@@ -40,9 +40,9 @@
 #ifndef GEOGRAM_NUMERICS_PCK
 #define GEOGRAM_NUMERICS_PCK
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_logger.h>
 #include <functional>
 #include <algorithm>
 #include <atomic>

@@ -40,9 +40,9 @@
 #include <geogram/mesh/mesh_geometry.h>
 #include <geogram/delaunay/LFS.h>
 #include <geogram/voronoi/CVT.h>
-#include <geogram/basic/attributes.h>
-#include <geogram/basic/geometry.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_attributes.h>
+#include <geobasic_geometry.h>
+#include <geobasic_logger.h>
 
 namespace {
 

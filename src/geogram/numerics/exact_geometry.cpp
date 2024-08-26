@@ -41,7 +41,7 @@
 #include <geogram/numerics/interval_nt.h>
 #include <geogram/numerics/predicates.h>
 #include <geogram/numerics/PCK.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_logger.h>
 
 namespace GEO {
 

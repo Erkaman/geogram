@@ -38,7 +38,7 @@
  */
 
 #include <geogram/mesh/mesh_manifold_harmonics.h>
-#include <geogram/basic/file_system.h>
+#include <geobasic_file_system.h>
 #include <geogram/mesh/mesh.h>
 #include <geogram/mesh/mesh_geometry.h>
 #include <geogram/NL/nl.h>

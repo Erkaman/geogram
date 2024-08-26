@@ -37,9 +37,9 @@
  *
  */
 
-#include <geogram/basic/packed_arrays.h>
-#include <geogram/basic/logger.h>
-#include <geogram/basic/string.h>
+#include <geobasic_packed_arrays.h>
+#include <geobasic_logger.h>
+#include <geobasic_string.h>
 
 namespace {
 

@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_MESH_MESH_FRAME_FIELD
 #define GEOGRAM_MESH_MESH_FRAME_FIELD
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/geometry.h>
+#include <geobasic_common.h>
+#include <geobasic_geometry.h>
 #include <geogram/points/nn_search.h>
 
 /**

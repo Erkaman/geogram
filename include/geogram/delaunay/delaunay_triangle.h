@@ -48,7 +48,7 @@
 
 #ifdef GEOGRAM_WITH_TRIANGLE
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/delaunay/delaunay.h>
 
 extern "C" {

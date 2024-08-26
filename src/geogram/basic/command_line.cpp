@@ -37,13 +37,13 @@
  *
  */
 
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/command_line_args.h>
-#include <geogram/basic/environment.h>
-#include <geogram/basic/file_system.h>
-#include <geogram/basic/logger.h>
-#include <geogram/basic/stopwatch.h>
-#include <geogram/basic/process.h>
+#include <geobasic_command_line.h>
+#include <geobasic_command_line_args.h>
+#include <geobasic_environment.h>
+#include <geobasic_file_system.h>
+#include <geobasic_logger.h>
+#include <geobasic_stopwatch.h>
+#include <geobasic_process.h>
 #include <geogram/bibliography/bibliography.h>
 #include <geogram/NL/nl.h>
 #include <iostream>

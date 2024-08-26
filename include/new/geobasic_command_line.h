@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_BASIC_COMMAND_LINE
 #define GEOGRAM_BASIC_COMMAND_LINE
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/string.h>
-#include <geogram/basic/assert.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_string.h>
+#include <geobasic_assert.h>
 
 /**
  * \file geogram/basic/command_line.h

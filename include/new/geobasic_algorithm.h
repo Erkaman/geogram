@@ -40,7 +40,7 @@
 #ifndef GEOGRAM_BASIC_ALGORITHM
 #define GEOGRAM_BASIC_ALGORITHM
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 
 #if defined(GEO_OS_LINUX) && defined(GEO_OPENMP)
 #if (__GNUC__ >= 4) && (__GNUC_MINOR__ >= 4) && !defined(GEO_OS_ANDROID)

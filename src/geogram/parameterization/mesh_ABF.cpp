@@ -42,7 +42,7 @@
 #include <geogram/mesh/mesh.h>
 #include <geogram/mesh/mesh_geometry.h>
 #include <geogram/bibliography/bibliography.h>
-#include <geogram/basic/memory.h>
+#include <geobasic_memory.h>
 
 #include <geogram/NL/nl.h>
 

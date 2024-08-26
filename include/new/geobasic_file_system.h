@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_BASIC_FILE_SYSTEM
 #define GEOGRAM_BASIC_FILE_SYSTEM
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/counted.h>
-#include <geogram/basic/smart_pointer.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_counted.h>
+#include <geobasic_smart_pointer.h>
 
 #include <string>
 #include <vector>

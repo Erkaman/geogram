@@ -43,10 +43,10 @@
 #include <geogram/delaunay/cavity.h>
 #include <geogram/mesh/mesh_reorder.h>
 #include <geogram/numerics/predicates.h>
-#include <geogram/basic/geometry.h>
-#include <geogram/basic/stopwatch.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/permutation.h>
+#include <geobasic_geometry.h>
+#include <geobasic_stopwatch.h>
+#include <geobasic_command_line.h>
+#include <geobasic_permutation.h>
 #include <geogram/bibliography/bibliography.h>
 
 #include <mutex>

@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_MESH_MESH_GEOMETRY
 #define GEOGRAM_MESH_MESH_GEOMETRY
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/mesh/mesh.h>
-#include <geogram/basic/geometry.h>
-#include <geogram/basic/geometry_nd.h>
+#include <geobasic_geometry.h>
+#include <geobasic_geometry_nd.h>
 
 /**
  * \file geogram/mesh/mesh_geometry.h

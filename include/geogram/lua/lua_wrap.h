@@ -39,11 +39,11 @@
 
 #ifndef GEOGRAM_LUA_LUA_WRAP
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/assert.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/string.h>
-#include <geogram/basic/memory.h>
+#include <geobasic_common.h>
+#include <geobasic_assert.h>
+#include <geobasic_numeric.h>
+#include <geobasic_string.h>
+#include <geobasic_memory.h>
 
 extern "C" {
 #include <geogram/third_party/lua/lua.h>

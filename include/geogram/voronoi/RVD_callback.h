@@ -40,12 +40,12 @@
 #ifndef GEOGRAM_VORONOI_RVD_CALLBACK
 #define GEOGRAM_VORONOI_RVD_CALLBACK
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/voronoi/generic_RVD_vertex.h>
 #include <geogram/mesh/mesh.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/attributes.h>
-#include <geogram/basic/thread_sync.h>
+#include <geobasic_numeric.h>
+#include <geobasic_attributes.h>
+#include <geobasic_thread_sync.h>
 
 namespace GEOGen {
     class SymbolicVertex;

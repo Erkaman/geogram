@@ -40,7 +40,7 @@
 #ifndef GEOGRAM_MESH_MESH_TETRAHEDRALIZE
 #define GEOGRAM_MESH_MESH_TETRAHEDRALIZE
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 
 /**
  * \file geogram/mesh/mesh_tetrahedralize.h

@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_MESH_MESH_REMESH
 #define GEOGRAM_MESH_MESH_REMESH
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
 
 /**
  * \file geogram/mesh/mesh_remesh.h

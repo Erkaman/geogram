@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_BASIC_MEMORY
 #define GEOGRAM_BASIC_MEMORY
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/assert.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/argused.h>
+#include <geobasic_common.h>
+#include <geobasic_assert.h>
+#include <geobasic_numeric.h>
+#include <geobasic_argused.h>
 #include <vector>
 #include <string.h>
 #include <stdlib.h>

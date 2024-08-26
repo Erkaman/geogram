@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_BASIC_FACTORY
 #define GEOGRAM_BASIC_FACTORY
 
-#include <geogram/basic/memory.h>
-#include <geogram/basic/counted.h>
+#include <geobasic_memory.h>
+#include <geobasic_counted.h>
 #include <string>
 #include <map>
 #include <vector>

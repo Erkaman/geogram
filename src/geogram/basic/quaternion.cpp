@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/basic/quaternion.h>
+#include <geobasic_quaternion.h>
 
 namespace {
     using namespace GEO;

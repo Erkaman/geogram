@@ -39,8 +39,8 @@
 
 #include <geogram/points/nn_search.h>
 #include <geogram/points/kd_tree.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_command_line.h>
+#include <geobasic_logger.h>
 
 /****************************************************************************/
 

@@ -47,11 +47,11 @@
 #include <geogram/mesh/mesh_repair.h>
 #include <geogram/mesh/mesh_AABB.h>
 #include <geogram/delaunay/delaunay.h>
-#include <geogram/basic/geometry_nd.h>
-#include <geogram/basic/process.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/argused.h>
-#include <geogram/basic/algorithm.h>
+#include <geobasic_geometry_nd.h>
+#include <geobasic_process.h>
+#include <geobasic_command_line.h>
+#include <geobasic_argused.h>
+#include <geobasic_algorithm.h>
 #include <geogram/bibliography/bibliography.h>
 
 /*

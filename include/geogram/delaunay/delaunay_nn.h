@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_DELAUNAY_DELAUNAY_NN
 #define GEOGRAM_DELAUNAY_DELAUNAY_NN
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/delaunay/delaunay.h>
 #include <geogram/points/nn_search.h>
-#include <geogram/basic/process.h>
+#include <geobasic_process.h>
 
 /**
  * \file geogram/delaunay/delaunay_nn.h

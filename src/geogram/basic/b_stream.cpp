@@ -43,9 +43,9 @@
  *
  */
 
-#include <geogram/basic/b_stream.h>
-#include <geogram/basic/assert.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_b_stream.h>
+#include <geobasic_assert.h>
+#include <geobasic_logger.h>
 
 #include <iostream>
 #include <stdlib.h>

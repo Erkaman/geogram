@@ -48,7 +48,7 @@
 #include <geogram/voronoi/generic_RVD_polygon.h>
 #include <geogram/points/principal_axes.h>
 #include <geogram/numerics/matrix_util.h>
-#include <geogram/basic/numeric.h>
+#include <geobasic_numeric.h>
 
 #include <deque>
 #include <stack>

@@ -39,8 +39,8 @@
 
 #include <geogram/mesh/mesh_surface_intersection_internal.h>
 #include <geogram/mesh/mesh_surface_intersection.h>
-#include <geogram/basic/debug_stream.h>
-#include <geogram/basic/boolean_expression.h>
+#include <geobasic_debug_stream.h>
+#include <geobasic_boolean_expression.h>
 #include <stack>
 
 namespace {

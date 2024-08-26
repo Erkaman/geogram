@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 
 // This makes sure the compiler will not optimize y = a*x+b
 // with fused multiply-add, this would break the exact
@@ -48,10 +48,10 @@
 
 #include <geogram/numerics/predicates.h>
 #include <geogram/numerics/multi_precision.h>
-#include <geogram/basic/assert.h>
-#include <geogram/basic/logger.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/matrix.h>
+#include <geobasic_assert.h>
+#include <geobasic_logger.h>
+#include <geobasic_command_line.h>
+#include <geobasic_matrix.h>
 #include <algorithm>
 
 #define FPG_UNCERTAIN_VALUE 0

@@ -44,8 +44,8 @@
  * \file geogram/mesh/mesh_ABF.h
  */
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
 
 namespace GEO {
     class Mesh;

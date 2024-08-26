@@ -43,8 +43,8 @@
 #include <geogram/mesh/mesh_halfedges.h>
 
 #include <geogram/mesh/index.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_command_line.h>
+#include <geobasic_logger.h>
 
 #undef geo_debug_assert
 #define geo_debug_assert(x) geo_assert(x)

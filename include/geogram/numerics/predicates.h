@@ -40,9 +40,9 @@
 #ifndef GEOGRAM_NUMERICS_PREDICATES
 #define GEOGRAM_NUMERICS_PREDICATES
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/geometry.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_geometry.h>
 #include <geogram/numerics/PCK.h>
 
 /**

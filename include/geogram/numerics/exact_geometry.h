@@ -40,9 +40,9 @@
 #ifndef GEOGRAM_NUMERICS_EXACT_GEOMETRY
 #define GEOGRAM_NUMERICS_EXACT_GEOMETRY
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/geometry.h>
-#include <geogram/basic/vechg.h>
+#include <geobasic_common.h>
+#include <geobasic_geometry.h>
+#include <geobasic_vechg.h>
 #include <geogram/numerics/expansion_nt.h>
 #include <geogram/numerics/interval_nt.h>
 

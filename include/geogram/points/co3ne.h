@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_POINTS_CO3NE
 #define GEOGRAM_POINTS_CO3NE
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
 
 /**
  * \file geogram/points/co3ne.h

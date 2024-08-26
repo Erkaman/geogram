@@ -40,7 +40,7 @@
 #ifndef GEOGRAM_BASIC_ARGUSED
 #define GEOGRAM_BASIC_ARGUSED
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 
 /**
  * \file geogram/basic/argused.h

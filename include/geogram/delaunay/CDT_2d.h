@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_DELAUNAY_CDT_2D
 #define GEOGRAM_DELAUNAY_CDT_2D
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/geometry.h>
+#include <geobasic_common.h>
+#include <geobasic_geometry.h>
 #include <geogram/numerics/predicates.h>
 #include <geogram/numerics/exact_geometry.h>
 #include <geogram/mesh/index.h>

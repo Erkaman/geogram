@@ -40,12 +40,12 @@
 #ifndef GEOGRAM_VORONOI_GENERIC_RVD_VERTEX
 #define GEOGRAM_VORONOI_GENERIC_RVD_VERTEX
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/mesh/mesh.h>
 #include <geogram/delaunay/delaunay_nn.h>
-#include <geogram/basic/assert.h>
-#include <geogram/basic/process.h>
-#include <geogram/basic/attributes.h>
+#include <geobasic_assert.h>
+#include <geobasic_process.h>
+#include <geobasic_attributes.h>
 
 /**
  * \file geogram/voronoi/generic_RVD_vertex.h

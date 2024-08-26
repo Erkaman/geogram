@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_BASIC_BOOLEAN_EXPRESSION
 #define GEOGRAM_BASIC_BOOLEAN_EXPRESSION
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
 #include <string>
 
 /**

@@ -40,7 +40,7 @@
 #ifndef GEOGRAM_MESH_MESH_DISTANCE
 #define GEOGRAM_MESH_MESH_DISTANCE
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 
 /**
  * \file mesh_distance.h

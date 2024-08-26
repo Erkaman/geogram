@@ -40,12 +40,12 @@
 #ifndef PERIODIC_DELAUNAY_TRIANGULATION_3D
 #define PERIODIC_DELAUNAY_TRIANGULATION_3D
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/delaunay/delaunay.h>
 #include <geogram/delaunay/periodic.h>
 #include <geogram/voronoi/convex_cell.h>
-#include <geogram/basic/process.h>
-#include <geogram/basic/geometry.h>
+#include <geobasic_process.h>
+#include <geobasic_geometry.h>
 #include <stack>
 
 #include <geogram/delaunay/delaunay_sync.h>

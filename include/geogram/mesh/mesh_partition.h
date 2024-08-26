@@ -40,9 +40,9 @@
 #ifndef GEOGRAM_MESH_MESH_PARTITION
 #define GEOGRAM_MESH_MESH_PARTITION
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/memory.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_memory.h>
 
 /**
  * \file geogram/mesh/mesh_partition.h

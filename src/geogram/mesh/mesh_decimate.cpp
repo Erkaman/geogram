@@ -42,8 +42,8 @@
 #include <geogram/mesh/mesh_geometry.h>
 #include <geogram/mesh/mesh_degree3_vertices.h>
 #include <geogram/points/colocate.h>
-#include <geogram/basic/stopwatch.h>
-#include <geogram/basic/algorithm.h>
+#include <geobasic_stopwatch.h>
+#include <geobasic_algorithm.h>
 
 namespace GEO {
 

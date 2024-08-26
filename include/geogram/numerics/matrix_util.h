@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_NUMERICS_MATRIX_UTIL
 #define GEOGRAM_NUMERICS_MATRIX_UTIL
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
 
 /**
  * \file geogram/numerics/matrix_util.h

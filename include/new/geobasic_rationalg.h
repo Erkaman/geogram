@@ -40,7 +40,7 @@
 #ifndef GEOGRAM_BASIC_RATIONALG
 #define GEOGRAM_BASIC_RATIONALG
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 
 /**
  * \file geogram/basic/rationalg.h

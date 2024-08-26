@@ -37,14 +37,14 @@
  *
  */
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 
 #ifdef GEO_OS_WINDOWS
 
-#include <geogram/basic/process.h>
-#include <geogram/basic/process_private.h>
-#include <geogram/basic/logger.h>
-#include <geogram/basic/progress.h>
+#include <geobasic_process.h>
+#include <geobasic_process_private.h>
+#include <geobasic_logger.h>
+#include <geobasic_progress.h>
 
 #include <sstream>
 #include <windows.h>

@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_BASIC_PROCESS
 #define GEOGRAM_BASIC_PROCESS
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/thread_sync.h>
-#include <geogram/basic/counted.h>
-#include <geogram/basic/smart_pointer.h>
+#include <geobasic_common.h>
+#include <geobasic_thread_sync.h>
+#include <geobasic_counted.h>
+#include <geobasic_smart_pointer.h>
 #include <functional>
 
 /**

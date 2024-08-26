@@ -42,7 +42,7 @@
 #include <geogram/mesh/mesh_geometry.h>
 #include <geogram/mesh/mesh_repair.h>
 #include <geogram/numerics/predicates.h>
-#include <geogram/basic/geometry_nd.h>
+#include <geobasic_geometry_nd.h>
 
 namespace {
 

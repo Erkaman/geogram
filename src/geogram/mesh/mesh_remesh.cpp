@@ -48,9 +48,9 @@
 #include <geogram/mesh/mesh_AABB.h>
 #include <geogram/voronoi/CVT.h>
 #include <geogram/NL/nl.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/stopwatch.h>
-#include <geogram/basic/progress.h>
+#include <geobasic_command_line.h>
+#include <geobasic_stopwatch.h>
+#include <geobasic_progress.h>
 #include <geogram/bibliography/bibliography.h>
 
 

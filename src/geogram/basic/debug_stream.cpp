@@ -37,9 +37,9 @@
  *
  */
 
-#include <geogram/basic/debug_stream.h>
-#include <geogram/basic/string.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_debug_stream.h>
+#include <geobasic_string.h>
+#include <geobasic_logger.h>
 
 namespace GEO {
 

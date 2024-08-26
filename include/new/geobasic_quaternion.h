@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_BASIC_QUATERNION
 #define GEOGRAM_BASIC_QUATERNION
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/geometry.h>
+#include <geobasic_common.h>
+#include <geobasic_geometry.h>
 #include <iostream>
 
 

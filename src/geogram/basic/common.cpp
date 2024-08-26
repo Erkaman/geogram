@@ -37,13 +37,13 @@
  *
  */
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/process.h>
-#include <geogram/basic/logger.h>
-#include <geogram/basic/progress.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/file_system.h>
-#include <geogram/basic/stopwatch.h>
+#include <geobasic_common.h>
+#include <geobasic_process.h>
+#include <geobasic_logger.h>
+#include <geobasic_progress.h>
+#include <geobasic_command_line.h>
+#include <geobasic_file_system.h>
+#include <geobasic_stopwatch.h>
 #include <geogram/numerics/multi_precision.h>
 #include <geogram/numerics/predicates.h>
 #include <geogram/delaunay/delaunay.h>

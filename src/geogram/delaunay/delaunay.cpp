@@ -54,11 +54,11 @@
 #include <geogram/delaunay/delaunay_triangle.h>
 #endif
 
-#include <geogram/basic/logger.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/process.h>
-#include <geogram/basic/geometry_nd.h>
-#include <geogram/basic/algorithm.h>
+#include <geobasic_logger.h>
+#include <geobasic_command_line.h>
+#include <geobasic_process.h>
+#include <geobasic_geometry_nd.h>
+#include <geobasic_algorithm.h>
 
 #include <fstream>
 #include <sstream>

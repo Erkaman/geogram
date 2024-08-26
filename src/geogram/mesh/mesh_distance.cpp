@@ -41,8 +41,8 @@
 #include <geogram/mesh/mesh_AABB.h>
 #include <geogram/mesh/mesh_repair.h>
 #include <geogram/mesh/mesh_sampling.h>
-#include <geogram/basic/process.h>
-#include <geogram/basic/stopwatch.h>
+#include <geobasic_process.h>
+#include <geobasic_stopwatch.h>
 
 #include <algorithm>
 

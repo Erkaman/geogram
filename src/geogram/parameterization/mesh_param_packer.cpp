@@ -43,7 +43,7 @@
 #include <geogram/mesh/mesh.h>
 #include <geogram/mesh/mesh_geometry.h>
 #include <geogram/points/principal_axes.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_logger.h>
 #include <geogram/numerics/matrix_util.h>
 #include <geogram/third_party/xatlas/xatlas.h>
 #include <algorithm>

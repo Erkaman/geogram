@@ -40,8 +40,8 @@
 #ifndef DELAUNAY_SYNC_H
 #define DELAUNAY_SYNC_H
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/assert.h>
+#include <geobasic_common.h>
+#include <geobasic_assert.h>
 #include <atomic>
 
 /**

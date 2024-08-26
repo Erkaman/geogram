@@ -41,7 +41,7 @@
 #ifndef GEOGRAM_BASIC_PROCESS_PRIVATE
 #define GEOGRAM_BASIC_PROCESS_PRIVATE
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 
 /**
  * \file geogram/basic/process_private.h

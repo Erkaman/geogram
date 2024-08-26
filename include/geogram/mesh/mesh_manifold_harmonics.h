@@ -44,9 +44,9 @@
  * \file geogram/mesh/mesh_manifold_harmonics.h
  */
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/memory.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_memory.h>
 
 namespace GEO {
     class Mesh;

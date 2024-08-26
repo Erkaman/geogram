@@ -48,7 +48,7 @@
 
 #ifdef GEOGRAM_WITH_TETGEN
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/delaunay/delaunay.h>
 #include <geogram/third_party/tetgen/tetgen.h>
 

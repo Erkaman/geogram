@@ -40,8 +40,8 @@
 #include <geogram/mesh/mesh_degree3_vertices.h>
 #include <geogram/mesh/mesh_geometry.h>
 #include <geogram/mesh/index.h>
-#include <geogram/basic/geometry_nd.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_geometry_nd.h>
+#include <geobasic_logger.h>
 
 namespace {
 

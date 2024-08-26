@@ -40,7 +40,7 @@
 #ifndef GEOGRAM_BASIC_COMMAND_LINE_ARGS
 #define GEOGRAM_BASIC_COMMAND_LINE_ARGS
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 
 /**
  * \file geogram/basic/command_line_args.h

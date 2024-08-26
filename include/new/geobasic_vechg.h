@@ -40,9 +40,9 @@
 #ifndef GEOGRAM_BASIC_VECHG
 #define GEOGRAM_BASIC_VECHG
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/vecg.h>
-#include <geogram/basic/rationalg.h>
+#include <geobasic_common.h>
+#include <geobasic_vecg.h>
+#include <geobasic_rationalg.h>
 
 /**
  * \file geogram/basic/vechg.h

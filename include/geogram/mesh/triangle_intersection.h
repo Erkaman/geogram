@@ -40,9 +40,9 @@
 #ifndef GEOGRAM_MESH_TRIANGLE_INTERSECTION
 #define GEOGRAM_MESH_TRIANGLE_INTERSECTION
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/geometry.h>
-#include <geogram/basic/memory.h>
+#include <geobasic_common.h>
+#include <geobasic_geometry.h>
+#include <geobasic_memory.h>
 #include <utility>
 
 /**

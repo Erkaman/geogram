@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_DELAUNAY_DELAUNAY_2D
 #define GEOGRAM_DELAUNAY_DELAUNAY_2D
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/delaunay/delaunay.h>
 #include <geogram/numerics/predicates.h>
-#include <geogram/basic/geometry.h>
+#include <geobasic_geometry.h>
 
 #include <stack>
 

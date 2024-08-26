@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_BASIC_PACKED_ARRAYS
 #define GEOGRAM_BASIC_PACKED_ARRAYS
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/assert.h>
-#include <geogram/basic/process.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_assert.h>
+#include <geobasic_process.h>
 
 /**
  * \file geogram/basic/packed_arrays.h

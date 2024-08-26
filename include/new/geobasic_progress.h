@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_BASIC_PROGRESS
 #define GEOGRAM_BASIC_PROGRESS
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/logger.h>
-#include <geogram/basic/counted.h>
-#include <geogram/basic/smart_pointer.h>
+#include <geobasic_common.h>
+#include <geobasic_logger.h>
+#include <geobasic_counted.h>
+#include <geobasic_smart_pointer.h>
 
 /**
  * \file geogram/basic/progress.h

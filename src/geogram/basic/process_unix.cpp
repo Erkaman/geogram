@@ -37,15 +37,15 @@
  *
  */
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 
 #ifdef GEO_OS_UNIX
 
-#include <geogram/basic/process.h>
-#include <geogram/basic/process_private.h>
-#include <geogram/basic/logger.h>
-#include <geogram/basic/progress.h>
-#include <geogram/basic/line_stream.h>
+#include <geobasic_process.h>
+#include <geobasic_process_private.h>
+#include <geobasic_logger.h>
+#include <geobasic_progress.h>
+#include <geobasic_line_stream.h>
 
 #include <sstream>
 #include <pthread.h>

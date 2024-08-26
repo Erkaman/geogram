@@ -40,11 +40,11 @@
 #ifndef GEOGRAM_VORONOI_GENERIC_RVD_UTILS
 #define GEOGRAM_VORONOI_GENERIC_RVD_UTILS
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/voronoi/generic_RVD_vertex.h>
 #include <geogram/voronoi/generic_RVD_polygon.h>
 #include <geogram/voronoi/generic_RVD_cell.h>
-#include <geogram/basic/memory.h>
+#include <geobasic_memory.h>
 #include <stack>
 #include <vector>
 

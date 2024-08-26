@@ -40,16 +40,16 @@
 #ifndef GEOGRAM_VORONOI_GENERIC_RVD
 #define GEOGRAM_VORONOI_GENERIC_RVD
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
 #include <geogram/voronoi/generic_RVD_utils.h>
 #include <geogram/voronoi/RVD_callback.h>
 #include <geogram/numerics/predicates.h>
 #include <geogram/mesh/index.h>
-#include <geogram/basic/geometry_nd.h>
-#include <geogram/basic/process.h>
-#include <geogram/basic/attributes.h>
-#include <geogram/basic/argused.h>
+#include <geobasic_geometry_nd.h>
+#include <geobasic_process.h>
+#include <geobasic_attributes.h>
+#include <geobasic_argused.h>
 
 #include <deque>
 #include <algorithm>

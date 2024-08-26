@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_BASIC_GEOMETRY
 #define GEOGRAM_BASIC_GEOMETRY
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/matrix.h>
+#include <geobasic_common.h>
+#include <geobasic_matrix.h>
 
 /**
  * \file geogram/basic/geometry.h

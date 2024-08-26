@@ -49,7 +49,7 @@
 #include <geogram/mesh/mesh_topology.h>
 
 #include <geogram/points/principal_axes.h>
-#include <geogram/basic/progress.h>
+#include <geobasic_progress.h>
 #include <deque>
 #include <stack>
 

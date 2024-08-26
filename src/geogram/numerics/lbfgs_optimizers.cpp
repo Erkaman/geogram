@@ -40,8 +40,8 @@
 #ifdef GEOGRAM_WITH_HLBFGS
 
 #include <geogram/numerics/lbfgs_optimizers.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/argused.h>
+#include <geobasic_command_line.h>
+#include <geobasic_argused.h>
 #include <geogram/third_party/HLBFGS/HLBFGS.h>
 #include <geogram/bibliography/bibliography.h>
 

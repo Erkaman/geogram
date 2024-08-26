@@ -40,7 +40,7 @@
 #ifndef GEOGRAM_BASIC_DETERMINANT
 #define GEOGRAM_BASIC_DETERMINANT
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 
 /**
  * \file geogram/basic/determinant.h

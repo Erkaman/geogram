@@ -66,8 +66,8 @@
 
 #include <geogram/delaunay/CDT_2d.h>
 #include <geogram/mesh/mesh_reorder.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/boolean_expression.h>
+#include <geobasic_numeric.h>
+#include <geobasic_boolean_expression.h>
 
 #ifndef GEOGRAM_PSM
 #include <geogram/mesh/mesh.h>
@@ -76,7 +76,7 @@
 
 // Used by debugging functions and statistics
 #include <geogram/mesh/index.h>
-#include <geogram/basic/debug_stream.h>
+#include <geobasic_debug_stream.h>
 #include <set>
 #include <deque>
 

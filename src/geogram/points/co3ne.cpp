@@ -46,13 +46,13 @@
 #include <geogram/mesh/mesh_repair.h>
 #include <geogram/mesh/mesh_topology.h>
 #include <geogram/mesh/mesh_reorder.h>
-#include <geogram/basic/geometry.h>
-#include <geogram/basic/process.h>
-#include <geogram/basic/assert.h>
-#include <geogram/basic/progress.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/algorithm.h>
-#include <geogram/basic/stopwatch.h>
+#include <geobasic_geometry.h>
+#include <geobasic_process.h>
+#include <geobasic_assert.h>
+#include <geobasic_progress.h>
+#include <geobasic_command_line.h>
+#include <geobasic_algorithm.h>
+#include <geobasic_stopwatch.h>
 #include <stack>
 #include <queue>
 

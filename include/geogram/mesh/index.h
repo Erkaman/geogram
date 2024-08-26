@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_MESH_INDEX
 #define GEOGRAM_MESH_INDEX
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/argused.h>
-#include <geogram/basic/algorithm.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_argused.h>
+#include <geobasic_algorithm.h>
 #include <iostream>
 
 /**

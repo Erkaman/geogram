@@ -39,7 +39,7 @@
 
 #include <geogram/numerics/optimizer.h>
 #include <geogram/numerics/lbfgs_optimizers.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_logger.h>
 
 namespace GEO {
 

@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_VORONOI_GENERIC_RVD_CELL
 #define GEOGRAM_VORONOI_GENERIC_RVD_CELL
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/voronoi/generic_RVD_vertex.h>
-#include <geogram/basic/argused.h>
-#include <geogram/basic/attributes.h>
+#include <geobasic_argused.h>
+#include <geobasic_attributes.h>
 #include <iosfwd>
 #include <stack>
 

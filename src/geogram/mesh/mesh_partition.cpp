@@ -40,7 +40,7 @@
 #include <geogram/mesh/mesh_partition.h>
 #include <geogram/mesh/mesh.h>
 #include <geogram/mesh/mesh_reorder.h>
-#include <geogram/basic/permutation.h>
+#include <geobasic_permutation.h>
 #include <stack>
 
 namespace {

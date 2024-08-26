@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Define include directories
 
 # src/lib/ -DNL_WITH_AMGCL -I src/lib/geogram/third_party/amgcl/  
-include_directories(include/  include/geogram/third_party/amgcl/  )
+include_directories(include/ include/new/  include/geogram/third_party/amgcl/  )
 
 # Define source files
 

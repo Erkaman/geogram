@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_MESH_MESH_REORDER
 #define GEOGRAM_MESH_MESH_REORDER
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/memory.h>
-#include <geogram/basic/geometry.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_memory.h>
+#include <geobasic_geometry.h>
 
 /**
  * \file geogram/mesh/mesh_reorder.h

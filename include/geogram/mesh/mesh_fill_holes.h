@@ -40,8 +40,8 @@
 #ifndef GEOGRAM_MESH_MESH_FILL_HOLES
 #define GEOGRAM_MESH_MESH_FILL_HOLES
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
 
 /**
  * \file geogram/mesh/mesh_fill_holes.h

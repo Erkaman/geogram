@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/basic/geometry.h>
+#include <geobasic_geometry.h>
 
 namespace {
 

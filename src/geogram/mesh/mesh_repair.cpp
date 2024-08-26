@@ -44,11 +44,11 @@
 
 #include <geogram/mesh/mesh_preprocessing.h>
 #include <geogram/points/colocate.h>
-#include <geogram/basic/geometry_nd.h>
-#include <geogram/basic/stopwatch.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/argused.h>
-#include <geogram/basic/algorithm.h>
+#include <geobasic_geometry_nd.h>
+#include <geobasic_stopwatch.h>
+#include <geobasic_command_line.h>
+#include <geobasic_argused.h>
+#include <geobasic_algorithm.h>
 #include <stack>
 #include <queue>
 

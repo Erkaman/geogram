@@ -38,10 +38,10 @@
  */
 
 #include <geogram/mesh/mesh.h>
-#include <geogram/basic/permutation.h>
-#include <geogram/basic/logger.h>
-#include <geogram/basic/algorithm.h>
-#include <geogram/basic/string.h>
+#include <geobasic_permutation.h>
+#include <geobasic_logger.h>
+#include <geobasic_algorithm.h>
+#include <geobasic_string.h>
 
 namespace GEO {
 

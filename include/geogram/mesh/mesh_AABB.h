@@ -46,9 +46,9 @@
  *  geometric queries that operate on a Mesh.
  */
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/mesh/mesh.h>
-#include <geogram/basic/geometry.h>
+#include <geobasic_geometry.h>
 
 namespace GEO {
 

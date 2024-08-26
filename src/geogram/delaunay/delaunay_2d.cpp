@@ -38,13 +38,13 @@
  */
 
 #include <geogram/delaunay/delaunay_2d.h>
-#include <geogram/basic/logger.h>
-#include <geogram/basic/geometry_nd.h>
-#include <geogram/basic/process.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/stopwatch.h>
-#include <geogram/basic/matrix.h>
-#include <geogram/basic/permutation.h>
+#include <geobasic_logger.h>
+#include <geobasic_geometry_nd.h>
+#include <geobasic_process.h>
+#include <geobasic_command_line.h>
+#include <geobasic_stopwatch.h>
+#include <geobasic_matrix.h>
+#include <geobasic_permutation.h>
 #include <geogram/mesh/mesh_reorder.h>
 #include <geogram/bibliography/bibliography.h>
 

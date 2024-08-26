@@ -40,7 +40,7 @@
 #ifndef GEOGRAM_BASIC_ASSERT
 #define GEOGRAM_BASIC_ASSERT
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <string>
 
 /**

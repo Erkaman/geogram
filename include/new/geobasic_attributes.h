@@ -42,11 +42,11 @@
 #define GEOGRAM_BASIC_ATTRIBUTES
 
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/memory.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/process.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_common.h>
+#include <geobasic_memory.h>
+#include <geobasic_numeric.h>
+#include <geobasic_process.h>
+#include <geobasic_logger.h>
 
 #include <map>
 #include <typeinfo>

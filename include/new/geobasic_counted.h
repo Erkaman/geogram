@@ -40,9 +40,9 @@
 #ifndef GEOGRAM_BASIC_COUNTED
 #define GEOGRAM_BASIC_COUNTED
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/smart_pointer.h>
-#include <geogram/basic/assert.h>
+#include <geobasic_common.h>
+#include <geobasic_smart_pointer.h>
+#include <geobasic_assert.h>
 
 /**
  * \file geogram/basic/counted.h

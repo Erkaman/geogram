@@ -40,9 +40,9 @@
 #ifndef GEOGRAM_BASIC_STOPWATCH
 #define GEOGRAM_BASIC_STOPWATCH
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_logger.h>
 
 #include <chrono>
 

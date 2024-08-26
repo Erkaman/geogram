@@ -40,11 +40,11 @@
 #ifndef GEOGRAM_MESH_MESH_SAMPLING
 #define GEOGRAM_MESH_MESH_SAMPLING
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/mesh/mesh.h>
 #include <geogram/mesh/mesh_geometry.h>
-#include <geogram/basic/geometry_nd.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_geometry_nd.h>
+#include <geobasic_logger.h>
 #include <algorithm>
 
 /**

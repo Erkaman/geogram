@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_MESH_MESH_PARAM_VALIDATOR
 #define GEOGRAM_MESH_MESH_PARAM_VALIDATOR
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/parameterization/mesh_segmentation.h>
-#include <geogram/basic/geometry.h>
-#include <geogram/basic/attributes.h>
+#include <geobasic_geometry.h>
+#include <geobasic_attributes.h>
 
 /**
  * \file geogram/mesh/mesh_param_validator.h

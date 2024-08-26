@@ -43,10 +43,10 @@
 #include <geogram/mesh/mesh_repair.h>
 #include <geogram/mesh/index.h>
 #include <geogram/delaunay/periodic.h>
-#include <geogram/basic/permutation.h>
-#include <geogram/basic/process.h>
-#include <geogram/basic/logger.h>
-#include <geogram/basic/algorithm.h>
+#include <geobasic_permutation.h>
+#include <geobasic_process.h>
+#include <geobasic_logger.h>
+#include <geobasic_algorithm.h>
 #include <geogram/bibliography/bibliography.h>
 
 #include <random>

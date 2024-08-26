@@ -37,10 +37,10 @@
  *
  */
 
-#include <geogram/basic/progress.h>
-#include <geogram/basic/command_line.h>
-#include <geogram/basic/assert.h>
-#include <geogram/basic/stopwatch.h>
+#include <geobasic_progress.h>
+#include <geobasic_command_line.h>
+#include <geobasic_assert.h>
+#include <geobasic_stopwatch.h>
 #include <stack>
 
 namespace {

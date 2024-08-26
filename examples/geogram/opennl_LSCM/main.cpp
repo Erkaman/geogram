@@ -39,7 +39,7 @@
 
 #include <geogram/NL/nl.h>
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 
 #include <geogram/mesh/mesh.h>
 

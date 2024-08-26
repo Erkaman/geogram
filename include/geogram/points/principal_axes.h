@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_POINTS_PRINCIPAL_AXES
 #define GEOGRAM_POINTS_PRINCIPAL_AXES
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/geometry.h>
-#include <geogram/basic/logger.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_geometry.h>
+#include <geobasic_logger.h>
 #include <geogram/numerics/matrix_util.h>
 
 /**

@@ -40,13 +40,13 @@
 #ifndef GEOGRAM_VORONOI_RVD
 #define GEOGRAM_VORONOI_RVD
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/mesh/index.h>
 #include <geogram/mesh/mesh.h>
-#include <geogram/basic/geometry.h>
-#include <geogram/basic/smart_pointer.h>
-#include <geogram/basic/counted.h>
-#include <geogram/basic/attributes.h>
+#include <geobasic_geometry.h>
+#include <geobasic_smart_pointer.h>
+#include <geobasic_counted.h>
+#include <geobasic_attributes.h>
 
 #include <vector>
 

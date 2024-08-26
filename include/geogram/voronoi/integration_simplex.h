@@ -40,12 +40,12 @@
 #ifndef GEOGRAM_VORONOI_INTEGRATION_SIMPLEX
 #define GEOGRAM_VORONOI_INTEGRATION_SIMPLEX
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/counted.h>
-#include <geogram/basic/smart_pointer.h>
-#include <geogram/basic/geometry.h>
-#include <geogram/basic/thread_sync.h>
+#include <geobasic_common.h>
+#include <geobasic_numeric.h>
+#include <geobasic_counted.h>
+#include <geobasic_smart_pointer.h>
+#include <geobasic_geometry.h>
+#include <geobasic_thread_sync.h>
 
 /**
  * \file geogram/voronoi/integration_simplex.h

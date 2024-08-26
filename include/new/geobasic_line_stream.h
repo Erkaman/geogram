@@ -40,10 +40,10 @@
 #ifndef GEOGRAM_BASIC_LINE_STREAM
 #define GEOGRAM_BASIC_LINE_STREAM
 
-#include <geogram/basic/common.h>
-#include <geogram/basic/assert.h>
-#include <geogram/basic/numeric.h>
-#include <geogram/basic/string.h>
+#include <geobasic_common.h>
+#include <geobasic_assert.h>
+#include <geobasic_numeric.h>
+#include <geobasic_string.h>
 #include <cstring>
 #include <stdio.h>
 

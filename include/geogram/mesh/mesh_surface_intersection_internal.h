@@ -45,7 +45,7 @@
  * \brief Classes used by MeshSurfaceIntersection
  */
 
-#include <geogram/basic/common.h>
+#include <geobasic_common.h>
 #include <geogram/mesh/mesh_surface_intersection.h>
 #include <geogram/mesh/mesh.h>
 

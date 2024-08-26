@@ -52,7 +52,7 @@
 #include <geobasic_command_line.h>
 #include <geobasic_argused.h>
 #include <geobasic_algorithm.h>
-#include <geogram/bibliography/bibliography.h>
+#include <bib_bibliography.h>
 
 /*
  * There are three levels of implementation:

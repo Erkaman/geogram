@@ -47,7 +47,7 @@
 #include <geobasic_process.h>
 #include <geobasic_logger.h>
 #include <geobasic_algorithm.h>
-#include <geogram/bibliography/bibliography.h>
+#include <bib_bibliography.h>
 
 #include <random>
 

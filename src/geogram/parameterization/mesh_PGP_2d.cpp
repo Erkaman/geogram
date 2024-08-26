@@ -41,7 +41,7 @@
 #include <mesh_mesh.h>
 #include <mesh_geometry.h>
 #include <nl.h>
-#include <geogram/bibliography/bibliography.h>
+#include <bib_bibliography.h>
 
 #include <stack>
 

@@ -43,7 +43,7 @@
 #include <geobasic_command_line.h>
 #include <geobasic_argused.h>
 #include <geogram/third_party/HLBFGS/HLBFGS.h>
-#include <geogram/bibliography/bibliography.h>
+#include <bib_bibliography.h>
 
 #include <setjmp.h>
 #include <iostream>

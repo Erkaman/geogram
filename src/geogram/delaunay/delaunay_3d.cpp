@@ -47,7 +47,7 @@
 #include <geobasic_permutation.h>
 #include <geobasic_algorithm.h>
 #include <mesh_reorder.h>
-#include <geogram/bibliography/bibliography.h>
+#include <bib_bibliography.h>
 #include <stack>
 
 // TODO: optimizations:

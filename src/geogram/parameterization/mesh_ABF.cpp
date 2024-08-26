@@ -41,7 +41,7 @@
 #include <param_mesh_LSCM.h>
 #include <mesh_mesh.h>
 #include <mesh_geometry.h>
-#include <geogram/bibliography/bibliography.h>
+#include <bib_bibliography.h>
 #include <geobasic_memory.h>
 
 #include <nl.h>

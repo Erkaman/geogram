@@ -45,7 +45,7 @@
 #include <geobasic_logger.h>
 #include <geobasic_line_stream.h>
 #include <geobasic_progress.h>
-#include <geogram/bibliography/bibliography.h>
+#include <bib_bibliography.h>
 
 // Some member functions of NormalCycle are not used here.
 // note: NormalCycle will be exported sometime, so for now

@@ -46,7 +46,7 @@
 #include <geobasic_matrix.h>
 #include <geobasic_permutation.h>
 #include <mesh_reorder.h>
-#include <geogram/bibliography/bibliography.h>
+#include <bib_bibliography.h>
 
 #include <stack>
 #include <algorithm>

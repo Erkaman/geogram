@@ -42,7 +42,7 @@
 
 #include <geogram/delaunay/delaunay_triangle.h>
 #include <mesh_mesh.h>
-#include <geogram/bibliography/bibliography.h>
+#include <bib_bibliography.h>
 
 namespace {
 

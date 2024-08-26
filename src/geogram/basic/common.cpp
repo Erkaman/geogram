@@ -49,7 +49,7 @@
 #include <delaunay_delaunay.h>
 
 #include <geogram/version.h>
-#include <geogram/bibliography/bibliography.h>
+#include <bib_bibliography.h>
 
 
 #include <sstream>

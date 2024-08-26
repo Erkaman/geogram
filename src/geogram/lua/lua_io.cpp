@@ -41,7 +41,7 @@
 #include <geogram/lua/lua_wrap.h>
 #include <geobasic_file_system.h>
 #include <geobasic_logger.h>
-#include <geogram/bibliography/bibliography.h>
+#include <bib_bibliography.h>
 #include <map>
 #include <sstream>
 

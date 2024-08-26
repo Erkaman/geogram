@@ -44,7 +44,7 @@
 #include <geogram/numerics/optimizer.h>
 #include <geobasic_progress.h>
 #include <geobasic_argused.h>
-#include <geogram/bibliography/bibliography.h>
+#include <bib_bibliography.h>
 
 /****************************************************************************/
 

@@ -47,7 +47,7 @@
 #include <geobasic_stopwatch.h>
 #include <geobasic_command_line.h>
 #include <geobasic_permutation.h>
-#include <geogram/bibliography/bibliography.h>
+#include <bib_bibliography.h>
 
 #include <mutex>
 #include <condition_variable>

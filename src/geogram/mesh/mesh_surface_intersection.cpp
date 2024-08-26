@@ -38,7 +38,7 @@
  */
 
 #include <mesh_surface_intersection.h>
-#include <geogram/mesh/mesh_surface_intersection_internal.h>
+#include <mesh_surface_intersection_internal.h>
 #include <mesh_AABB.h>
 #include <mesh_repair.h>
 #include <mesh_fill_holes.h>

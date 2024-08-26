@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/bibliography/bibliography.h>
+#include <bib_bibliography.h>
 #include <geobasic_memory.h>
 #include <geobasic_command_line.h>
 #include <geobasic_logger.h>

@@ -9,7 +9,7 @@ cat <<EOF
  * This file was automatically generated, do not edit.
  */
 
-#include <geogram/bibliography/bibliography.h>
+#include <bib_bibliography.h>
 
 void register_embedded_bib_file(void);
    

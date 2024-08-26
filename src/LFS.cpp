@@ -37,10 +37,10 @@
  *
  */
 
-#include <delaunay_LFS.h>
-#include <geobasic_geometry.h>
-#include <geobasic_logger.h>
-#include <geobasic_command_line.h>
+#include "delaunay_LFS.h"
+#include "geobasic_geometry.h"
+#include "geobasic_logger.h"
+#include "geobasic_command_line.h"
 
 namespace {
 

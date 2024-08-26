@@ -40,8 +40,8 @@
 #ifdef __ANDROID__
 
 #include <geogram/basic/android_utils.h>
-#include <geobasic_argused.h>
-#include <geobasic_string.h>
+#include "geobasic_argused.h"
+#include "geobasic_string.h"
 #include <android_native_app_glue.h>
 
 namespace {

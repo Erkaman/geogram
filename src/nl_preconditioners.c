@@ -37,10 +37,10 @@
  *
  */
 
-#include <nl_preconditioners.h>
-#include <nl_blas.h>
-#include <nl_matrix.h>
-#include <nl_context.h>
+#include "nl_preconditioners.h"
+#include "nl_blas.h"
+#include "nl_matrix.h"
+#include "nl_context.h"
 
 /******************************************************************************/
 

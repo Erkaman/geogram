@@ -37,9 +37,9 @@
  *
  */
 
-#include <geobasic_assert.h>
-#include <geobasic_logger.h>
-#include <geobasic_process.h>
+#include "geobasic_assert.h"
+#include "geobasic_logger.h"
+#include "geobasic_process.h"
 #include <stdlib.h>
 #include <sstream>
 #include <stdexcept>

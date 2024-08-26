@@ -37,15 +37,15 @@
  *
  */
 
-#include <param_mesh_param_packer.h>
-#include <param_mesh_atlas_maker.h>
-#include <param_mesh_segmentation.h>
-#include <mesh_mesh.h>
-#include <mesh_geometry.h>
-#include <points_principal_axes.h>
-#include <geobasic_logger.h>
-#include <numerics_matrix_util.h>
-#include <geo_xatlas.h>
+#include "param_mesh_param_packer.h"
+#include "param_mesh_atlas_maker.h"
+#include "param_mesh_segmentation.h"
+#include "mesh_mesh.h"
+#include "mesh_geometry.h"
+#include "points_principal_axes.h"
+#include "geobasic_logger.h"
+#include "numerics_matrix_util.h"
+#include "geo_xatlas.h"
 #include <algorithm>
 #include <stack>
 #include <math.h>

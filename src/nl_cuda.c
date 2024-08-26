@@ -37,8 +37,8 @@
  *
  */
 
-#include <nl_cuda.h>
-#include <nl_context.h>
+#include "nl_cuda.h"
+#include "nl_context.h"
 #include <stdint.h>
 
 /**

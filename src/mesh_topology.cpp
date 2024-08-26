@@ -37,10 +37,10 @@
  *
  */
 
-#include <mesh_topology.h>
-#include <mesh_mesh.h>
-#include <geobasic_memory.h>
-#include <geobasic_logger.h>
+#include "mesh_topology.h"
+#include "mesh_mesh.h"
+#include "geobasic_memory.h"
+#include "geobasic_logger.h"
 #include <stack>
 
 namespace {

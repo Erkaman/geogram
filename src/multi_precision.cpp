@@ -37,7 +37,7 @@
  *
  */
 
-#include <geobasic_common.h>
+#include "geobasic_common.h"
 
 // This makes sure the compiler will not optimize y = a*x+b
 // with fused multiply-add, this would break the exact
@@ -46,10 +46,10 @@
 #pragma fp_contract(off)
 #endif
 
-#include <numerics_multi_precision.h>
-#include <numerics_PCK.h>
-#include <geobasic_process.h>
-#include <geobasic_logger.h>
+#include "numerics_multi_precision.h"
+#include "numerics_PCK.h"
+#include "geobasic_process.h"
+#include "geobasic_logger.h"
 
 namespace {
 

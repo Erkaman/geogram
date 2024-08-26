@@ -37,7 +37,7 @@
  *
  */
 
-#include <geobasic_common.h>
+#include "geobasic_common.h"
 
 // This makes sure the compiler will not optimize y = a*x+b
 // with fused multiply-add, this would break the exact
@@ -46,31 +46,31 @@
 #pragma fp_contract(off)
 #endif
 
-#include <numerics_predicates.h>
-#include <numerics_multi_precision.h>
-#include <geobasic_assert.h>
-#include <geobasic_logger.h>
-#include <geobasic_command_line.h>
-#include <geobasic_matrix.h>
+#include "numerics_predicates.h"
+#include "numerics_multi_precision.h"
+#include "geobasic_assert.h"
+#include "geobasic_logger.h"
+#include "geobasic_command_line.h"
+#include "geobasic_matrix.h"
 #include <algorithm>
 
 #define FPG_UNCERTAIN_VALUE 0
 
-#include <numpred_side1.h>
-#include <numpred_side2.h>
-#include <numpred_side3.h>
-#include <numpred_side3h.h>
-#include <numpred_side3_2dlifted.h>
-#include <numpred_side4.h>
-#include <numpred_side4h.h>
-#include <numpred_orient2d.h>
-#include <numpred_orient3d.h>
-#include <numpred_det3d.h>
-#include <numpred_det4d.h>
-#include <numpred_dot3d.h>
-#include <numpred_dot_compare_3d.h>
-#include <numpred_det_compare_4d.h>
-#include <numpred_aligned3d.h>
+#include "numpred_side1.h"
+#include "numpred_side2.h"
+#include "numpred_side3.h"
+#include "numpred_side3h.h"
+#include "numpred_side3_2dlifted.h"
+#include "numpred_side4.h"
+#include "numpred_side4h.h"
+#include "numpred_orient2d.h"
+#include "numpred_orient3d.h"
+#include "numpred_det3d.h"
+#include "numpred_det4d.h"
+#include "numpred_dot3d.h"
+#include "numpred_dot_compare_3d.h"
+#include "numpred_det_compare_4d.h"
+#include "numpred_aligned3d.h"
 
 #ifdef __SSE2__
 #include <emmintrin.h>

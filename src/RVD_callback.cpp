@@ -37,12 +37,12 @@
  *
  */
 
-#include <vor_RVD_callback.h>
-#include <vor_RVD_mesh_builder.h>
-#include <vor_generic_RVD_cell.h>
-#include <mesh_geometry.h>
+#include "vor_RVD_callback.h"
+#include "vor_RVD_mesh_builder.h"
+#include "vor_generic_RVD_cell.h"
+#include "mesh_geometry.h"
 
-#include <geobasic_argused.h>
+#include "geobasic_argused.h"
 
 namespace {
     using namespace GEO;

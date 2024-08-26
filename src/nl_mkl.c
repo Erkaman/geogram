@@ -37,8 +37,8 @@
  *
  */
 
-#include <nl_mkl.h>
-#include <nl_context.h>
+#include "nl_mkl.h"
+#include "nl_context.h"
 
 /**
  * \file nl_mkl.c

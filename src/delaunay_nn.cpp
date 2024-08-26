@@ -37,7 +37,7 @@
  *
  */
 
-#include <delaunay_nn.h>
+#include "delaunay_nn.h"
 
 namespace GEO {
 

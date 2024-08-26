@@ -38,24 +38,24 @@
  */
 
 /*
- #include <nl_iterative_solvers.h>
+ #include "nl_iterative_solvers.h"
  */
 
-#include <nl_context.h>
-#include <nl_iterative_solvers.h>
-#include <nl_preconditioners.h>
-#include <nl_superlu.h>
-#include <nl_cholmod.h>
-#include <nl_matrix.h>
-#include <nl_mkl.h>
-#include <nl_cuda.h>
+#include "nl_context.h"
+#include "nl_iterative_solvers.h"
+#include "nl_preconditioners.h"
+#include "nl_superlu.h"
+#include "nl_cholmod.h"
+#include "nl_matrix.h"
+#include "nl_mkl.h"
+#include "nl_cuda.h"
 
 #ifdef NL_WITH_AMGCL
 // <geogram/NL/
 
 //# include <geogram/third_party/ amgcl/ nl_amgcl.h"
 
-#include <nl_amgcl.h>
+#include "nl_amgcl.h"
 #endif
 
 NLContextStruct* nlCurrentContext = NULL;

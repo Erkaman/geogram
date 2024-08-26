@@ -37,10 +37,10 @@
  *
  */
 
-#include <geobasic_command_line_args.h>
-#include <geobasic_command_line.h>
-#include <geobasic_process.h>
-#include <geobasic_logger.h>
+#include "geobasic_command_line_args.h"
+#include "geobasic_command_line.h"
+#include "geobasic_process.h"
+#include "geobasic_logger.h"
 
 #include <set>
 

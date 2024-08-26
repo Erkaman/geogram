@@ -37,14 +37,14 @@
  *
  */
 
-#include <vor_CVT.h>
-#include <vor_RVD.h>
-#include <mesh_repair.h>
-#include <mesh_geometry.h>
-#include <numerics_optimizer.h>
-#include <geobasic_progress.h>
-#include <geobasic_argused.h>
-#include <bib_bibliography.h>
+#include "vor_CVT.h"
+#include "vor_RVD.h"
+#include "mesh_repair.h"
+#include "mesh_geometry.h"
+#include "numerics_optimizer.h"
+#include "geobasic_progress.h"
+#include "geobasic_argused.h"
+#include "bib_bibliography.h"
 
 /****************************************************************************/
 

@@ -37,11 +37,11 @@
  *
  */
 
-#include <mesh_mesh.h>
-#include <geobasic_permutation.h>
-#include <geobasic_logger.h>
-#include <geobasic_algorithm.h>
-#include <geobasic_string.h>
+#include "mesh_mesh.h"
+#include "geobasic_permutation.h"
+#include "geobasic_logger.h"
+#include "geobasic_algorithm.h"
+#include "geobasic_string.h"
 
 namespace GEO {
 

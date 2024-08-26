@@ -37,12 +37,12 @@
  *
  */
 
-#include <nl_matrix.h>
-#include <nl_superlu.h>
-#include <nl_cholmod.h>
-#include <nl_mkl.h>
-#include <nl_context.h>
-#include <nl_blas.h>
+#include "nl_matrix.h"
+#include "nl_superlu.h"
+#include "nl_cholmod.h"
+#include "nl_mkl.h"
+#include "nl_context.h"
+#include "nl_blas.h"
 
 
 

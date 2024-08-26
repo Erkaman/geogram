@@ -37,9 +37,9 @@
  *
  */
 
-#include <vor_generic_RVD_cell.h>
-#include <mesh_halfedges.h>
-#include <numerics_predicates.h>
+#include "vor_generic_RVD_cell.h"
+#include "mesh_halfedges.h"
+#include "numerics_predicates.h"
 
 namespace GEOGen {
 

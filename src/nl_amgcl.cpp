@@ -2,11 +2,11 @@
  * Interface between Warpdrive and the AMGCL solver.
  */
 
-#include <nl.h>
+#include "nl.h"
 
 extern "C" {
-#include <nl_amgcl.h>
-#include <nl_context.h>
+#include "nl_amgcl.h"
+#include "nl_context.h"
 }
 
 extern "C" {
@@ -14,9 +14,9 @@ extern "C" {
 }
 
 
-#include <geobasic_logger.h>
-#include <geobasic_command_line.h>
-#include <nl.h>
+#include "geobasic_logger.h"
+#include "geobasic_command_line.h"
+#include "nl.h"
 
 #ifdef NL_WITH_AMGCL
 
@@ -62,15 +62,15 @@ extern "C" {
 # include <amgcl/solver/runtime.hpp>
 #else
 # define AMGCL_NO_BOOST
-# include <amgcl_amg.hpp>
-# include <amgcl_coarsening_smoothed_aggregation.hpp>
-# include <amgcl_relaxation_spai0.hpp>
-# include <amgcl_solver_cg.hpp>
+# include "amgcl_amg.hpp"
+# include "amgcl_coarsening_smoothed_aggregation.hpp"
+# include "amgcl_relaxation_spai0.hpp"
+# include "amgcl_solver_cg.hpp"
 #endif
 
 #include <type_traits>
-#include <amgcl_make_solver.hpp>
-#include <amgcl_adapter_zero_copy.hpp>
+#include "amgcl_make_solver.hpp"
+#include "amgcl_adapter_zero_copy.hpp"
 
 #ifdef AMGCL_PROFILING
 #include <amgcl_profiler.hpp>

@@ -37,13 +37,13 @@
  *
  */
 
-#include <geobasic_process.h>
-#include <geobasic_process_private.h>
-#include <geobasic_logger.h>
-#include <geobasic_environment.h>
-#include <geobasic_string.h>
-#include <geobasic_command_line.h>
-#include <geobasic_stopwatch.h>
+#include "geobasic_process.h"
+#include "geobasic_process_private.h"
+#include "geobasic_logger.h"
+#include "geobasic_environment.h"
+#include "geobasic_string.h"
+#include "geobasic_command_line.h"
+#include "geobasic_stopwatch.h"
 #include <thread>
 #include <chrono>
 

@@ -37,7 +37,7 @@
  *
  */
 
-#include <vor_integration_simplex.h>
+#include "vor_integration_simplex.h"
 
 namespace GEO {
 

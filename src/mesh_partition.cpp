@@ -37,10 +37,10 @@
  *
  */
 
-#include <mesh_partition.h>
-#include <mesh_mesh.h>
-#include <mesh_reorder.h>
-#include <geobasic_permutation.h>
+#include "mesh_partition.h"
+#include "mesh_mesh.h"
+#include "mesh_reorder.h"
+#include "geobasic_permutation.h"
 #include <stack>
 
 namespace {

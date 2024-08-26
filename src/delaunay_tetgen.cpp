@@ -37,11 +37,11 @@
  *
  */
 
-#include <delaunay_tetgen.h>
-#include <mesh_mesh.h>
-#include <geobasic_logger.h>
-#include <geobasic_command_line.h>
-#include <bib_bibliography.h>
+#include "delaunay_tetgen.h"
+#include "mesh_mesh.h"
+#include "geobasic_logger.h"
+#include "geobasic_command_line.h"
+#include "bib_bibliography.h"
 
 
 #ifdef GEOGRAM_WITH_TETGEN

@@ -37,7 +37,7 @@
  *
  */
 
-#include <numerics_expansion_nt.h>
+#include "numerics_expansion_nt.h"
 
 namespace GEO {
 

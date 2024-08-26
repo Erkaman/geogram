@@ -64,19 +64,19 @@
 // flags associated with the elements). It is used in one case: when t2 is
 // is not in Q, it means there is no intersection.
 
-#include <delaunay_CDT_2d.h>
-#include <mesh_reorder.h>
-#include <geobasic_numeric.h>
-#include <geobasic_boolean_expression.h>
+#include "delaunay_CDT_2d.h"
+#include "mesh_reorder.h"
+#include "geobasic_numeric.h"
+#include "geobasic_boolean_expression.h"
 
 #ifndef GEOGRAM_PSM
-#include <mesh_mesh.h>
+#include "mesh_mesh.h"
 
 #endif
 
 // Used by debugging functions and statistics
-#include <mesh_index.h>
-#include <geobasic_debug_stream.h>
+#include "mesh_index.h"
+#include "geobasic_debug_stream.h"
 #include <set>
 #include <deque>
 

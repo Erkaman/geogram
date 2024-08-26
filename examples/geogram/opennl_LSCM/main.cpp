@@ -37,14 +37,14 @@
  *
  */
 
-#include <nl.h>
+#include "nl.h"
 
-#include <geobasic_common.h>
+#include "geobasic_common.h"
 
-#include <mesh_mesh.h>
+#include "mesh_mesh.h"
 
 
-#include <mesh_geometry.h>
+#include "mesh_geometry.h"
 
 #include <algorithm>
 #include <vector>
@@ -58,7 +58,7 @@
 #include <cmath>
 #include <cassert>
 
-#include <param_mesh_atlas_maker.h>
+#include "param_mesh_atlas_maker.h"
 
 
 

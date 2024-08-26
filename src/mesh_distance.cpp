@@ -37,12 +37,12 @@
  *
  */
 
-#include <mesh_distance.h>
-#include <mesh_AABB.h>
-#include <mesh_repair.h>
-#include <mesh_sampling.h>
-#include <geobasic_process.h>
-#include <geobasic_stopwatch.h>
+#include "mesh_distance.h"
+#include "mesh_AABB.h"
+#include "mesh_repair.h"
+#include "mesh_sampling.h"
+#include "geobasic_process.h"
+#include "geobasic_stopwatch.h"
 
 #include <algorithm>
 

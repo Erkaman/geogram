@@ -37,7 +37,7 @@
  *
  */
 
-#include <geobasic_quaternion.h>
+#include "geobasic_quaternion.h"
 
 namespace {
     using namespace GEO;

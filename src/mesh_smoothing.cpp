@@ -37,9 +37,9 @@
  *
  */
 
-#include <mesh_smoothing.h>
-#include <mesh_mesh.h>
-#include <nl.h>
+#include "mesh_smoothing.h"
+#include "mesh_mesh.h"
+#include "nl.h"
 
 namespace GEO {
 

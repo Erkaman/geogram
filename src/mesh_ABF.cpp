@@ -37,19 +37,19 @@
  *
  */
 
-#include <param_mesh_ABF.h>
-#include <param_mesh_LSCM.h>
-#include <mesh_mesh.h>
-#include <mesh_geometry.h>
-#include <bib_bibliography.h>
-#include <geobasic_memory.h>
+#include "param_mesh_ABF.h"
+#include "param_mesh_LSCM.h"
+#include "mesh_mesh.h"
+#include "mesh_geometry.h"
+#include "bib_bibliography.h"
+#include "geobasic_memory.h"
 
-#include <nl.h>
+#include "nl.h"
 
 // Uses OpenNL internal data structures and routines
 // (NLSparseMatrix and associated functions).
 extern "C" {
-#include <nl_matrix.h>
+#include "nl_matrix.h"
 }
 
 namespace {

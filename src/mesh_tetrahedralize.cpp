@@ -37,17 +37,17 @@
  *
  */
 
-#include <mesh_tetrahedralize.h>
-#include <mesh_surface_intersection.h>
-#include <mesh_repair.h>
-#include <mesh_geometry.h>
-#include <mesh_fill_holes.h>
+#include "mesh_tetrahedralize.h"
+#include "mesh_surface_intersection.h"
+#include "mesh_repair.h"
+#include "mesh_geometry.h"
+#include "mesh_fill_holes.h"
 
-#include <mesh_mesh.h>
-#include <delaunay_delaunay.h>
-#include <delaunay_tetgen.h>
-#include <geobasic_logger.h>
-#include <geobasic_command_line.h>
+#include "mesh_mesh.h"
+#include "delaunay_delaunay.h"
+#include "delaunay_tetgen.h"
+#include "geobasic_logger.h"
+#include "geobasic_command_line.h"
 
 namespace GEO {
 

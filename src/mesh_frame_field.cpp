@@ -37,15 +37,15 @@
  *
  */
 
-#include <mesh_frame_field.h>
-#include <mesh_mesh.h>
-#include <mesh_geometry.h>
-#include <nl.h>
-#include <numerics_matrix_util.h>
-#include <geobasic_logger.h>
-#include <geobasic_line_stream.h>
-#include <geobasic_progress.h>
-#include <bib_bibliography.h>
+#include "mesh_frame_field.h"
+#include "mesh_mesh.h"
+#include "mesh_geometry.h"
+#include "nl.h"
+#include "numerics_matrix_util.h"
+#include "geobasic_logger.h"
+#include "geobasic_line_stream.h"
+#include "geobasic_progress.h"
+#include "bib_bibliography.h"
 
 // Some member functions of NormalCycle are not used here.
 // note: NormalCycle will be exported sometime, so for now

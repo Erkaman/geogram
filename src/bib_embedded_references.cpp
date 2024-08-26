@@ -2,7 +2,7 @@
  * This file was automatically generated, do not edit.
  */
 
-#include <bib_bibliography.h>
+#include "bib_bibliography.h"
 
 void register_embedded_bib_file(void);
 

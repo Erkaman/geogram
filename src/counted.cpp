@@ -37,7 +37,7 @@
  *
  */
 
-#include <geobasic_counted.h>
+#include "geobasic_counted.h"
 
 namespace GEO {
 

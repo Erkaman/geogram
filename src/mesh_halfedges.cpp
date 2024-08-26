@@ -37,7 +37,7 @@
  *
  */
 
-#include <mesh_halfedges.h>
+#include "mesh_halfedges.h"
 
 namespace GEO {
 

@@ -43,9 +43,9 @@
  *
  */
 
-#include <geobasic_b_stream.h>
-#include <geobasic_assert.h>
-#include <geobasic_logger.h>
+#include "geobasic_b_stream.h"
+#include "geobasic_assert.h"
+#include "geobasic_logger.h"
 
 #include <iostream>
 #include <stdlib.h>

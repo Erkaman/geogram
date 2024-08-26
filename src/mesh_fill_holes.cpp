@@ -37,14 +37,14 @@
  *
  */
 
-#include <mesh_fill_holes.h>
-#include <mesh_mesh.h>
-#include <mesh_repair.h>
-#include <mesh_halfedges.h>
+#include "mesh_fill_holes.h"
+#include "mesh_mesh.h"
+#include "mesh_repair.h"
+#include "mesh_halfedges.h"
 
-#include <mesh_index.h>
-#include <geobasic_command_line.h>
-#include <geobasic_logger.h>
+#include "mesh_index.h"
+#include "geobasic_command_line.h"
+#include "geobasic_logger.h"
 
 #undef geo_debug_assert
 #define geo_debug_assert(x) geo_assert(x)

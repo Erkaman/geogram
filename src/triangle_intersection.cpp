@@ -37,14 +37,14 @@
  *
  */
 
-#include <mesh_triangle_intersection.h>
-#include <numerics_predicates.h>
-#include <numerics_exact_geometry.h>
-#include <geobasic_string.h>
-#include <geobasic_geometry.h>
-#include <geobasic_argused.h>
-#include <geobasic_logger.h>
-#include <geobasic_algorithm.h>
+#include "mesh_triangle_intersection.h"
+#include "numerics_predicates.h"
+#include "numerics_exact_geometry.h"
+#include "geobasic_string.h"
+#include "geobasic_geometry.h"
+#include "geobasic_argused.h"
+#include "geobasic_logger.h"
+#include "geobasic_algorithm.h"
 
 
 #ifdef GEO_COMPILER_CLANG

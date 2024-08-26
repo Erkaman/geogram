@@ -37,28 +37,28 @@
  *
  */
 
-#include <delaunay_delaunay.h>
-#include <delaunay_nn.h>
-#include <delaunay_3d.h>
-#include <delaunay_2d.h>
+#include "delaunay_delaunay.h"
+#include "delaunay_nn.h"
+#include "delaunay_3d.h"
+#include "delaunay_2d.h"
 
 #ifdef GEOGRAM_WITH_PDEL
 #include <geogram/delaunay/parallel_delaunay_3d.h>
 #endif
 
 #ifdef GEOGRAM_WITH_TETGEN
-#include <delaunay_tetgen.h>
+#include "delaunay_tetgen.h"
 #endif
 
 #ifdef GEOGRAM_WITH_TRIANGLE
 #include <geogram/delaunay/delaunay_triangle.h>
 #endif
 
-#include <geobasic_logger.h>
-#include <geobasic_command_line.h>
-#include <geobasic_process.h>
-#include <geobasic_geometry_nd.h>
-#include <geobasic_algorithm.h>
+#include "geobasic_logger.h"
+#include "geobasic_command_line.h"
+#include "geobasic_process.h"
+#include "geobasic_geometry_nd.h"
+#include "geobasic_algorithm.h"
 
 #include <fstream>
 #include <sstream>

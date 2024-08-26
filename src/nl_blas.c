@@ -37,8 +37,8 @@
  *
  */
 
-#include <nl_blas.h>
-#include <nl_context.h>
+#include "nl_blas.h"
+#include "nl_context.h"
 
 /*
  * FORTRAN local variables are static

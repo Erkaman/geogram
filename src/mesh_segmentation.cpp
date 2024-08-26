@@ -37,18 +37,18 @@
  *
  */
 
-#include <param_mesh_segmentation.h>
-#include <mesh_mesh.h>
-#include <mesh_geometry.h>
+#include "param_mesh_segmentation.h"
+#include "mesh_mesh.h"
+#include "mesh_geometry.h"
 
-#include <mesh_manifold_harmonics.h>
-#include <vor_CVT.h>
-#include <vor_RVD.h>
-#include <vor_RVD_callback.h>
-#include <vor_generic_RVD_polygon.h>
-#include <points_principal_axes.h>
-#include <numerics_matrix_util.h>
-#include <geobasic_numeric.h>
+#include "mesh_manifold_harmonics.h"
+#include "vor_CVT.h"
+#include "vor_RVD.h"
+#include "vor_RVD_callback.h"
+#include "vor_generic_RVD_polygon.h"
+#include "points_principal_axes.h"
+#include "numerics_matrix_util.h"
+#include "geobasic_numeric.h"
 
 #include <deque>
 #include <stack>

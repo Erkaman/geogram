@@ -37,12 +37,12 @@
  *
  */
 
-#include <geobasic_logger.h>
-#include <geobasic_assert.h>
-#include <geobasic_command_line.h>
-#include <geobasic_argused.h>
-#include <geobasic_file_system.h>
-#include <geobasic_process.h>
+#include "geobasic_logger.h"
+#include "geobasic_assert.h"
+#include "geobasic_command_line.h"
+#include "geobasic_argused.h"
+#include "geobasic_file_system.h"
+#include "geobasic_process.h"
 
 
 #include <stdlib.h>

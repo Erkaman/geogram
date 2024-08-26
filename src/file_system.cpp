@@ -37,10 +37,10 @@
  *
  */
 
-#include <geobasic_file_system.h>
-#include <geobasic_line_stream.h>
-#include <geobasic_logger.h>
-#include <geobasic_string.h>
+#include "geobasic_file_system.h"
+#include "geobasic_line_stream.h"
+#include "geobasic_logger.h"
+#include "geobasic_string.h"
 
 #include <iostream>
 #include <fstream>

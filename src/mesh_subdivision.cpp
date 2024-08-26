@@ -37,9 +37,9 @@
  *
  */
 
-#include <mesh_subdivision.h>
-#include <mesh_mesh.h>
-#include <bib_bibliography.h>
+#include "mesh_subdivision.h"
+#include "mesh_mesh.h"
+#include "bib_bibliography.h"
 
 namespace GEO {
 

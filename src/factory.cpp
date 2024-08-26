@@ -37,8 +37,8 @@
  *
  */
 
-#include <geobasic_factory.h>
-#include <geobasic_smart_pointer.h>
+#include "geobasic_factory.h"
+#include "geobasic_smart_pointer.h"
 
 namespace {
 

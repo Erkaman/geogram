@@ -37,9 +37,9 @@
  *
  */
 
-#include <numerics_optimizer.h>
-#include <numerics_lbfgs_optimizers.h>
-#include <geobasic_logger.h>
+#include "numerics_optimizer.h"
+#include "numerics_lbfgs_optimizers.h"
+#include "geobasic_logger.h"
 
 namespace GEO {
 

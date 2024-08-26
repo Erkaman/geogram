@@ -41,8 +41,8 @@
 
 
 #include <geogram/delaunay/delaunay_triangle.h>
-#include <mesh_mesh.h>
-#include <bib_bibliography.h>
+#include "mesh_mesh.h"
+#include "bib_bibliography.h"
 
 namespace {
 

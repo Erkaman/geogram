@@ -37,18 +37,18 @@
  *
  */
 
-#include <mesh_repair.h>
-#include <mesh_geometry.h>
-#include <mesh_index.h>
-#include <mesh_halfedges.h>
+#include "mesh_repair.h"
+#include "mesh_geometry.h"
+#include "mesh_index.h"
+#include "mesh_halfedges.h"
 
-#include <mesh_preprocessing.h>
-#include <points_colocate.h>
-#include <geobasic_geometry_nd.h>
-#include <geobasic_stopwatch.h>
-#include <geobasic_command_line.h>
-#include <geobasic_argused.h>
-#include <geobasic_algorithm.h>
+#include "mesh_preprocessing.h"
+#include "points_colocate.h"
+#include "geobasic_geometry_nd.h"
+#include "geobasic_stopwatch.h"
+#include "geobasic_command_line.h"
+#include "geobasic_argused.h"
+#include "geobasic_algorithm.h"
 #include <stack>
 #include <queue>
 

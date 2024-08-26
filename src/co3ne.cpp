@@ -37,22 +37,22 @@
  *
  */
 
-#include <points_co3ne.h>
-#include <points_nn_search.h>
-#include <points_principal_axes.h>
-#include <mesh_mesh.h>
+#include "points_co3ne.h"
+#include "points_nn_search.h"
+#include "points_principal_axes.h"
+#include "mesh_mesh.h"
 
-#include <mesh_index.h>
-#include <mesh_repair.h>
-#include <mesh_topology.h>
-#include <mesh_reorder.h>
-#include <geobasic_geometry.h>
-#include <geobasic_process.h>
-#include <geobasic_assert.h>
-#include <geobasic_progress.h>
-#include <geobasic_command_line.h>
-#include <geobasic_algorithm.h>
-#include <geobasic_stopwatch.h>
+#include "mesh_index.h"
+#include "mesh_repair.h"
+#include "mesh_topology.h"
+#include "mesh_reorder.h"
+#include "geobasic_geometry.h"
+#include "geobasic_process.h"
+#include "geobasic_assert.h"
+#include "geobasic_progress.h"
+#include "geobasic_command_line.h"
+#include "geobasic_algorithm.h"
+#include "geobasic_stopwatch.h"
 #include <stack>
 #include <queue>
 

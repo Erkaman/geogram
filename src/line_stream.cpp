@@ -37,8 +37,8 @@
  *
  */
 
-#include <geobasic_line_stream.h>
-#include <geobasic_logger.h>
+#include "geobasic_line_stream.h"
+#include "geobasic_logger.h"
 #include <ctype.h>
 
 namespace GEO {

@@ -37,12 +37,12 @@
  *
  */
 
-#include <mesh_manifold_harmonics.h>
-#include <geobasic_file_system.h>
-#include <mesh_mesh.h>
-#include <mesh_geometry.h>
-#include <nl.h>
-#include <bib_bibliography.h>
+#include "mesh_manifold_harmonics.h"
+#include "geobasic_file_system.h"
+#include "mesh_mesh.h"
+#include "mesh_geometry.h"
+#include "nl.h"
+#include "bib_bibliography.h"
 
 namespace {
     using namespace GEO;

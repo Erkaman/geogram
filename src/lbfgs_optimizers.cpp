@@ -39,11 +39,11 @@
 
 #ifdef GEOGRAM_WITH_HLBFGS
 
-#include <numerics_lbfgs_optimizers.h>
-#include <geobasic_command_line.h>
-#include <geobasic_argused.h>
+#include "numerics_lbfgs_optimizers.h"
+#include "geobasic_command_line.h"
+#include "geobasic_argused.h"
 #include <geogram/third_party/HLBFGS/HLBFGS.h>
-#include <bib_bibliography.h>
+#include "bib_bibliography.h"
 
 #include <setjmp.h>
 #include <iostream>

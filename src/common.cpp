@@ -37,19 +37,19 @@
  *
  */
 
-#include <geobasic_common.h>
-#include <geobasic_process.h>
-#include <geobasic_logger.h>
-#include <geobasic_progress.h>
-#include <geobasic_command_line.h>
-#include <geobasic_file_system.h>
-#include <geobasic_stopwatch.h>
-#include <numerics_multi_precision.h>
-#include <numerics_predicates.h>
-#include <delaunay_delaunay.h>
-
-#include <geogram/version.h>
-#include <bib_bibliography.h>
+#include "geobasic_common.h"
+#include "geobasic_process.h"
+#include "geobasic_logger.h"
+#include "geobasic_progress.h"
+#include "geobasic_command_line.h"
+#include "geobasic_file_system.h"
+#include "geobasic_stopwatch.h"
+#include "numerics_multi_precision.h"
+#include "numerics_predicates.h"
+#include "delaunay_delaunay.h"
+ 
+#include "geo_version.h"
+#include "bib_bibliography.h"
 
 
 #include <sstream>

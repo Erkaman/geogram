@@ -37,8 +37,8 @@
  *
  */
 
-#include <geobasic_stopwatch.h>
-#include <geobasic_command_line.h>
+#include "geobasic_stopwatch.h"
+#include "geobasic_command_line.h"
 #include <iostream>
 
 namespace GEO {

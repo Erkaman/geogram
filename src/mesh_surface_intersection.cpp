@@ -37,24 +37,24 @@
  *
  */
 
-#include <mesh_surface_intersection.h>
-#include <mesh_surface_intersection_internal.h>
-#include <mesh_AABB.h>
-#include <mesh_repair.h>
-#include <mesh_fill_holes.h>
-#include <mesh_geometry.h>
+#include "mesh_surface_intersection.h"
+#include "mesh_surface_intersection_internal.h"
+#include "mesh_AABB.h"
+#include "mesh_repair.h"
+#include "mesh_fill_holes.h"
+#include "mesh_geometry.h"
 
-#include <mesh_index.h>
-#include <delaunay_CDT_2d.h>
-#include <numerics_predicates.h>
-#include <numerics_expansion_nt.h>
-#include <geobasic_stopwatch.h>
-#include <geobasic_permutation.h>
-#include <geobasic_boolean_expression.h>
-#include <geobasic_debug_stream.h>
-#include <geobasic_algorithm.h>
+#include "mesh_index.h"
+#include "delaunay_CDT_2d.h"
+#include "numerics_predicates.h"
+#include "numerics_expansion_nt.h"
+#include "geobasic_stopwatch.h"
+#include "geobasic_permutation.h"
+#include "geobasic_boolean_expression.h"
+#include "geobasic_debug_stream.h"
+#include "geobasic_algorithm.h"
 
-#include <geobasic_string.h>
+#include "geobasic_string.h"
 
 
 #include <sstream>

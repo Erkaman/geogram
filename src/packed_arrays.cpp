@@ -37,9 +37,9 @@
  *
  */
 
-#include <geobasic_packed_arrays.h>
-#include <geobasic_logger.h>
-#include <geobasic_string.h>
+#include "geobasic_packed_arrays.h"
+#include "geobasic_logger.h"
+#include "geobasic_string.h"
 
 namespace {
 

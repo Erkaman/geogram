@@ -37,11 +37,11 @@
  *
  */
 
-#include <bib_bibliography.h>
-#include <geobasic_memory.h>
-#include <geobasic_command_line.h>
-#include <geobasic_logger.h>
-#include <geobasic_stopwatch.h>
+#include "bib_bibliography.h"
+#include "geobasic_memory.h"
+#include "geobasic_command_line.h"
+#include "geobasic_logger.h"
+#include "geobasic_stopwatch.h"
 #include <string>
 
 namespace {

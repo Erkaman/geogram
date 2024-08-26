@@ -37,7 +37,7 @@
  *
  */
 
-#include <geobasic_string.h>
+#include "geobasic_string.h"
 #include <ctype.h>
 #include <stdarg.h>
 

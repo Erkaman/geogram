@@ -37,10 +37,10 @@
  *
  */
 
-#include <geobasic_attributes.h>
-#include <geobasic_permutation.h>
-#include <geobasic_string.h>
-#include <geobasic_geometry.h>
+#include "geobasic_attributes.h"
+#include "geobasic_permutation.h"
+#include "geobasic_string.h"
+#include "geobasic_geometry.h"
 #include <algorithm>
 
 namespace GEO {

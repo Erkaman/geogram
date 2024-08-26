@@ -37,16 +37,16 @@
  *
  */
 
-#include <delaunay_2d.h>
-#include <geobasic_logger.h>
-#include <geobasic_geometry_nd.h>
-#include <geobasic_process.h>
-#include <geobasic_command_line.h>
-#include <geobasic_stopwatch.h>
-#include <geobasic_matrix.h>
-#include <geobasic_permutation.h>
-#include <mesh_reorder.h>
-#include <bib_bibliography.h>
+#include "delaunay_2d.h"
+#include "geobasic_logger.h"
+#include "geobasic_geometry_nd.h"
+#include "geobasic_process.h"
+#include "geobasic_command_line.h"
+#include "geobasic_stopwatch.h"
+#include "geobasic_matrix.h"
+#include "geobasic_permutation.h"
+#include "mesh_reorder.h"
+#include "bib_bibliography.h"
 
 #include <stack>
 #include <algorithm>

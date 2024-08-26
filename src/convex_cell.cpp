@@ -37,11 +37,11 @@
  *
  */
 
-#include <vor_convex_cell.h>
+#include "vor_convex_cell.h"
 
 #ifndef STANDALONE_CONVEX_CELL
-#include <numerics_predicates.h>
-#include <mesh_mesh.h>
+#include "numerics_predicates.h"
+#include "mesh_mesh.h"
 #endif
 
 #include <iostream>

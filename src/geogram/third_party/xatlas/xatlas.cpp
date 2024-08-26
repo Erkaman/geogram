@@ -46,7 +46,7 @@ Copyright (c) 2012 Brandon Pelfrey
 #include <stdio.h>
 #include <string.h>
 
-#include <geogram/third_party/xatlas/xatlas.h>
+#include <geo_xatlas.h>
 
 #ifndef XA_DEBUG
 #ifdef NDEBUG

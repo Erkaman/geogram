@@ -45,7 +45,7 @@
  * \brief LUA bindings for geogram IO and filesystem functions
  */
 
-#include <geogram/api/defs.h>
+#include <geo_defs.h>
 
 #ifdef __cplusplus
 #include <vector>

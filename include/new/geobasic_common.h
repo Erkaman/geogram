@@ -40,7 +40,7 @@
 #ifndef GEOGRAM_BASIC_COMMON
 #define GEOGRAM_BASIC_COMMON
 
-#include <geogram/api/defs.h>
+#include <geo_defs.h>
 
 // iostream should be included before anything else,
 // otherwise 'cin', 'cout' and 'cerr' will be uninitialized.

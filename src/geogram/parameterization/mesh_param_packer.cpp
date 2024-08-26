@@ -45,7 +45,7 @@
 #include <points_principal_axes.h>
 #include <geobasic_logger.h>
 #include <geogram/numerics/matrix_util.h>
-#include <geogram/third_party/xatlas/xatlas.h>
+#include <geo_xatlas.h>
 #include <algorithm>
 #include <stack>
 #include <math.h>

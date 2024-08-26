@@ -42,7 +42,7 @@
 
 #include <geobasic_common.h>
 #include <delaunay_delaunay.h>
-#include <geogram/numerics/predicates.h>
+#include <numerics_predicates.h>
 #include <geobasic_geometry.h>
 
 #include <stack>

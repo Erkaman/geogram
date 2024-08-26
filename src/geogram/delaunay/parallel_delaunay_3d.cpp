@@ -42,7 +42,7 @@
 #include <parallel_delaunay_3d.h>
 #include <delaunay_cavity.h>
 #include <mesh_reorder.h>
-#include <geogram/numerics/predicates.h>
+#include <numerics_predicates.h>
 #include <geobasic_geometry.h>
 #include <geobasic_stopwatch.h>
 #include <geobasic_command_line.h>

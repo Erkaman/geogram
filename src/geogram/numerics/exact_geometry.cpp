@@ -37,10 +37,10 @@
  *
  */
 
-#include <geogram/numerics/exact_geometry.h>
-#include <geogram/numerics/interval_nt.h>
-#include <geogram/numerics/predicates.h>
-#include <geogram/numerics/PCK.h>
+#include <numerics_exact_geometry.h>
+#include <numerics_interval_nt.h>
+#include <numerics_predicates.h>
+#include <numerics_PCK.h>
 #include <geobasic_logger.h>
 
 namespace GEO {

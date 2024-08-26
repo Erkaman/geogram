@@ -41,7 +41,7 @@
 #include <mesh_mesh.h>
 #include <mesh_geometry.h>
 #include <nl.h>
-#include <geogram/numerics/matrix_util.h>
+#include <numerics_matrix_util.h>
 #include <geobasic_logger.h>
 #include <geobasic_line_stream.h>
 #include <geobasic_progress.h>

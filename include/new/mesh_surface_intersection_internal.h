@@ -52,7 +52,7 @@
 #include <mesh_index.h>
 #include <mesh_triangle_intersection.h>
 #include <delaunay_CDT_2d.h>
-#include <geogram/numerics/exact_geometry.h>
+#include <numerics_exact_geometry.h>
 
 #include <map>
 

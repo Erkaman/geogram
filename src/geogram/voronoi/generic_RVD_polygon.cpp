@@ -38,7 +38,7 @@
  */
 
 #include <vor_generic_RVD_polygon.h>
-#include <geogram/numerics/predicates.h>
+#include <numerics_predicates.h>
 #include <algorithm>
 
 namespace GEOGen {

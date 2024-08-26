@@ -38,8 +38,8 @@
  */
 
 #include <mesh_triangle_intersection.h>
-#include <geogram/numerics/predicates.h>
-#include <geogram/numerics/exact_geometry.h>
+#include <numerics_predicates.h>
+#include <numerics_exact_geometry.h>
 #include <geobasic_string.h>
 #include <geobasic_geometry.h>
 #include <geobasic_argused.h>

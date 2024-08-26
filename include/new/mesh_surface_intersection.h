@@ -43,7 +43,7 @@
 #include <geobasic_common.h>
 #include <mesh_mesh.h>
 
-#include <geogram/numerics/exact_geometry.h>
+#include <numerics_exact_geometry.h>
 #include <geobasic_process.h>
 #include <geobasic_attributes.h>
 #include <geobasic_debug_stream.h>

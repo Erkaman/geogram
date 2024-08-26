@@ -39,7 +39,7 @@
 
 #include <vor_generic_RVD_cell.h>
 #include <mesh_halfedges.h>
-#include <geogram/numerics/predicates.h>
+#include <numerics_predicates.h>
 
 namespace GEOGen {
 

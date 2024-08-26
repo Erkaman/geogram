@@ -37,7 +37,7 @@
  *
  */
 
-#include <geogram/numerics/PCK.h>
+#include <numerics_PCK.h>
 #include <geobasic_string.h>
 #include <vector>
 #include <algorithm>

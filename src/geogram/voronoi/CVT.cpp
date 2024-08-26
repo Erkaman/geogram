@@ -41,7 +41,7 @@
 #include <vor_RVD.h>
 #include <mesh_repair.h>
 #include <mesh_geometry.h>
-#include <geogram/numerics/optimizer.h>
+#include <numerics_optimizer.h>
 #include <geobasic_progress.h>
 #include <geobasic_argused.h>
 #include <bib_bibliography.h>

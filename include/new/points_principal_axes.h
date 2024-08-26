@@ -44,7 +44,7 @@
 #include <geobasic_numeric.h>
 #include <geobasic_geometry.h>
 #include <geobasic_logger.h>
-#include <geogram/numerics/matrix_util.h>
+#include <numerics_matrix_util.h>
 
 /**
  * \file geogram/points/principal_axes.h

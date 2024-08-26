@@ -43,7 +43,7 @@
 #include <geobasic_common.h>
 #include <geobasic_numeric.h>
 #include <geobasic_geometry.h>
-#include <geogram/numerics/PCK.h>
+#include <numerics_PCK.h>
 
 /**
  * \file geogram/numerics/predicates.h

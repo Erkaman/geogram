@@ -44,7 +44,7 @@
 #include <mesh_geometry.h>
 #include <points_principal_axes.h>
 #include <geobasic_logger.h>
-#include <geogram/numerics/matrix_util.h>
+#include <numerics_matrix_util.h>
 #include <geo_xatlas.h>
 #include <algorithm>
 #include <stack>

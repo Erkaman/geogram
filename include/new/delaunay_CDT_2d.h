@@ -42,8 +42,8 @@
 
 #include <geobasic_common.h>
 #include <geobasic_geometry.h>
-#include <geogram/numerics/predicates.h>
-#include <geogram/numerics/exact_geometry.h>
+#include <numerics_predicates.h>
+#include <numerics_exact_geometry.h>
 #include <mesh_index.h>
 #include <functional>
 

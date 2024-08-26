@@ -43,11 +43,11 @@
 #include <geobasic_common.h>
 #include <geobasic_geometry.h>
 #include <geobasic_vechg.h>
-#include <geogram/numerics/expansion_nt.h>
-#include <geogram/numerics/interval_nt.h>
+#include <numerics_expansion_nt.h>
+#include <numerics_interval_nt.h>
 
-#include <geogram/numerics/predicates.h>
-#include <geogram/numerics/exact_geometry.h>
+#include <numerics_predicates.h>
+#include <numerics_exact_geometry.h>
 
 #ifdef GEOGRAM_WITH_GEOGRAMPLUS
 #include <geogram/geogramplus/numerics/exact_geometry.h>

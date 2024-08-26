@@ -47,7 +47,7 @@
 #include <vor_RVD_callback.h>
 #include <vor_generic_RVD_polygon.h>
 #include <points_principal_axes.h>
-#include <geogram/numerics/matrix_util.h>
+#include <numerics_matrix_util.h>
 #include <geobasic_numeric.h>
 
 #include <deque>

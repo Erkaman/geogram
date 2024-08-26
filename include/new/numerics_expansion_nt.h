@@ -41,7 +41,7 @@
 #define GEOGRAM_NUMERICS_EXPANSION_NT
 
 #include <geobasic_common.h>
-#include <geogram/numerics/multi_precision.h>
+#include <numerics_multi_precision.h>
 #include <geobasic_matrix.h>
 #include <geobasic_rationalg.h>
 

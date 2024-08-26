@@ -40,7 +40,7 @@
 #ifndef GEO_INTERVAL_NT
 #define GEO_INTERVAL_NT
 
-#include <geogram/numerics/expansion_nt.h>
+#include <numerics_expansion_nt.h>
 #include <geobasic_vechg.h>
 #include <iomanip>
 #include <limits>

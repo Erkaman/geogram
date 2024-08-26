@@ -41,7 +41,7 @@
 #include <mesh_reorder.h>
 #include <mesh_geometry.h>
 #include <mesh_repair.h>
-#include <geogram/numerics/predicates.h>
+#include <numerics_predicates.h>
 #include <geobasic_geometry_nd.h>
 
 namespace {

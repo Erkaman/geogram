@@ -44,8 +44,8 @@
 #include <geobasic_command_line.h>
 #include <geobasic_file_system.h>
 #include <geobasic_stopwatch.h>
-#include <geogram/numerics/multi_precision.h>
-#include <geogram/numerics/predicates.h>
+#include <numerics_multi_precision.h>
+#include <numerics_predicates.h>
 #include <delaunay_delaunay.h>
 
 #include <geogram/version.h>

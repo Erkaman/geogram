@@ -46,8 +46,8 @@
 #pragma fp_contract(off)
 #endif
 
-#include <geogram/numerics/multi_precision.h>
-#include <geogram/numerics/PCK.h>
+#include <numerics_multi_precision.h>
+#include <numerics_PCK.h>
 #include <geobasic_process.h>
 #include <geobasic_logger.h>
 

@@ -40,7 +40,7 @@
 #include <vor_convex_cell.h>
 
 #ifndef STANDALONE_CONVEX_CELL
-#include <geogram/numerics/predicates.h>
+#include <numerics_predicates.h>
 #include <mesh_mesh.h>
 #endif
 

@@ -46,8 +46,8 @@
 #pragma fp_contract(off)
 #endif
 
-#include <geogram/numerics/predicates.h>
-#include <geogram/numerics/multi_precision.h>
+#include <numerics_predicates.h>
+#include <numerics_multi_precision.h>
 #include <geobasic_assert.h>
 #include <geobasic_logger.h>
 #include <geobasic_command_line.h>
@@ -56,21 +56,21 @@
 
 #define FPG_UNCERTAIN_VALUE 0
 
-#include <geogram/numerics/predicates/side1.h>
-#include <geogram/numerics/predicates/side2.h>
-#include <geogram/numerics/predicates/side3.h>
-#include <geogram/numerics/predicates/side3h.h>
-#include <geogram/numerics/predicates/side3_2dlifted.h>
-#include <geogram/numerics/predicates/side4.h>
-#include <geogram/numerics/predicates/side4h.h>
-#include <geogram/numerics/predicates/orient2d.h>
-#include <geogram/numerics/predicates/orient3d.h>
-#include <geogram/numerics/predicates/det3d.h>
-#include <geogram/numerics/predicates/det4d.h>
-#include <geogram/numerics/predicates/dot3d.h>
-#include <geogram/numerics/predicates/dot_compare_3d.h>
-#include <geogram/numerics/predicates/det_compare_4d.h>
-#include <geogram/numerics/predicates/aligned3d.h>
+#include <numpred_side1.h>
+#include <numpred_side2.h>
+#include <numpred_side3.h>
+#include <numpred_side3h.h>
+#include <numpred_side3_2dlifted.h>
+#include <numpred_side4.h>
+#include <numpred_side4h.h>
+#include <numpred_orient2d.h>
+#include <numpred_orient3d.h>
+#include <numpred_det3d.h>
+#include <numpred_det4d.h>
+#include <numpred_dot3d.h>
+#include <numpred_dot_compare_3d.h>
+#include <numpred_det_compare_4d.h>
+#include <numpred_aligned3d.h>
 
 #ifdef __SSE2__
 #include <emmintrin.h>

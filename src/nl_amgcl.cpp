@@ -13,6 +13,7 @@ extern "C" {
     NLboolean nlSolveAMGCL(void);
 }
 
+#define NL_WITH_AMGCL
 
 #include "geobasic_logger.h"
 #include "geobasic_command_line.h"

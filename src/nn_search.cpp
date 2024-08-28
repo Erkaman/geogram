@@ -130,7 +130,10 @@ namespace GEO {
 
         std::string name = name_in;
         if(name == "default") {
-            name = CmdLine::get_arg("algo:nn_search");
+            //name = CmdLine::get_arg("algo:nn_search");
+
+            name = "BNN"	;
+
         }
 
         NearestNeighborSearch* nns =

@@ -22,3 +22,4 @@ target_link_libraries(myexe mylib)
 ##target_compile_definitions(myexe PRIVATE NL_WITH_AMGCL)
 
 target_include_directories(myexe PUBLIC src/)
+ 

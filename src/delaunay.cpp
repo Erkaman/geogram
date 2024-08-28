@@ -155,7 +155,8 @@ namespace GEO {
 
         std::string name = name_in;
         if(name == "default") {
-            name = CmdLine::get_arg("algo:delaunay");
+            //name = CmdLine::get_arg("algo:delaunay");
+            name = "NN";
         }
 
         try {

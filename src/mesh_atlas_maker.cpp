@@ -340,6 +340,10 @@ namespace {
 
 
                         ChartType type = chart_type(*M);
+
+                        Logger::out("MAM") << "found type" << type << std::endl;
+
+
                         switch(type) {
                         case CHART_TYPE_MONSTROID:
                             nb_segments = std::max(nb_segments, index_t(7));
@@ -356,6 +360,10 @@ namespace {
                             segmenter = SEGMENT_INERTIA_AXIS;
                             break;
                         }
+
+                        Logger::out("MAM") << "nb_segments" << nb_segments << std::endl;
+                        Logger::out("MAM") << "segmenter" << segmenter << std::endl;
+                        
 
                         nb_segments = std::max(nb_segments, index_t(6));
                         geo_assert(M->facets.nb() > 1);

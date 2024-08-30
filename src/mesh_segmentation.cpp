@@ -541,6 +541,8 @@ namespace GEO {
         Attribute<double> geom_bkp;
 
         if(segmenter == SEGMENT_INERTIA_AXIS) {
+            Logger::out("MAM") << "run SEGMENT_INERTIA_AXIS" << std::endl;
+                        
             // Pick the axis such that the segmentation obtained
             // by splitting along it has a chart boundary that
             // touches the mesh boundary.
@@ -554,6 +556,8 @@ namespace GEO {
         }
 
         if(dimension != 0) {
+            Logger::out("MAM") << "branch dimension != 0" << std::endl;
+                   
             nb_manifold_harmonics = dimension+20;
             geom_bkp.create_vector_attribute(
                 M.vertices.attributes(), "bkp", 3
@@ -579,6 +583,8 @@ namespace GEO {
             }
             eigen.destroy();
         } else if(anisotropy != 0.0) {
+            Logger::out("MAM") << "anisotropy != 0.0" << std::endl;
+
             compute_normals(M);
             // smooth normals --------------.
             //                              v
@@ -586,13 +592,26 @@ namespace GEO {
             set_anisotropy(M,anisotropy*0.02);
         }
 
+        Logger::out("MAM") << "CentroidalVoronoiTesselation CVT(&M);" << std::endl;
+
         CentroidalVoronoiTesselation CVT(&M);
+
+        Logger::out("MAM") << "CVT.compute_initial_sampling(" << std::endl;
+
         CVT.compute_initial_sampling(nb_segments);
         if(verbose) {
             Logger::out("RVD") << "Optimizing CVT" << std::endl;
         }
+        Logger::out("MAM") << "Lloyd_iterations" << std::endl;
+
         CVT.Lloyd_iterations(30);
+
+        Logger::out("MAM") << "Newton_iterations" << std::endl;
+
         CVT.Newton_iterations(10);
+
+        Logger::out("MAM") << " PartitionCB CB(&M);" << std::endl;
+
         PartitionCB CB(&M);
         CVT.RVD()->for_each_polygon(CB);
 
@@ -607,6 +626,8 @@ namespace GEO {
         } else if(anisotropy != 0.0) {
             M.vertices.set_dimension(3);
         }
+
+        Logger::out("MAM") << "mesh_smooth_segmentation" << std::endl;
 
         mesh_smooth_segmentation(M);
         return mesh_postprocess_segmentation(M,verbose);

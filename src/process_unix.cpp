@@ -80,7 +80,9 @@
 #endif
 
 #ifndef GEO_TBB
-#define GEO_USE_PTHREAD_MANAGER
+// dont use
+//#define GEO_USE_PTHREAD_MANAGER
+
 #endif
 
 // Suppresses a warning with CLANG when sigaction is used.

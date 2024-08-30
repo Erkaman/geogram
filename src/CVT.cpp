@@ -146,10 +146,21 @@ namespace GEO {
         nb_iter_ = nb_iter;
 
         for(index_t i = 0; i < nb_iter; i++) {
+
+            Logger::out("MAM") << "for each" << std::endl;
+
+
             mg.assign(nb_points * dimension_, 0.0);
             m.assign(nb_points, 0.0);
             delaunay_->set_vertices(nb_points, points_.data());
+
+            Logger::out("MAM") << "RVD_->compute_centroids" << std::endl;
+
             RVD_->compute_centroids(mg.data(), m.data());
+
+
+            Logger::out("MAM") << "foreach" << std::endl;
+
             index_t cur = 0;
             for(index_t j = 0; j < nb_points; j++) {
                 if(m[j] > 1e-30 && !point_is_locked(j)) {
@@ -158,8 +169,11 @@ namespace GEO {
                         points_[cur + coord] = s * mg[cur + coord];
                     }
                 }
+                
                 cur += dimension_;
             }
+            Logger::out("MAM") << "newiteration" << std::endl;
+
             newiteration();
         }
 

@@ -604,7 +604,7 @@ namespace GEO {
         }
         Logger::out("MAM") << "Lloyd_iterations" << std::endl;
 
-        CVT.Lloyd_iterations(30);
+        CVT.Lloyd_iterations(3);
 
         Logger::out("MAM") << "Newton_iterations" << std::endl;
 

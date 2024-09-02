@@ -602,15 +602,15 @@ namespace GEO {
         if(verbose) {
             Logger::out("RVD") << "Optimizing CVT" << std::endl;
         }
-        Logger::out("MAM") << "Lloyd_iterations" << std::endl;
+        //Logger::out("MAM") << "Lloyd_iterations" << std::endl;
 
         CVT.Lloyd_iterations(30);
 
-        Logger::out("MAM") << "Newton_iterations" << std::endl;
+        //Logger::out("MAM") << "Newton_iterations" << std::endl;
 
         CVT.Newton_iterations(10);
 
-        Logger::out("MAM") << " PartitionCB CB(&M);" << std::endl;
+        //Logger::out("MAM") << " PartitionCB CB(&M);" << std::endl;
 
         PartitionCB CB(&M);
         CVT.RVD()->for_each_polygon(CB);
@@ -627,7 +627,8 @@ namespace GEO {
             M.vertices.set_dimension(3);
         }
 
-        Logger::out("MAM") << "mesh_smooth_segmentation" << std::endl;
+        //Logger::out("MAM") << "mesh_smooth_segmentation" << std::endl;
+
 
         mesh_smooth_segmentation(M);
         return mesh_postprocess_segmentation(M,verbose);

@@ -288,9 +288,11 @@ namespace GEO {
     ) {
         Optimizer_var optimizer = Optimizer::create("HLBFGS");
         if(optimizer.is_null()) {
+            /*
             Logger::warn("CVT") << "This geogram was not compiled with HLBFGS"
                                 << " (falling back to Lloyd iterations)"
                                 << std::endl;
+            */
             Lloyd_iterations(nb_iter);
             return;
         }

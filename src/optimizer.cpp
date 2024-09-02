@@ -72,10 +72,11 @@ namespace GEO {
         if(opt != nullptr) {
             return opt;
         }
-
+        /*
         Logger::err("Optimizer")
             << "Could not create optimizer: " << name
             << std::endl;
+        */
         return nullptr;
     }
 }

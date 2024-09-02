@@ -541,7 +541,7 @@ namespace GEO {
         Attribute<double> geom_bkp;
 
         if(segmenter == SEGMENT_INERTIA_AXIS) {
-            Logger::out("MAM") << "run SEGMENT_INERTIA_AXIS" << std::endl;
+       //    Logger::out("MAM") << "run SEGMENT_INERTIA_AXIS" << std::endl;
                         
             // Pick the axis such that the segmentation obtained
             // by splitting along it has a chart boundary that
@@ -556,7 +556,7 @@ namespace GEO {
         }
 
         if(dimension != 0) {
-            Logger::out("MAM") << "branch dimension != 0" << std::endl;
+       //     Logger::out("MAM") << "branch dimension != 0" << std::endl;
                    
             nb_manifold_harmonics = dimension+20;
             geom_bkp.create_vector_attribute(
@@ -583,7 +583,7 @@ namespace GEO {
             }
             eigen.destroy();
         } else if(anisotropy != 0.0) {
-            Logger::out("MAM") << "anisotropy != 0.0" << std::endl;
+        //    Logger::out("MAM") << "anisotropy != 0.0" << std::endl;
 
             compute_normals(M);
             // smooth normals --------------.
@@ -592,11 +592,11 @@ namespace GEO {
             set_anisotropy(M,anisotropy*0.02);
         }
 
-        Logger::out("MAM") << "CentroidalVoronoiTesselation CVT(&M);" << std::endl;
+      //  Logger::out("MAM") << "CentroidalVoronoiTesselation CVT(&M);" << std::endl;
 
         CentroidalVoronoiTesselation CVT(&M);
 
-        Logger::out("MAM") << "CVT.compute_initial_sampling(" << std::endl;
+     //   Logger::out("MAM") << "CVT.compute_initial_sampling(" << std::endl;
 
         CVT.compute_initial_sampling(nb_segments);
         if(verbose) {
@@ -604,7 +604,7 @@ namespace GEO {
         }
         Logger::out("MAM") << "Lloyd_iterations" << std::endl;
 
-        CVT.Lloyd_iterations(3);
+        CVT.Lloyd_iterations(30);
 
         Logger::out("MAM") << "Newton_iterations" << std::endl;
 

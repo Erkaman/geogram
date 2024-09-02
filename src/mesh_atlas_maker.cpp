@@ -341,7 +341,7 @@ namespace {
 
                         ChartType type = chart_type(*M);
 
-                        Logger::out("MAM") << "found type" << type << std::endl;
+                     //   Logger::out("MAM") << "found type" << type << std::endl;
 
 
                         switch(type) {
@@ -361,8 +361,8 @@ namespace {
                             break;
                         }
 
-                        Logger::out("MAM") << "nb_segments" << nb_segments << std::endl;
-                        Logger::out("MAM") << "segmenter" << segmenter << std::endl;
+                  //      Logger::out("MAM") << "nb_segments" << nb_segments << std::endl;
+                 //       Logger::out("MAM") << "segmenter" << segmenter << std::endl;
                         
 
                         nb_segments = std::max(nb_segments, index_t(6));

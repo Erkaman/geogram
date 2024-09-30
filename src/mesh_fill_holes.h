@@ -72,7 +72,8 @@ namespace GEO {
         Mesh& M,
         double max_area = 0.0,
         index_t max_edges = max_index_t(),
-        bool repair = true
+        bool repair = true,
+        std::string algo_name = "loop_split"
     );
 
 

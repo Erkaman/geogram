@@ -568,7 +568,8 @@ namespace {
 namespace GEO {
 
     void fill_holes(
-        Mesh& M, double max_area, index_t max_edges, bool repair
+        Mesh& M, double max_area, index_t max_edges, bool repair, 
+        std::string algo_name
     ) {
 
         if(max_area == 0.0 || max_edges == 0) {
@@ -621,7 +622,8 @@ namespace GEO {
                                  << " holes" << std::endl;
 
         HoleFilling algo = LOOP_SPLIT;
-        std::string algo_name = CmdLine::get_arg("algo:hole_filling");
+        //std::string algo_name = CmdLine::get_arg("algo:hole_filling");
+
         if(algo_name == "loop_split") {
             algo = LOOP_SPLIT;
         } else if(algo_name == "Nloop_split") {
